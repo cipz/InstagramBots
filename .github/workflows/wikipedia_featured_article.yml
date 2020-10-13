@@ -23,7 +23,7 @@ jobs:
         wikipedia_username: ${{ secrets.wikipedia_username }}
         wikipedia_password: ${{ secrets.wikipedia_password }}
       run: |
-        python3 wikipedia_featured.py
+        python3 wikipedia_featured_article.py
     - name: Commit files if any
       id: commit
       working-directory: "wikipedia_featured_article"
