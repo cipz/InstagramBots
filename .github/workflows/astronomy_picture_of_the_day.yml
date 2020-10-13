@@ -31,7 +31,7 @@ jobs:
         apod_password: ${{ secrets.apod_password }}
       working-directory: "astronomy_picture_of_the_day"
       run: |
-        python3 wikipedia_featured.py
+        python3 astronomy_picture_of_the_day.py
     - name: Commit files if any
       id: commit
       working-directory: "astronomy_picture_of_the_day"
