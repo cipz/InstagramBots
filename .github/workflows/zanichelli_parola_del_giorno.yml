@@ -17,7 +17,8 @@ jobs:
     - name: Installing latex
       run: |
         sudo apt-get install texlive-full -y
-        sudo apt-get install -y fonts-ebgaramond
+        sudo apt-get install fonts-roboto -y
+        sudo apt-get install fonts-ebgaramond -y 
         sudo apt install poppler-utils -y
     - name: Installing dependencies
       run: |
