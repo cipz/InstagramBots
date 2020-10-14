@@ -1,10 +1,10 @@
 name: Astronomy picture of the day
 on: 
-  # To manually execute action
-  [workflow_dispatch]
-#  schedule:
+#  # To manually execute action
+#  [workflow_dispatch]
+  schedule:
 #    # * is a special character in YAML so you have to quote this string
-#     - cron:  '30 */10 * * *'
+     - cron:  '30 */10 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,9 +22,6 @@ jobs:
       working-directory: "astronomy_picture_of_the_day"
       run: |
         pip3 install instabot bs4 wget pdf2image poppler-utils
-    - name: Installing dependencies
-      run: |
-        pip3 install instabot bs4 wget
     - name: Running python script
       env:
         apod_username: ${{ secrets.apod_username }}
