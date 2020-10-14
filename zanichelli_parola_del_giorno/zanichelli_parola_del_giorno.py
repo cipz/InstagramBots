@@ -113,8 +113,6 @@ os.system("cd latex ; xelatex main.tex >> /dev/null ; xelatex main.tex >> /dev/n
 print('Waiting for the pdf to be correctly created')
 time.sleep(20)
 
-os.system('ls latex')
-
 print("\n\nTransforming pdf in jpg")
 pages = convert_from_path('latex/main.pdf', 500)
 pages[0].save('out.jpg', 'JPEG')
