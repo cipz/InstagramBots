@@ -2,6 +2,7 @@ from instabot import Bot
 from bs4 import BeautifulSoup
 from pdf2image import convert_from_path
 import requests
+import time
 import wget
 import json
 import os
