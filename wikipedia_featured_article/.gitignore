@@ -1,4 +1,4 @@
+config/*
 *.svg
 *.png
 *.jpg
-!*.pdf

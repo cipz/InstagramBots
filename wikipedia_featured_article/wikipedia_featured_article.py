@@ -1,7 +1,8 @@
-from bs4 import BeautifulSoup
+from pdf2image import convert_from_path
 from datetime import date
 from instabot import Bot
 from PIL import Image
+from bs4 import BeautifulSoup
 import urllib.request
 import requests
 import time
@@ -77,7 +78,17 @@ print("Image downloaded")
 print("Converting image to jpg")
 im = Image.open(image_file)
 rgb_im = im.convert('RGB')
-rgb_im.save('image.jpg')
+rgb_im.save('img.jpg')
+
+print("\n\nCompliling tex file")
+# Twice because the first time it may not get the images' position correctly
+os.system("cd latex ; pdflatex main.tex >> /dev/null ; pdflatex main.tex >> /dev/null")
+# pdflatex is very verbose and useful to test if / where an error occors
+# os.system("cd latex ; pdflatex main.tex ; pdflatex main.tex")
+
+print("\n\nTransforming pdf in jpg")
+pages = convert_from_path('latex/main.pdf', 500)
+pages[0].save('out.jpg', 'JPEG')
 
 # Setting caption
 print('Setting full caption with date and hashtags')
@@ -95,13 +106,14 @@ time.sleep(10)
 print("Posting to instagram")
 bot = Bot()
 bot.login(username = username, password = password)
-bot.upload_photo('image.jpg', caption = full_caption)
+bot.upload_photo('out.jpg', caption = full_caption)
 
 # Removing stuff (not necessary if used in docker container of github actions)
 print("Removing unused files")
 os.system('rm "' + image_file + '"')
 os.system('rm *REMOVE_ME')
-os.system('rm image.jpg')
+os.system('rm img.jpg')
+os.system('rm out.jpg')
 os.system('rm params.json')
 
 with open('params.json', 'w') as new_params_file:

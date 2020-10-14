@@ -26,12 +26,9 @@ password = os.getenv('apod_password')
 previous_post_key = json_params['previous_post_key']
 
 base_url = 'https://apod.nasa.gov/apod/'
-
-# today = date.today()
-# today_url = 'ap' + today.strftime("%y%m%d") + '.html'
-# url = base_url + today_url
-
-url = base_url
+today = date.today()
+today_url = 'ap' + today.strftime("%y%m%d") + '.html'
+url = base_url + today_url
 
 page = requests.get(url)
 
@@ -78,7 +75,7 @@ if(len(caption.findAll(name='b')) > 0):
     caption.findAll(name='b')[0].extract() 
 
 hashtags = '#stars #nasa #astronomy #apod #dailyposting'
-caption = img_name + ' (by ' + img_credit + ')' + '\n\n' + caption.text.replace('\n', ' ').replace('  ', ' ').strip() + '\n\n' + hashtags
+caption = img_name + ' (by ' + img_credit + ')' + '\n\n' + caption.text.replace('\n', ' ').replace('  ', ' ').strip() + '\n\n' + today.strftime("%B %d, %Y") +  '\n\n' + hashtags
 
 print('Caption:\n\n')
 print(caption)
