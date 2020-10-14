@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{algebra}\newcommand{\sillabazione}{àl–ge–bra}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[arabo al-ǧabr ‘ristabilimento, restaurazione’ ☼ sec. XIII]}\newcommand{\data}{13 ottobre 2020}
+\newcommand{\parolatitle}{arancio / \newline limone}\newcommand{\sillabazione}{a–ràn–cio}\newcommand{\tipologiaparola}{A s. m.}\newcommand{\origineparola}{[arabo nāranǧ, persiano nārang’, prob. dal sanscrito ☼ 1298]}\newcommand{\data}{14 ottobre 2020}
