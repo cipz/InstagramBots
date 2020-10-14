@@ -24,7 +24,7 @@ password = os.getenv('zanichelli_password')
 previous_post_key = json_params['previous_post_key']
 
 print("Setting url and downloading content")
-url = 'https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/ragazzo'
+url = 'https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/duvet'
 
 page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
