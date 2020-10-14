@@ -1,0 +1,20 @@
+% !TeX program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[9pt]{article}
+\usepackage[paperheight=7cm,paperwidth=7cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+\begin{document}
+	
+	\pagestyle{empty}
+	\tikz[remember picture,overlay] 
+	\node[
+	inner sep=0pt
+	] (logo) at (current page.center)
+	{
+		\includegraphics[height=\paperheight]{../img.jpg}
+	};
+		
+\end{document}
