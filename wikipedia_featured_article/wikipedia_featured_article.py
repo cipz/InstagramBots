@@ -25,20 +25,27 @@ password = os.getenv('wikipedia_password')
 
 previous_post_key = json_params['previous_post_key']
 
-# URLs for wikipedia
 file_base_url = 'https://upload.wikimedia.org/wikipedia/commons/'
-url = 'https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article'
+base_url = 'https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/'
+
+today = date.today()
+
+date = today.strftime("%B %d, %Y")
+date_url = date.replace(' ', '_')
+
+url = base_url + date
 
 # Getting article itself
 print("Downloading article")
 today_article_page = requests.get(url)
 today_article_soup = BeautifulSoup(today_article_page.content, 'html.parser')
-article_of_the_day_div = today_article_soup.findAll('div', {"class": "MainPageBG"})[0]
 
-# To get the picture I have to download the page first
+# Getting article description
+article_description = today_article_soup.find('div',{'class':'mw-parser-output'}).find('p')
+article_description_text = article_description.text.replace('(Full article...)','').strip()
 
-# [0] is the image used for the thumbnail, but it may be cropped
-article_of_the_day_page_url = article_of_the_day_div.find('p').find('a')['href']
+# Getting article main url to get picture
+article_of_the_day_page_url = article_description.find('a')['href']
 
 # We do the check on the article URL
 if previous_post_key != "" and previous_post_key == article_of_the_day_page_url:
@@ -66,11 +73,6 @@ f.write(urllib.request.urlopen(article_page_image_url).read())
 f.close()
 print("Image downloaded")
 
-# Getting caption from article
-article_of_the_day_p = article_of_the_day_div.findAll(name="p")[0]
-article_of_the_day_caption = article_of_the_day_p.text.replace('(Full article...)','').strip()
-# print(article_of_the_day_caption)
-
 # Converting image since intagram wants jpg only files
 print("Converting image to jpg")
 im = Image.open(image_file)
@@ -80,8 +82,7 @@ rgb_im.save('image.jpg')
 # Setting caption
 print('Setting full caption with date and hashtags')
 hashtags = '#wikipedia #articleoftheday #bestoftheday'
-date = date.today().strftime("%B %d, %Y")
-full_caption = article_of_the_day_caption + '\n\n' + date + '\n\n' + hashtags
+full_caption = article_description_text + '\n\n' + date + '\n\n' + hashtags
 
 print("Full caption:\n")
 print(full_caption)
