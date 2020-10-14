@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{duvet}\newcommand{\sillabazione}{du–vet}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. fr., ‘lanugine, piuma’ e ‘letto di piume’, dim. di dum, dall’ant. nordico dūnn ‘piuma’ ☼ 1905]\end{spacing}}}\newcommand{\data}{10 ottobre 2020}
+\newcommand{\parolatitle}{arancio / \newline limone}\newcommand{\sillabazione}{a–ràn–cio}\newcommand{\tipologiaparola}{A s. m.}\newcommand{\origineparola}{[arabo nāranǧ, persiano nārang’, prob. dal sanscrito ☼ 1298]}\newcommand{\data}{14 ottobre 2020}
