@@ -16,7 +16,7 @@ jobs:
         python-version: 3.8
     - name: Installing dependencies
       run: |
-        pip3 install instabot bs4 wget
+        pip3 install instabot bs4 wget pdf2image poppler-utils
     - name: Running python script
       working-directory: "wikipedia_featured_article"
       env:
