@@ -23,8 +23,8 @@ jobs:
         pip3 install instabot bs4 wget pdf2image poppler-utils
     - name: Running python script
       env:
-        apod_username: ${{ secrets.zanichelli_username }}
-        apod_password: ${{ secrets.zanichelli_password }}
+        zanichelli_username: ${{ secrets.zanichelli_username }}
+        zanichelli_password: ${{ secrets.zanichelli_password }}
       working-directory: "zanichelli_parola_del_giorno"
       run: |
         python3 zanichelli_parola_del_giorno.py
