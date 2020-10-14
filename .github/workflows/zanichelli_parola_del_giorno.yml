@@ -1,4 +1,4 @@
-name: Astronomy picture of the day
+name: Zanichelli parola del giorno
 on: 
 #  # To manually execute action
 #  [workflow_dispatch]
