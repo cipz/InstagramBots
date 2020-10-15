@@ -18,7 +18,7 @@ jobs:
       run: |
         sudo apt-get install texlive-full -y
         sudo apt install poppler-utils
-    - name: Running python script
+    - name: Installing dependencies
       working-directory: "astronomy_picture_of_the_day"
       run: |
         pip3 install instabot bs4 wget pdf2image poppler-utils
