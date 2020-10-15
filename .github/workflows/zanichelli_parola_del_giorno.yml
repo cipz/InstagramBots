@@ -1,0 +1,66 @@
+name: Zanichelli parola del giorno
+on: 
+  # To manually execute action
+  [workflow_dispatch]
+#  schedule:
+#    # * is a special character in YAML so you have to quote this string
+#     - cron:  '5 */11 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Installing latex
+      run: |
+        sudo apt-get install texlive-full -y
+        sudo apt-get install fonts-roboto -y
+        sudo apt-get install fonts-ebgaramond -y 
+        sudo apt install poppler-utils -y
+        
+        set  -euo pipefail
+        I1FS=$'\n\t'
+        mkdir -p /tmp/adodefont
+        cd /tmp/adodefont
+        wget -q --show-progress -O source-code-pro.zip https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.zip
+        unzip -q source-code-pro.zip -d source-code-pro
+        fontpath="${XDG_DATA_HOME:-$HOME/.local/share}"/fonts
+        mkdir -p $fontpath
+        cp -v source-code-pro/*/OTF/*.otf $fontpath
+        fc-cache -f
+        rm -rf source-code-pro{,.zip}
+
+    - name: Installing dependencies
+      run: |
+        pip3 install instabot bs4 wget pdf2image poppler-utils
+    - name: Running python script
+      env:
+        zanichelli_username: ${{ secrets.zanichelli_username }}
+        zanichelli_password: ${{ secrets.zanichelli_password }}
+      working-directory: "zanichelli_parola_del_giorno"
+      run: |
+        python3 zanichelli_parola_del_giorno.py
+    - name: Commit files if any
+      id: commit
+      working-directory: "zanichelli_parola_del_giorno"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        if [-z "$(git status --porcelain)"]; then
+          echo "::set-output name=push::false"
+        else
+          git commit -m "New post from zanichelli_parola_del_giorno" -a
+          echo "::set-output name=push::true"
+        fi
+      continue-on-error: true
+      shell: bash
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
