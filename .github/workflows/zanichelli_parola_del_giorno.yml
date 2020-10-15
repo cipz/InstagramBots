@@ -1,10 +1,10 @@
 name: Zanichelli parola del giorno
 on: 
-#  # To manually execute action
-#  [workflow_dispatch]
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-     - cron:  '5 */11 * * *'
+  # To manually execute action
+  [workflow_dispatch]
+#  schedule:
+#    # * is a special character in YAML so you have to quote this string
+#     - cron:  '5 */11 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
