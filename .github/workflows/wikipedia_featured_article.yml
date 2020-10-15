@@ -14,6 +14,10 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+    - name: Installing latex
+      run: |
+        sudo apt-get install texlive-full -y
+        sudo apt install poppler-utils
     - name: Installing dependencies
       run: |
         pip3 install instabot bs4 wget pdf2image poppler-utils
