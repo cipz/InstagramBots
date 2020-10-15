@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{arancio / \newline limone}\newcommand{\sillabazione}{a–ràn–cio}\newcommand{\tipologiaparola}{A s. m.}\newcommand{\origineparola}{[arabo nāranǧ, persiano nārang’, prob. dal sanscrito ☼ 1298]}\newcommand{\data}{14 ottobre 2020}
+\newcommand{\parolatitle}{calibro}\newcommand{\sillabazione}{cà–li–bro}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[arabo qālib ‘forma da scarpe, forma da fondere’, attrav. il fr. calibre ☼ 1606]\end{spacing}}}\newcommand{\data}{15 ottobre 2020}
