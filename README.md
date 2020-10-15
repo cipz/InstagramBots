@@ -14,5 +14,5 @@ Here is a list of the bots currently present in this repo:
 ## Libraries and other dependencies
 
 ## Limitations
-Unfortunately [the Facebook team](https://github.com/facebook) (who currently owns Instagram among a thousand other things), does not like bots nor developers or amateur coders that want to do simple projects like this one, so they always change APIs and block requests from third party libraries.
+Unfortunately [the Facebook team](https://github.com/facebook) (who currently owns Instagram, among a thousand other things), does not like bots nor developers or amateur coders that want to do simple projects like this one, so they always change APIs and block requests from third party libraries.
 ***[igbot](https://github.com/ohld/igbot/)*** and other libraries such as ***[instagram_private_api](https://github.com/ping/instagram_private_api/)*** are currently being blocked or are not up to date with the APIs from FB.
