@@ -26,7 +26,6 @@ password = os.getenv('wikipedia_password')
 
 previous_post_key = json_params['previous_post_key']
 
-file_base_url = 'https://upload.wikimedia.org/wikipedia/commons/'
 base_url = 'https://en.wikipedia.org/wiki/Template:POTD/'
 
 today = date.today()
