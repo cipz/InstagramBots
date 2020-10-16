@@ -1,10 +1,10 @@
 name: Wikipedia featured picture
 on: 
-  # To manually execute action
-  [workflow_dispatch]
-#  schedule:
-#    # * is a special character in YAML so you have to quote this string
-#     - cron:  '30 */10 * * *'
+#  # To manually execute action
+#  [workflow_dispatch]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+     - cron:  '45 */10 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
