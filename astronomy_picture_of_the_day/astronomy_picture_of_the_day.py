@@ -55,7 +55,7 @@ img_url = base_url + img_src
 img_download = wget.download(img_url)
 
 # Renaming image file to be used in the latex file
-os.system('mv ' + img_download + ' img.jpg')
+os.system('mv ' + img_download + ' img.' + img_download)[-3:])
 
 print("\n\nCompliling tex file")
 # Twice because the first time it may not get the images' position correctly
