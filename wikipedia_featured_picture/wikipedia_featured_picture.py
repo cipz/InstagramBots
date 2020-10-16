@@ -53,7 +53,7 @@ article_description_main_div = today_article_soup.find('div',{'style':'box-sizin
 full_article_description = article_description_main_div.text.replace('Archive – More featured pictures... ', '')
 
 article_description = full_article_description.split('Photograph credit:')[0].strip()
-photo_credit = full_article_description.split('Photograph credit:')[1].strip()
+photo_credit = full_article_description.split('Photograph credit:')[1].split('Archive')[0].strip()
 
 reject_text = 'Wikipedia does not have a project page with this exact name.'
 if reject_text in article_description:
