@@ -52,6 +52,12 @@ post_count = 0
 
 for post in posts:
 
+    # TODO cambiare sfondo in maniera dinamica 
+    # TODO font in latex
+    # TODO vedere se post contiene foto
+    # TODO vedere se post contiene link
+    # TODO inserire \\ dopo x parole per evitare che non vada a capo
+
     post_count += 1
     
     print("Posting picture number", post_count)
@@ -62,7 +68,7 @@ for post in posts:
     caption = post['post_id']
 
     # Removing emojis from the post content
-    post_description = post['text']
+    post_description = post['text'].strip()
     emoji_pattern = re.compile("["
             u"\U0001F600-\U0001F64F"  # emoticons
             u"\U0001F300-\U0001F5FF"  # symbols & pictographs
@@ -71,12 +77,33 @@ for post in posts:
                             "]+", flags=re.UNICODE)
     # print(emoji_pattern.sub(r'', post_description)) # no emoji
 
+    post_description = post_description.replace('\n', '\\newline\\noindent~')
+
     print()
 
     # Saving post description in file
     post_description_file = open('latex/post_description.txt', 'r+')
     post_description_file.truncate(0)
-    post_description = "\\newcommand{\PostDescription}{" + post_description + "}"
+    
+    post_dimension = ''
+    post_len = len(post_description)
+
+    print('Post len:', post_len)
+
+    if post_len > 400:
+        post_dimension = '\\footnotesize'
+    elif post_len > 300:
+        post_dimension = '\small'
+    elif post_len > 250:
+        post_dimension = '\\normalsize'
+    elif post_len > 150:
+        post_dimension = '\large'
+    elif post_len > 100:
+        post_dimension = '\Large'
+    else:
+        post_dimension = '\large'
+
+    post_description = "\\newcommand{\PostDescription}{" + post_dimension + ' ' + post_description + "}"
     post_description_file.write(post_description)
     post_description_file.close()
 
@@ -91,6 +118,7 @@ for post in posts:
     pages[0].save('out.jpg', 'JPEG')
 
     # for testing purposes
+    input()
     continue
 
     print("\n\nPosting to instagram")

@@ -10,16 +10,22 @@
 \usepackage{xcolor}
 %\usepackage[rm]{roboto}
 %\usepackage{fontspec}
-%\setmainfont{Symbola}
+\usepackage{seqsplit}
 
 \geometry{
-left=.5cm,
-top=1cm,
-bottom=1cm
+	right=1cm,
+	left=1cm,
+	top=1cm,
+	bottom=1cm
 }
 
 \definecolor{UniPD-RED}{HTML}{9B0014}
 \input{post_description.txt}
+
+%\tolerance=1
+%\emergencystretch=\maxdimen
+%\hyphenpenalty=10000
+%\hbadness=10000
 
 \begin{document}
 	
@@ -34,22 +40,11 @@ bottom=1cm
 	{
 		\includegraphics[width=\paperwidth,height=\paperheight]{img/background.png}
 	};
-%	\tikz[remember picture,overlay] 
-%	\node[
-%	anchor=north east,
-%	yshift=.35cm,
-%	%		xshift=1pt, 
-%	opacity=0.6,
-%	%		inner sep=0pt
-%	] (flag) at (current page.north east)
-%	{
-%		\includegraphics[width=2cm]{img/flags/italy.png}
-%	};
+
 	\vspace{-1cm}
 	\vfill
 	\noindent
 	\PostDescription
 	\vfill
-%	\vspace{-.5cm}
 		
 \end{document}
