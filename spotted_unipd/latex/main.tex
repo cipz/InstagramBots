@@ -1,0 +1,55 @@
+% !TeX document-id = {e8b93acb-0b83-46d1-aa5a-545332226df0}
+% !TeX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[9pt]{article}
+\usepackage[paperheight=7cm,paperwidth=7cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{xcolor}
+%\usepackage[rm]{roboto}
+%\usepackage{fontspec}
+%\setmainfont{Symbola}
+
+\geometry{
+left=.5cm,
+top=1cm,
+bottom=1cm
+}
+
+\definecolor{UniPD-RED}{HTML}{9B0014}
+\input{post_description.txt}
+
+\begin{document}
+	
+	\color{UniPD-RED}
+	
+	\pagestyle{empty}
+	\tikz[remember picture,overlay] 
+	\node[
+	opacity=0.2,
+	inner sep=0pt
+	] (logo) at (current page.center)
+	{
+		\includegraphics[width=\paperwidth,height=\paperheight]{img/background.png}
+	};
+%	\tikz[remember picture,overlay] 
+%	\node[
+%	anchor=north east,
+%	yshift=.35cm,
+%	%		xshift=1pt, 
+%	opacity=0.6,
+%	%		inner sep=0pt
+%	] (flag) at (current page.north east)
+%	{
+%		\includegraphics[width=2cm]{img/flags/italy.png}
+%	};
+	\vspace{-1cm}
+	\vfill
+	\noindent
+	\PostDescription
+	\vfill
+%	\vspace{-.5cm}
+		
+\end{document}
