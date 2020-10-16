@@ -32,7 +32,11 @@ url = base_url + today_url
 
 page = requests.get(url)
 
-# print(page)
+if str(page) == '<Response [404]>':
+    print("\n\n\nThere is nothing new to post\n\nDONE")
+    exit(0)
+
+#print(page)
 
 soup = BeautifulSoup(page.content, 'html.parser')
 
@@ -80,6 +84,8 @@ caption = img_name + ' (by ' + img_credit + ')' + '\n\n' + caption.text.replace(
 print('Caption:\n\n')
 print(caption)
 print()
+
+exit()
 
 print("\n\nPosting to instagram")
 bot = Bot()
