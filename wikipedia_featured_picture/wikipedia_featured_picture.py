@@ -21,8 +21,8 @@ params_file.close()
 # password = json_params['password']
 
 # When the username and password are stored as environment variables
-username = os.getenv('wikipedia_username')
-password = os.getenv('wikipedia_password')
+username = os.getenv('wikipedia_picture_username')
+password = os.getenv('wikipedia_picture_password')
 
 previous_post_key = json_params['previous_post_key']
 
