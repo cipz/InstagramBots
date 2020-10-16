@@ -65,40 +65,14 @@ article_page = requests.get(article_complete_url)
 article_page_soup = BeautifulSoup(article_page.content, 'html.parser')
 
 article_page_image_url = article_page_soup.findAll('meta', {'property':'og:image'})[0]['content']
-
-image_file = 'todays_article_image' + article_page_image_url[-4:]
+image_ext = article_page_image_url[-4:]
+image_file = 'img' + image_ext
 
 print("Downloading image")
 f = open(image_file,'wb')
 f.write(urllib.request.urlopen(article_page_image_url).read())
 f.close()
 print("Image downloaded")
-
-# Converting image since intagram wants jpg only files
-print("Converting image to jpg")
-im = Image.open(image_file)
-rgba_im = im.convert('RGBA')
-
-# https://twigstechtips.blogspot.com/2011/12/python-converting-transparent-areas-in.html
-# For pngs with transparency we edit the opacity of the pixels
-pixel_data = rgba_im.load()
-
-if rgba_im.mode == "RGBA":
-  # If the image has an alpha channel, convert it to white
-  # Otherwise we'll get weird pixels
-  for y in range(rgba_im.size[1]): # For each row ...
-    for x in range(rgba_im.size[0]): # Iterate through each column ...
-      # Check if it's opaque
-      if pixel_data[x, y][3] < 150:
-        # Replace the pixel data with the colour white
-        pixel_data[x, y] = (255, 255, 255, 255)
-
-# Resize the image thumbnail
-rgba_im.thumbnail([rgba_im.width, rgba_im.height], Image.ANTIALIAS)
-rgba_im.save(image_file) 
-
-rgb_im = rgba_im.convert('RGB')
-rgb_im.save('img.jpg')
 
 print("\n\nCompliling tex file")
 # Twice because the first time it may not get the images' position correctly
