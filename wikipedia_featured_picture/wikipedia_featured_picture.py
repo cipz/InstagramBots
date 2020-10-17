@@ -89,9 +89,13 @@ os.system("cd latex ; pdflatex main.tex >> /dev/null ; pdflatex main.tex >> /dev
 # pdflatex is very verbose and useful to test if / where an error occors
 # os.system("cd latex ; pdflatex main.tex ; pdflatex main.tex")
 
+time.sleep(20)
+
 print("\n\nTransforming pdf in jpg")
 pages = convert_from_path('latex/main.pdf', 500)
 pages[0].save('out.jpg', 'JPEG')
+
+time.sleep(20)
 
 # Getting a better date
 date = today.strftime("%B %d, %Y")
