@@ -85,8 +85,6 @@ print('Caption:\n\n')
 print(caption)
 print()
 
-exit()
-
 print("\n\nPosting to instagram")
 bot = Bot()
 bot.login(username = username, password = password)
