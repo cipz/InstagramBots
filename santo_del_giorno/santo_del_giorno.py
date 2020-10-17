@@ -77,7 +77,7 @@ if len(caption) > 1900:
 
     frasi_count = 0
     while len(new_caption) < 1900:
-        new_caption = new_caption + ' ' + frasi[0].strip()
+        new_caption = new_caption + ' ' + frasi[frasi_count].strip()
         frasi_count += 1
 
     coda = '\n\nPer la descrizione completa continuare su \'santodelgiorno.it\''
