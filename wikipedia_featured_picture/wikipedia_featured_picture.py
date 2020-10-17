@@ -55,10 +55,10 @@ full_article_description = article_description_main_div.text.replace('Archive â€
 article_description = ''
 photo_credit = ''
 
-if 'Photograph credit:' in article_description:
+if 'Photograph credit:' in full_article_description:
     article_description = full_article_description.split('Photograph credit:')[0].strip()
     photo_credit = full_article_description.split('Photograph credit:')[1].split('Archive')[0].strip()
-elif 'Engraving credit:' in article_description:
+elif 'Engraving credit:' in full_article_description:
     article_description = full_article_description.split(('Engraving credit:'))[0].strip()
     photo_credit = full_article_description.split('Engraving credit:')[1].split('Archive')[0].strip()
 
