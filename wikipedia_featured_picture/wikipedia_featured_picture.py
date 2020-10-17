@@ -53,7 +53,13 @@ article_description_main_div = today_article_soup.find('div',{'style':'box-sizin
 full_article_description = article_description_main_div.text.replace('Archive – More featured pictures... ', '')
 
 article_description = full_article_description.split('Photograph credit:')[0].strip()
-photo_credit = full_article_description.split('Photograph credit:')[1].split('Archive')[0].strip()
+
+photo_credit = ''
+
+if 'Photograph credit:' in article_description:
+    photo_credit = full_article_description.split('Photograph credit:')[1].split('Archive')[0].strip()
+elif 'Engraving credit:' in article_description:
+    photo_credit = full_article_description.split('Engraving credit:')[1].split('Archive')[0].strip()
 
 reject_text = 'Wikipedia does not have a project page with this exact name.'
 if reject_text in article_description:
@@ -85,6 +91,11 @@ os.system("cd latex ; pdflatex main.tex >> /dev/null ; pdflatex main.tex >> /dev
 print("\n\nTransforming pdf in jpg")
 pages = convert_from_path('latex/main.pdf', 500)
 pages[0].save('out.jpg', 'JPEG')
+
+# Getting a better date
+date = today.strftime("%B %d, %Y")
+
+print(date)
 
 # Setting caption
 print('Setting full caption with date and hashtags')
