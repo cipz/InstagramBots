@@ -50,7 +50,7 @@ today_article_soup = BeautifulSoup(today_article_page.content, 'html.parser')
 
 # Getting article description
 article_description_main_div = today_article_soup.find('div',{'style':'box-sizing: border-box; margin:0.5em; width: 600px; border: 3px #ccccff solid; padding: 11px; text-align: center; background-color: white;'})
-full_article_description = article_description_main_div.text.replace('Archive – More featured pictures... ', '')
+full_article_description = article_description_main_div.text.replace('Archive – More featured pictures... ', '').replace('Picture of the day','').strip()
 
 article_description = ''
 photo_credit = ''
