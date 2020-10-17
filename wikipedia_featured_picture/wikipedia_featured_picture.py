@@ -52,13 +52,14 @@ today_article_soup = BeautifulSoup(today_article_page.content, 'html.parser')
 article_description_main_div = today_article_soup.find('div',{'style':'box-sizing: border-box; margin:0.5em; width: 600px; border: 3px #ccccff solid; padding: 11px; text-align: center; background-color: white;'})
 full_article_description = article_description_main_div.text.replace('Archive – More featured pictures... ', '')
 
-article_description = full_article_description.split('Photograph credit:')[0].strip()
-
+article_description = ''
 photo_credit = ''
 
 if 'Photograph credit:' in article_description:
+    article_description = full_article_description.split('Photograph credit:')[0].strip()
     photo_credit = full_article_description.split('Photograph credit:')[1].split('Archive')[0].strip()
 elif 'Engraving credit:' in article_description:
+    article_description = full_article_description.split(('Engraving credit:'))[0].strip()
     photo_credit = full_article_description.split('Engraving credit:')[1].split('Archive')[0].strip()
 
 reject_text = 'Wikipedia does not have a project page with this exact name.'
