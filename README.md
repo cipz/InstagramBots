@@ -9,6 +9,7 @@ Here is a list of the bots currently present in this repo:
 - [wikipedia_featured_article](https://www.instagram.com/wikipediaarticledaily/): like NASA, Wikipedia has a [Today's featured article](https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article) section from which i take the picture and description and post them to IG
 - [wikipedia_featured_picture](https://www.instagram.com/wikipediapictureoftheday/): like the prvious one, but the focus is on the [Picture of the day](https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day) page
 - [zanichelli_parola_del_giorno](https://www.instagram.com/paroladelgiornozanichelli/): the [Zanichelli](http://dizionari.zanichelli.it/) is a famous italian dictionary which, you guessed it, has a [word of the day section](https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/). I take the word and the meaning and post them in Instagram.
+- [santo_del_giorno](https://www.instagram.com/ilsantodioggi/): every day a new saint from [Santo del giorno](https://www.santodelgiorno.it/)
 
 ## How it works
 
