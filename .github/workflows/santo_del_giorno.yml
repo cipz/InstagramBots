@@ -1,0 +1,51 @@
+name: Il santo del giorno
+on: 
+#  # To manually execute action
+#  [workflow_dispatch]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+     - cron:  '30 */11 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Installing latex
+      run: |
+        sudo apt-get install texlive-full -y
+        sudo apt install poppler-utils
+    - name: Installing dependencies
+      run: |
+        pip3 install instabot bs4 wget pdf2image poppler-utils
+    - name: Running python script
+      working-directory: "santo_del_giorno"
+      env:
+        santo_username: ${{ secrets.santo_username }}
+        santo_password: ${{ secrets.santo_password }}
+      run: |
+        python3 santo_del_giorno.py
+    - name: Commit files if any
+      id: commit
+      working-directory: "santo_del_giorno"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        if [-z "$(git status --porcelain)"]; then
+          echo "::set-output name=push::false"
+        else
+          git commit -m "New post from santo_del_giorno" -a
+          echo "::set-output name=push::true"
+        fi
+      continue-on-error: true
+      shell: bash
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
