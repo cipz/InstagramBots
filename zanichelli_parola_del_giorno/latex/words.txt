@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{materasso}\newcommand{\sillabazione}{ma–te–ràs–so}\newcommand{\tipologiaparola}{A s. m.}\newcommand{\origineparola}{[arabo maṭraḥ ‘posto, luogo’ ☼ av. 1306]}\newcommand{\data}{17 ottobre 2020}
+\newcommand{\parolatitle}{mafia}\newcommand{\sillabazione}{mà–fia}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[arabo mahjas ‘millanteria’ ☼ 1865]}\newcommand{\data}{18 ottobre 2020}
