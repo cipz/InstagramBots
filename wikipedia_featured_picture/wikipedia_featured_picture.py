@@ -89,13 +89,9 @@ os.system("cd latex ; pdflatex main.tex >> /dev/null ; pdflatex main.tex >> /dev
 # pdflatex is very verbose and useful to test if / where an error occors
 # os.system("cd latex ; pdflatex main.tex ; pdflatex main.tex")
 
-time.sleep(20)
-
 print("\n\nTransforming pdf in jpg")
 pages = convert_from_path('latex/main.pdf', 500)
 pages[0].save('out.jpg', 'JPEG')
-
-time.sleep(20)
 
 # Getting a better date
 date = today.strftime("%B %d, %Y")
@@ -110,8 +106,6 @@ full_caption = article_description + '\n\n' + date + '\n\nCredit: ' + photo_cred
 print("Full caption:\n")
 print(full_caption)
 print()
-
-time.sleep(10)
 
 # In case instabot will stop working I can just change the following lines of 
 # code, the previous ones can remain unchanged
