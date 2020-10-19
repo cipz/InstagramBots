@@ -1,6 +1,7 @@
 # InstagramBots
 
-This repo has been created out of boredom.
+This repository contains a few python scripts that act as Instagram bots that scrape the Internet for interesting daily / weekly content.
+It is not intended as a serious repository, it was created of of boredom and just for fun / entrataining reasons.
 
 ## The bots
 Here is a list of the bots currently present in this repo:
@@ -13,8 +14,37 @@ Here is a list of the bots currently present in this repo:
 
 ## How it works
 
+The core of this project is [web scraping](https://en.wikipedia.org/wiki/Web_scraping).
+Given a particular web page, each bot has the same behaviour:
+1) it downloads the page
+2) searches for the content in the page, possibly downloading it from other pages
+3) a latex file is compiled in order to create a square pdf (7cm x 7cm) which is then converted in jpg
+4) sets the caption of the image and the hashtags
+5) connects to Instagram and posts the picture with the caption
+
+### Github Actions
+
+In order to execute the scripts daily I have created a cron job in Github actions that runs at least twice a day to execute all the bots.
+This can be done in a more granular form, which means having a `yml` file for each script, but the installation of latex takes to much time and it's not worth it as of this moment.
+
 ## Libraries and other dependencies
+
+Here is a list of the main libraries used in this project:
+- [instabot](https://github.com/ohld/igbot/): third party APIs for posting content to Instagram
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/): for web scraping
+- [PIL](https://pillow.readthedocs.io/en/stable/): for image editing / conversion
+- [pdf2image](https://github.com/Belval/pdf2image) and [poppler-utils](https://pypi.org/project/python-poppler/): for converting the pdf files into jpg files
+- [wget](https://pypi.org/project/wget/): for downloading content from the Internet
 
 ## Limitations
 Unfortunately [the Facebook team](https://github.com/facebook) (who currently owns Instagram, among a thousand other things), does not like bots nor developers or amateur coders that want to do simple projects like this one, so they always change APIs and block requests from third party libraries.
 ***[igbot](https://github.com/ohld/igbot/)*** and other libraries such as ***[instagram_private_api](https://github.com/ping/instagram_private_api/)*** are currently being blocked or are not up to date with the APIs from FB.
+
+## Improvements and possible future work
+
+As I said before, this repository is not intended as a serious work, just a time-filling fun activity that allowed me to get acquainted with Instagram's APIs and other APIs from sites as Spotify, Google Trends and YouTube (even thouth there are no bots for them... yet!).
+
+There are many improvements that can be done, here are just a few:
+- create a single `utils.py` file that contains the common functions
+- avoid the use of latex and use the PIL library to automatically generate the square images
+- make more granular `yml` workflow files, possibly one for each python script
