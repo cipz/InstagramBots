@@ -67,18 +67,21 @@ descrizione_santo = descrizione_santo.text.strip()
 
 descrizione_santo_taglio = descrizione_santo.split('PRATICA')
 caption = descrizione_santo_taglio[0]
-
+caption_max_len = 1600
 new_caption = ''
-if len(caption) > 1900:
+
+if len(caption) > caption_max_len:
 
     frasi = caption.split('.')
 
     new_caption = ''
 
     frasi_count = 0
-    while len(new_caption) < 1900:
-        new_caption = new_caption + ' ' + frasi[frasi_count].strip()
+    while len(new_caption) < caption_max_len:
+        new_caption = new_caption + '. ' + frasi[frasi_count].strip()
         frasi_count += 1
+
+    new_caption = new_caption + '.'
 
     coda = '\n\nPer la descrizione completa continuare su \'santodelgiorno.it\''
     new_caption = new_caption.strip() + coda
