@@ -26,6 +26,7 @@ jobs:
 
     - name: Running python script santo_del_giorno
       working-directory: "santo_del_giorno"
+      continue-on-error: true
       env:
         santo_username: ${{ secrets.santo_username }}
         santo_password: ${{ secrets.santo_password }}
@@ -50,6 +51,7 @@ jobs:
     ### astronomy_picture_of_the_day ###
 
     - name: Running python script astronomy_picture_of_the_day
+      continue-on-error: true
       env:
         apod_username: ${{ secrets.apod_username }}
         apod_password: ${{ secrets.apod_password }}
@@ -75,10 +77,11 @@ jobs:
     ### the_new_yorker ###
 
     - name: Running python script the_new_yorker
+      working-directory: "the_new_yorker"
+      continue-on-error: true
       env:
         the_new_yorker_username: ${{ secrets.the_new_yorker_username }}
         the_new_yorker_password: ${{ secrets.the_new_yorker_password }}
-      working-directory: "the_new_yorker"
       run: |
         python3 the_new_yorker.py
     - name: Commit files if any
@@ -101,6 +104,7 @@ jobs:
 
     - name: Running python script wikipedia_featured_article
       working-directory: "wikipedia_featured_article"
+      continue-on-error: true
       env:
         wikipedia_username: ${{ secrets.wikipedia_username }}
         wikipedia_password: ${{ secrets.wikipedia_password }}
@@ -126,6 +130,7 @@ jobs:
 
     - name: Running python script wikipedia_featured_picture
       working-directory: "wikipedia_featured_picture"
+      continue-on-error: true
       env:
         wikipedia_picture_username: ${{ secrets.wikipedia_picture_username }}
         wikipedia_picture_password: ${{ secrets.wikipedia_picture_password }}
@@ -151,6 +156,7 @@ jobs:
 
     - name: Running python script zanichelli_parola_del_giorno
       working-directory: "zanichelli_parola_del_giorno"
+      continue-on-error: true
       env:
         zanichelli_username: ${{ secrets.zanichelli_username }}
         zanichelli_password: ${{ secrets.zanichelli_password }}
