@@ -1,4 +1,4 @@
-# InstagramBots
+# Instagram Bots
 
 This repository contains a few python scripts that act as Instagram bots that scrape the Internet for interesting daily / weekly content.
 It is not intended as a serious repository, it was created of of boredom and just for fun / entrataining reasons.
