@@ -33,7 +33,7 @@ jobs:
       run: |
         python3 santo_del_giorno.py
     - name: Commit files if any
-      id: commit
+      id: commit_santo_del_giorno
       working-directory: "santo_del_giorno"
       run: |
         git config --local user.email "action@github.com"
@@ -59,7 +59,7 @@ jobs:
       run: |
         python3 astronomy_picture_of_the_day.py
     - name: Commit files if any
-      id: commit
+      id: commit_astronomy_picture_of_the_day
       working-directory: "astronomy_picture_of_the_day"
       run: |
         git config --local user.email "action@github.com"
@@ -85,7 +85,7 @@ jobs:
       run: |
         python3 the_new_yorker.py
     - name: Commit files if any
-      id: commit
+      id: commit_the_new_yorker
       working-directory: "the_new_yorker"
       run: |
         git config --local user.email "action@github.com"
@@ -111,7 +111,7 @@ jobs:
       run: |
         python3 wikipedia_featured_article.py
     - name: Commit files if any
-      id: commit
+      id: commit_wikipedia_featured_article
       working-directory: "wikipedia_featured_article"
       run: |
         git config --local user.email "action@github.com"
@@ -137,7 +137,7 @@ jobs:
       run: |
         python3 wikipedia_featured_picture.py
     - name: Commit files if any
-      id: commit
+      id: commit_wikipedia_featured_picture
       working-directory: "wikipedia_featured_picture"
       run: |
         git config --local user.email "action@github.com"
@@ -163,7 +163,7 @@ jobs:
       run: |
         python3 zanichelli_parola_del_giorno.py
     - name: Commit files if any
-      id: commit
+      id: commit_zanichelli_parola_del_giorno
       working-directory: "zanichelli_parola_del_giorno"
       run: |
         git config --local user.email "action@github.com"
