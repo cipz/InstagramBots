@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{mafia}\newcommand{\sillabazione}{mà–fia}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[arabo mahjas ‘millanteria’ ☼ 1865]}\newcommand{\data}{18 ottobre 2020}
+\newcommand{\parolatitle}{\small bagarino / bagarinaggio}\newcommand{\sillabazione}{ba–ga–rì–no}\newcommand{\tipologiaparola}{s. m. (f. -a)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[dall’arabo parlato baggālīn ‘mercanti che vendono al minuto’ ☼ 1800]\end{spacing}}}\newcommand{\data}{19 ottobre 2020}
