@@ -21,6 +21,12 @@ jobs:
     - name: Installing dependencies
       run: |
         pip3 install instabot bs4 wget pdf2image poppler-utils
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
 
     ### santo_del_giorno ###
 
@@ -47,6 +53,12 @@ jobs:
         fi
       continue-on-error: true
       shell: bash
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
 
     ### astronomy_picture_of_the_day ###
 
@@ -73,6 +85,12 @@ jobs:
         fi
       continue-on-error: true
       shell: bash
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
 
     ### the_new_yorker ###
 
@@ -99,6 +117,12 @@ jobs:
         fi
       continue-on-error: true
       shell: bash
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
 
     ### wikipedia_featured_article ###
 
@@ -125,6 +149,12 @@ jobs:
         fi
       continue-on-error: true
       shell: bash
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
 
     ### wikipedia_featured_picture ###
 
@@ -151,6 +181,12 @@ jobs:
         fi
       continue-on-error: true
       shell: bash
+    - name: Push changes if any
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
 
     ### zanichelli_parola_del_giorno ###
 
@@ -177,9 +213,6 @@ jobs:
         fi
       continue-on-error: true
       shell: bash
-
-    ### PUSHING ALL CHANGES ###
-
     - name: Push changes if any
       if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
