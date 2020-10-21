@@ -21,12 +21,6 @@ jobs:
     - name: Installing dependencies
       run: |
         pip3 install instabot bs4 wget pdf2image poppler-utils
-    - name: Push changes if any
-      if: steps.commit.outputs.push == 'true'
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-      continue-on-error: true
 
     ### santo_del_giorno ###
 
