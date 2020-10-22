@@ -39,12 +39,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "github-actions"
         git add params.json
-        if [ -z "$(git status --porcelain)" ]; then
-          echo "::set-output name=push::false"
-        else
-          git commit -m "New post from santo_del_giorno" -a
-          echo "::set-output name=push::true"
-        fi
+        git commit -m "New post from santo_del_giorno" -a
       continue-on-error: true
       shell: bash
 
@@ -66,12 +61,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "github-actions"
         git add params.json
-        if [ -z "$(git status --porcelain)" ]; then
-          echo "::set-output name=push::false"
-        else
-          git commit -m "New post from astronomy_picture_of_the_day" -a
-          echo "::set-output name=push::true"
-        fi
+        git commit -m "New post from astronomy_picture_of_the_day" -a
       continue-on-error: true
       shell: bash
 
@@ -94,12 +84,6 @@ jobs:
         git config --local user.name "github-actions"
         git add params.json
         git commit -m "New post from the_new_yorker" -a
-        if [ -z "$(git status --porcelain)" ]; then
-          echo "::set-output name=push::false"
-        else
-          git commit -m "New post from the_new_yorker" -a
-          echo "::set-output name=push::true"
-        fi
       continue-on-error: true
       shell: bash
 
@@ -122,12 +106,6 @@ jobs:
         git config --local user.name "github-actions"
         git add params.json
         git commit -m "New post from wikipedia_featured_article" -a
-        if [ -z "$(git status --porcelain)" ]; then
-#          echo "::set-output name=push::false"
-#        else
-#          git commit -m "New post from wikipedia_featured_article" -a
-#          echo "::set-output name=push::true"
-#        fi
       continue-on-error: true
       shell: bash
 
@@ -150,12 +128,6 @@ jobs:
         git config --local user.name "github-actions"
         git add params.json
         git commit -m "New post from wikipedia_featured_picture" -a
-        if [ -z "$(git status --porcelain)" ]; then
-          echo "::set-output name=push::false"
-        else
-          git commit -m "New post from wikipedia_featured_picture" -a
-          echo "::set-output name=push::true"
-        fi
       continue-on-error: true
       shell: bash
 
@@ -178,12 +150,6 @@ jobs:
         git config --local user.name "github-actions"
         git add params.json
         git commit -m "New post from zanichelli_parola_del_giorno" -a
-        if [ -z "$(git status --porcelain)" ]; then
-          echo "::set-output name=push::false"
-        else
-          git commit -m "New post from zanichelli_parola_del_giorno" -a
-          echo "::set-output name=push::true"
-        fi
       continue-on-error: true
       shell: bash
 
