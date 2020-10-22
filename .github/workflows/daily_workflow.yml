@@ -1,10 +1,10 @@
 name: Full daily workflow
 on: 
-#  # To manually execute action
-#  [workflow_dispatch]
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-     - cron:  '30 */10 * * *'
+  # To manually execute action
+  [workflow_dispatch]
+#  schedule:
+#    # * is a special character in YAML so you have to quote this string
+#     - cron:  '30 */10 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -49,7 +49,7 @@ jobs:
       continue-on-error: true
       shell: bash
     - name: Push changes if any
-      if: steps.commit.outputs.push == 'true'
+#      if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -82,7 +82,7 @@ jobs:
       continue-on-error: true
       shell: bash
     - name: Push changes if any
-      if: steps.commit.outputs.push == 'true'
+#      if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -115,7 +115,7 @@ jobs:
       continue-on-error: true
       shell: bash
     - name: Push changes if any
-      if: steps.commit.outputs.push == 'true'
+#      if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -148,7 +148,7 @@ jobs:
       continue-on-error: true
       shell: bash
     - name: Push changes if any
-      if: steps.commit.outputs.push == 'true'
+#      if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -181,7 +181,7 @@ jobs:
       continue-on-error: true
       shell: bash
     - name: Push changes if any
-      if: steps.commit.outputs.push == 'true'
+#      if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -214,7 +214,7 @@ jobs:
       continue-on-error: true
       shell: bash
     - name: Push changes if any
-      if: steps.commit.outputs.push == 'true'
+#      if: steps.commit.outputs.push == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
