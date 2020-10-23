@@ -60,7 +60,7 @@ if 'Photograph credit:' in full_article_description:
     photo_credit = full_article_description.split('Photograph credit:')[1].split('Archive')[0].strip()
 elif 'Engraving credit:' in full_article_description:
     article_description = full_article_description.split(('Engraving credit:'))[0].strip()
-    photo_credit = full_article_description.split('Engraving credit:')[1].split('Archive')[0].strip()
+    photo_credit = '\n\nCredit: ' + full_article_description.split('Engraving credit:')[1].split('Archive')[0].strip()
 
 reject_text = 'Wikipedia does not have a project page with this exact name.'
 if reject_text in article_description:
@@ -101,7 +101,7 @@ print(date)
 # Setting caption
 print('Setting full caption with date and hashtags')
 hashtags = '#wikipedia #articleoftheday #bestoftheday'
-full_caption = article_description + '\n\n' + date + '\n\nCredit: ' + photo_credit + '\n\n' + hashtags
+full_caption = article_description + '\n\n' + date + photo_credit + '\n\n' + hashtags
 
 print("Full caption:\n")
 print(full_caption)
