@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small scaccomatto / scacco}\newcommand{\sillabazione}{scac–co–màt–to}\newcommand{\tipologiaparola}{s. m. (pl. scacchimàtti)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[dal persiano arabo šāh māt ‘il re è morto’. V. scacco ☼ 1260 ca.]\end{spacing}}}\newcommand{\data}{22 ottobre 2020}
+\newcommand{\parolatitle}{caffè}\newcommand{\sillabazione}{caf–fè}\newcommand{\tipologiaparola}{A s. m. inv.}\newcommand{\origineparola}{[turco kahve, dall’arabo qahwa ‘bevanda eccitante’ ☼ 1585]}\newcommand{\data}{23 ottobre 2020}
