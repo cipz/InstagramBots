@@ -78,7 +78,7 @@ if len(caption) > caption_max_len:
 
     frasi_count = 0
     while len(new_caption) < caption_max_len:
-        new_caption = new_caption + '. ' + frasi[frasi_count].strip()
+        new_caption = new_caption + frasi[frasi_count].strip() + '. '
         frasi_count += 1
 
     new_caption = new_caption + '.'
