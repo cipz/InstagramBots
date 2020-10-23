@@ -46,6 +46,8 @@ json_params['previous_post_key'] = parola_title
 
 caption_significati = ''
 for i in significati_parola:
+    if len(caption_significati) > 1600:
+        break
     caption_significati += '\n' + i.text
 
 # Setting caption
