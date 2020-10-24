@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{caffè}\newcommand{\sillabazione}{caf–fè}\newcommand{\tipologiaparola}{A s. m. inv.}\newcommand{\origineparola}{[turco kahve, dall’arabo qahwa ‘bevanda eccitante’ ☼ 1585]}\newcommand{\data}{23 ottobre 2020}
+\newcommand{\parolatitle}{azzardo}\newcommand{\sillabazione}{az–zàr–do}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[fr. hasard, dall’arabo az-zahr ‘dado da gioco’ ☼ 1644]}\newcommand{\data}{24 ottobre 2020}
