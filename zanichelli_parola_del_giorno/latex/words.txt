@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{azzardo}\newcommand{\sillabazione}{az–zàr–do}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[fr. hasard, dall’arabo az-zahr ‘dado da gioco’ ☼ 1644]}\newcommand{\data}{24 ottobre 2020}
+\newcommand{\parolatitle}{carciofo}\newcommand{\sillabazione}{car–ciò–fo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[arabo ḫaršūf ‘cardo spinoso’ ☼ 1534]}\newcommand{\data}{25 ottobre 2020}
