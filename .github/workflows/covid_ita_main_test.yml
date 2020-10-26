@@ -16,8 +16,8 @@ jobs:
       run: |
         sudo apt-get install texlive-full -y
         sudo apt-get install poppler-utils
-        sudo apt-get update -y
-        sudo apt-get upgrade -y
+        # sudo apt-get update -y
+        # sudo apt-get upgrade -y
         sudo apt-get install fonts-roboto -y 
         sudo apt-get install fonts-indic -y 
         sudo fc-cache -f
