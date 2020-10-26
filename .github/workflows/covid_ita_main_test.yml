@@ -26,8 +26,8 @@ jobs:
       working-directory: "covid_ita"
       continue-on-error: true
       env:
-        covid_ita_main: ${{ secrets.covid_ita_main }}
-        covid_ita_main: ${{ secrets.covid_ita_main }}
+        covid_ita_main_username: ${{ secrets.covid_ita_main_username }}
+        covid_ita_main_password: ${{ secrets.covid_ita_main_password }}
       run: |
         python3 covid_ita_main.py
     - name: Commit files if any
