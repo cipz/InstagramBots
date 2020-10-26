@@ -100,7 +100,7 @@ line = '\\newcommand{\\isolamento}{' + str(today['isolamento_domiciliare']) + '}
 words_file.write(line)
 line = '\\newcommand{\\deceduti}{' + str(today['deceduti']) + '}'
 words_file.write(line)
-line = '\\newcommand{\\zona}{' + 'Italia' + '}'
+line = '\\newcommand{\\zona}{' + 'italia' + '}'
 words_file.write(line)
 line = '\\newcommand{\\data}{' + caption_date + '}'
 words_file.write(line)
