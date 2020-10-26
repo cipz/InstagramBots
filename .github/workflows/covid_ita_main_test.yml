@@ -18,7 +18,7 @@ jobs:
         sudo apt install poppler-utils
     - name: Installing dependencies
       run: |
-        pip3 install instabot bs4 wget pdf2image poppler-utils
+        pip3 install instabot bs4 wget pdf2image poppler-utils babel
 
     ### covid ###
 
