@@ -132,7 +132,6 @@ bot.upload_photo('out.jpg', caption = full_caption)
 
 # Removing stuff (not necessary if used in docker container of github actions)
 print("Removing unused files")
-os.system('rm "' + image_file + '"')
 os.system('rm *REMOVE_ME')
 os.system('rm img.jpg')
 os.system('rm out.jpg')
