@@ -8,7 +8,6 @@
 \usepackage{float}
 \usepackage{xcolor}
 \usepackage{setspace}
-\usepackage{fontspec}
 \usepackage{kantlipsum}
 \usepackage{tabularx}
 \usepackage{array}
@@ -17,14 +16,17 @@
 \newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
 \newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
 
+\usepackage{fontspec}
+\usepackage[sfdefault,light]{roboto}  %% Option 'sfdefault' only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+%\setmainfont{Ubuntu}
+
 \geometry{
 	left=.2cm,
 	right=.2cm,
 	top=.7cm,
 	bottom=0cm
 }
-
-\setmainfont{Ubuntu}
 
 \definecolor{maincolor}{HTML}{ffffff}
 \definecolor{bgcolor}{HTML}{000080}
@@ -45,17 +47,6 @@
 \begin{document}
 		
 	\pagestyle{empty}
-	
-	% \tikz[remember picture,overlay] 
-	% \node[
-	% left=-20pt,
-	% below=-13pt,
-	% align=right,
-	% text width=3cm,
-	% ] (date) at (current page.south west)
-	% {
-	% 	\datawrapper{\data}
-	% };
 
 	\tikz[remember picture,overlay, baseline=0.6ex]\path [fill=bgcolor] (-1cm,-.55cm) rectangle (7cm,2cm);
 
