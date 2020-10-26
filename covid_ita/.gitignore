@@ -1,0 +1,6 @@
+*.png
+*.jpg
+
+latest_data.json
+
+config/*
