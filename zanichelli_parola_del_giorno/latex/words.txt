@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{carciofo}\newcommand{\sillabazione}{car–ciò–fo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[arabo ḫaršūf ‘cardo spinoso’ ☼ 1534]}\newcommand{\data}{25 ottobre 2020}
+\newcommand{\parolatitle}{rilevare}\newcommand{\sillabazione}{ri–le–và–re}\newcommand{\tipologiaparola}{A v. tr. (io rilèvo)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. relevāre, comp. di re- e levāre ‘sollevare’. V. levare (1) ☼ 1287]\end{spacing}}}\newcommand{\data}{26 ottobre 2020}
