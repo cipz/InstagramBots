@@ -109,16 +109,18 @@ words_file.close()
 
 print("\n\nCompliling tex file")
 # Twice because the first time it may not get the images' position correctly
-os.system("cd latex ; xelatex main.tex >> /dev/null ; xelatex main.tex >> /dev/null")
+#os.system("cd latex ; xelatex main.tex >> /dev/null ; xelatex main.tex >> /dev/null")
 # pdflatex is very verbose and useful to test if / where an error occors
-# os.system("cd latex ; xelatex main.tex ; xelatex main.tex")
+os.system("cd latex ; xelatex main.tex ; xelatex main.tex")
 
+print("Waiting 20 seconds")
 time.sleep(20)
 
 print("\n\nTransforming pdf in jpg")
 pages = convert_from_path('latex/main.pdf', 500)
 pages[0].save('out.jpg', 'JPEG')
 
+print("Waiting 10 seconds")
 time.sleep(10)
 
 # In case instabot will stop working I can just change the following lines of 
