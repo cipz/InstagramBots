@@ -12,29 +12,14 @@ Here is a list of the bots currently present in this repo:
 - [wikipedia_featured_picture](https://www.instagram.com/wikipediapictureoftheday/): like the prvious one, but the focus is on the [Picture of the day](https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day) page
 - [zanichelli_parola_del_giorno](https://www.instagram.com/paroladelgiornozanichelli/): the [Zanichelli](http://dizionari.zanichelli.it/) is a famous italian dictionary which, you guessed it, has a [word of the day section](https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/). I take the word and the meaning and post them in Instagram.
 - [santo_del_giorno](https://www.instagram.com/ilsantodioggi/): every day a new saint from [Santo del giorno](https://www.santodelgiorno.it/)
-- covid_ita: contains the scripts for 2 bots, one that posts pictures generated with coronavirus data and statistics taken from the [official repository of the Protezione Civile Italiana](https://github.com/pcm-dpc/COVID-19) for the whole italian territory and one that posts the data for each region. Here are the links to the accounts:
-  - [abruzzo](https://www.instagram.com/covid_news_abruzzo)
-  - [basilicata](https://www.instagram.com/covid_news_basilicata)
-  - [calabria](https://www.instagram.com/covid_news_calabria)
-  - [campania](https://www.instagram.com/covid_news_campania)
-  - [emiliaromagna](https://www.instagram.com/covid_news_emiliaromagna)
-  - [friuli](https://www.instagram.com/covid_news_friuli)
-  - [lazio](https://www.instagram.com/covid_news_lazio)
-  - [liguria](https://www.instagram.com/covid_news_liguria)
-  - [lombardia](https://www.instagram.com/covid_news_lombardia)
-  - [marche](https://www.instagram.com/covid_news_marche)
-  - [molise](https://www.instagram.com/covid_news_molise)
-  - [piemonte](https://www.instagram.com/covid_news_piemonte)
-  - [puglia](https://www.instagram.com/covid_news_puglia)
-  - [sardegna](https://www.instagram.com/covid_news_sardegna)
-  - [sicilia](https://www.instagram.com/covid_news_sicilia)
-  - [toscana](https://www.instagram.com/covid_news_toscana)
-  - [trentino](https://www.instagram.com/covid_news_trentino)
-  - [umbria](https://www.instagram.com/covid_news_umbria)
-  - [valledaosta](https://www.instagram.com/covid_news_valledaosta)
-  - [veneto](https://www.instagram.com/covid_news_veneto)
-  - [italia](https://www.instagram.com/covid_news_italia)
+- covid_ita: contains the scripts for 2 bots, one that posts pictures generated with coronavirus data and statistics taken from the [official repository of the Protezione Civile Italiana](https://github.com/pcm-dpc/COVID-19) for [the whole italian territory](https://www.instagram.com/covid_news_italia) and one that posts the data for each region. Here are the links to the accounts:
 
+| [abruzzo](https://www.instagram.com/covid_news_abruzzo)               |   [friuli](https://www.instagram.com/covid_news_friuli)           |        [molise](https://www.instagram.com/covid_news_molise)              |                 [toscana](https://www.instagram.com/covid_news_toscana)                     |
+| ------------- | ------------- | ------------- | ------------- |
+| [basilicata](https://www.instagram.com/covid_news_basilicata)               |   [lazio](https://www.instagram.com/covid_news_lazio)           |        [piemonte](https://www.instagram.com/covid_news_piemonte)              |                 [trentino](https://www.instagram.com/covid_news_trentino)                     |
+| [calabria](https://www.instagram.com/covid_news_calabria)             |   [liguria](https://www.instagram.com/covid_news_liguria)           |        [puglia](https://www.instagram.com/covid_news_puglia)              |                 [umbria](https://www.instagram.com/covid_news_umbria)                     |
+| [campania](https://www.instagram.com/covid_news_campania)             |   [lombardia](https://www.instagram.com/covid_news_lombardia)           |        [sardegna](https://www.instagram.com/covid_news_sardegna)              |                 [valledaosta](https://www.instagram.com/covid_news_valledaosta)                     |
+| [emiliaromagna](https://www.instagram.com/covid_news_emiliaromagna)               |   [marche](https://www.instagram.com/covid_news_marche)           |        [sicilia](https://www.instagram.com/covid_news_sicilia)              |                 [veneto](https://www.instagram.com/covid_news_veneto)                     |
 ## How it works
 
 The core of this project is [web scraping](https://en.wikipedia.org/wiki/Web_scraping).
