@@ -17,11 +17,13 @@ jobs:
     - name: Installing latex
       run: |
         sudo apt-get install texlive-full -y
-        sudo apt install poppler-utils -y
-        sudo apt install fonts-roboto -y
+        sudo apt-get install poppler-utils -y
+        sudo apt-get install fonts-roboto -y 
+        sudo apt-get install fonts-indic -y 
+        sudo fc-cache -f
     - name: Installing dependencies
       run: |
-        pip3 install instabot bs4 wget pdf2image poppler-utils
+        pip3 install instabot bs4 wget pdf2image poppler-utils Babel
 
     ### santo_del_giorno ###
 
@@ -153,6 +155,31 @@ jobs:
         git commit -m "New post from zanichelli_parola_del_giorno" -a
       continue-on-error: true
       shell: bash
+
+
+    ### covid_ita_main ###
+
+    - name: Running python script covid_ita_main
+      working-directory: "covid_ita"
+      continue-on-error: true
+      env:
+        covid_ita_main_username: ${{ secrets.covid_ita_main_username }}
+        covid_ita_main_password: ${{ secrets.covid_ita_main_password }}
+      run: |
+        python3 covid_ita_main.py
+    - name: Commit files if any
+      id: commit_covid_ita_main
+      working-directory: "covid_ita"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from covid_ita_main" -a
+      continue-on-error: true
+      shell: bash
+
+    
+    ### PUSHING ALL CHANGES ###
 
     - name: Push changes if any
       uses: ad-m/github-push-action@master
