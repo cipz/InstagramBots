@@ -1,0 +1,1 @@
+\newcommand{\nuovipositivi}{21273}\newcommand{\totalipositivi}{222241}\newcommand{\totaleospitalizzati}{13214}\newcommand{\ricoveratisintomi}{12006}\newcommand{\terapiaintensiva}{1208}\newcommand{\dimessiguariti}{266203}\newcommand{\isolamento}{209027}\newcommand{\deceduti}{37338}\newcommand{\zona}{Italia}\newcommand{\data}{25 Ottobre 2020}
