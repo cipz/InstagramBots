@@ -15,7 +15,12 @@ jobs:
     - name: Installing latex
       run: |
         sudo apt-get install texlive-full -y
-        sudo apt install poppler-utils
+        sudo apt-get install poppler-utils
+        sudo apt-get update -y
+        supo apt-get upgrade -y
+        sudo apt-get install fonts-roboto -y 
+        sudo apt-get install fonts-indic -y 
+        sudo fc-cache -f
     - name: Installing dependencies
       run: |
         pip3 install instabot bs4 wget pdf2image poppler-utils Babel
