@@ -71,7 +71,6 @@ hashtags = '#covid #italia #news #StayHomeSaveLives #covid19 #covidstatus #emerg
 full_caption = 'Aggiornamento giornaliero del ' + caption_date + '.'\
     + '\n\nIl numero di nuovi contagi è ' + str(today['nuovi_positivi']) \
     + ' arrivando ad avere ' + str(today['totale_positivi']) + ' totale positivi.'\
-    + \         
     + '\n\n' \
     + hashtags
 
