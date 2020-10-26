@@ -14,7 +14,6 @@ jobs:
         python-version: 3.8
     - name: Installing latex
       run: |
-        git checkout covid_ita
         sudo apt-get install texlive-full -y
         sudo apt install poppler-utils
     - name: Installing dependencies
@@ -51,7 +50,7 @@ jobs:
 
     - name: Push changes if any
       if: steps.commit.outputs.push == 'true'
-      uses: ad-m/github-push-action@covid_ita
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
       continue-on-error: true
