@@ -109,9 +109,9 @@ words_file.close()
 
 print("\n\nCompliling tex file")
 # Twice because the first time it may not get the images' position correctly
-os.system("cd latex ; pdflatex main.tex >> /dev/null ; pdflatex main.tex >> /dev/null")
+os.system("cd latex ; xelatex main.tex >> /dev/null ; xelatex main.tex >> /dev/null")
 # pdflatex is very verbose and useful to test if / where an error occors
-# os.system("cd latex ; pdflatex main.tex ; pdflatex main.tex")
+# os.system("cd latex ; xelatex main.tex ; xelatex main.tex")
 
 time.sleep(20)
 
