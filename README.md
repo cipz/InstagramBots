@@ -16,7 +16,9 @@ Here is a list of the bots currently present in this repo:
 
 |[abruzzo](https://www.instagram.com/covid_news_abruzzo)|[friuli](https://www.instagram.com/covid_news_friuli)|[molise](https://www.instagram.com/covid_news_molise)|[toscana](https://www.instagram.com/covid_news_toscana)|[basilicata](https://www.instagram.com/covid_news_basilicata)|[lazio](https://www.instagram.com/covid_news_lazio)|[piemonte](https://www.instagram.com/covid_news_piemonte)|[trentino](https://www.instagram.com/covid_news_trentino)                     |[calabria](https://www.instagram.com/covid_news_calabria)|[liguria](https://www.instagram.com/covid_news_liguria)|
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+
 |[puglia](https://www.instagram.com/covid_news_puglia)|[umbria](https://www.instagram.com/covid_news_umbria)|[campania](https://www.instagram.com/covid_news_campania)|[lombardia](https://www.instagram.com/covid_news_lombardia)|[sardegna](https://www.instagram.com/covid_news_sardegna)|[valledaosta](https://www.instagram.com/covid_news_valledaosta)|[emiliaromagna](https://www.instagram.com/covid_news_emiliaromagna)|[marche](https://www.instagram.com/covid_news_marche)|[sicilia](https://www.instagram.com/covid_news_sicilia)|[veneto](https://www.instagram.com/covid_news_veneto)|
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 
 ## How it works
 
