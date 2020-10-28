@@ -37,7 +37,7 @@ regioni = [
     ]
 
 # Grabbing the username and password for the account
-with open('params.json') as params_file:
+with open('params_regioni.json') as params_file:
     json_params = json.load(params_file)
 
 params_file.close()
@@ -83,10 +83,14 @@ bot = Bot()
 
 for nome_regione, codice_regione in regioni:
     
-    print('Creating post for ', nome_regione, codice_regione)
+    print('\n\nCreating post for', nome_regione, codice_regione)
     
     username = os.getenv('covid_ita_' + nome_regione + '_username')
     password = os.getenv('covid_ita_' + nome_regione + '_password')
+
+    if username is None or password is None:
+        print('username or password not available for', nome_regione)
+        continue
 
     regione = None
     for r in json_data:

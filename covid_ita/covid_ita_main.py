@@ -12,7 +12,7 @@ import json
 import os
 
 # Grabbing the username and password for the account
-with open('params.json') as params_file:
+with open('params_main.json') as params_file:
     json_params = json.load(params_file)
 
 params_file.close()
