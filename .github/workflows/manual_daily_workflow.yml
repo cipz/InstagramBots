@@ -171,7 +171,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "github-actions"
-        git add params.json
+        git add params_main.json
         git commit -m "New post from covid_ita_main" -a
       continue-on-error: true
       shell: bash
@@ -255,7 +255,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "github-actions"
-        git add params.json
+        git add params_regioni.json
         git commit -m "New post from covid_ita_regioni" -a
       continue-on-error: true
       shell: bash
