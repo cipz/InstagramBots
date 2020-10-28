@@ -1,0 +1,270 @@
+name: MANUAL Full daily workflow [USE FOR TESTING]
+on: 
+  # To manually execute action
+  [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Installing latex
+      run: |
+        sudo apt-get install texlive-full -y
+        sudo apt-get install poppler-utils -y
+        sudo apt-get install fonts-roboto -y 
+        sudo apt-get install fonts-indic -y 
+        sudo fc-cache -f
+    - name: Installing dependencies
+      run: |
+        pip3 install instabot bs4 wget pdf2image poppler-utils Babel
+
+    ### santo_del_giorno ###
+
+    - name: Running python script santo_del_giorno
+      working-directory: "santo_del_giorno"
+      continue-on-error: true
+      env:
+        santo_username: ${{ secrets.santo_username }}
+        santo_password: ${{ secrets.santo_password }}
+      run: |
+        python3 santo_del_giorno.py
+    - name: Commit files if any
+      id: commit_santo_del_giorno
+      working-directory: "santo_del_giorno"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from santo_del_giorno" -a
+      continue-on-error: true
+      shell: bash
+
+
+    ### astronomy_picture_of_the_day ###
+
+    - name: Running python script astronomy_picture_of_the_day
+      continue-on-error: true
+      env:
+        apod_username: ${{ secrets.apod_username }}
+        apod_password: ${{ secrets.apod_password }}
+      working-directory: "astronomy_picture_of_the_day"
+      run: |
+        python3 astronomy_picture_of_the_day.py
+    - name: Commit files if any
+      id: commit_astronomy_picture_of_the_day
+      working-directory: "astronomy_picture_of_the_day"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from astronomy_picture_of_the_day" -a
+      continue-on-error: true
+      shell: bash
+
+
+    ### the_new_yorker ###
+
+    - name: Running python script the_new_yorker
+      working-directory: "the_new_yorker"
+      continue-on-error: true
+      env:
+        the_new_yorker_username: ${{ secrets.the_new_yorker_username }}
+        the_new_yorker_password: ${{ secrets.the_new_yorker_password }}
+      run: |
+        python3 the_new_yorker.py
+    - name: Commit files if any
+      id: commit_the_new_yorker
+      working-directory: "the_new_yorker"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from the_new_yorker" -a
+      continue-on-error: true
+      shell: bash
+
+
+    ### wikipedia_featured_article ###
+
+    - name: Running python script wikipedia_featured_article
+      working-directory: "wikipedia_featured_article"
+      continue-on-error: true
+      env:
+        wikipedia_username: ${{ secrets.wikipedia_username }}
+        wikipedia_password: ${{ secrets.wikipedia_password }}
+      run: |
+        python3 wikipedia_featured_article.py
+    - name: Commit files if any
+      id: commit_wikipedia_featured_article
+      working-directory: "wikipedia_featured_article"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from wikipedia_featured_article" -a
+      continue-on-error: true
+      shell: bash
+
+
+    ### wikipedia_featured_picture ###
+
+    - name: Running python script wikipedia_featured_picture
+      working-directory: "wikipedia_featured_picture"
+      continue-on-error: true
+      env:
+        wikipedia_picture_username: ${{ secrets.wikipedia_picture_username }}
+        wikipedia_picture_password: ${{ secrets.wikipedia_picture_password }}
+      run: |
+        python3 wikipedia_featured_picture.py
+    - name: Commit files if any
+      id: commit_wikipedia_featured_picture
+      working-directory: "wikipedia_featured_picture"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from wikipedia_featured_picture" -a
+      continue-on-error: true
+      shell: bash
+
+
+    ### zanichelli_parola_del_giorno ###
+
+    - name: Running python script zanichelli_parola_del_giorno
+      working-directory: "zanichelli_parola_del_giorno"
+      continue-on-error: true
+      env:
+        zanichelli_username: ${{ secrets.zanichelli_username }}
+        zanichelli_password: ${{ secrets.zanichelli_password }}
+      run: |
+        python3 zanichelli_parola_del_giorno.py
+    - name: Commit files if any
+      id: commit_zanichelli_parola_del_giorno
+      working-directory: "zanichelli_parola_del_giorno"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from zanichelli_parola_del_giorno" -a
+      continue-on-error: true
+      shell: bash
+
+
+    ### covid_ita_main ###
+
+    - name: Running python script covid_ita_main
+      working-directory: "covid_ita"
+      continue-on-error: true
+      env:
+        covid_ita_main_username: ${{ secrets.covid_ita_main_username }}
+        covid_ita_main_password: ${{ secrets.covid_ita_main_password }}
+      run: |
+        python3 covid_ita_main.py
+    - name: Commit files if any
+      id: commit_covid_ita_main
+      working-directory: "covid_ita"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from covid_ita_main" -a
+      continue-on-error: true
+      shell: bash
+
+
+    ### covid_ita_regioni ###
+
+    - name: Running python script covid_ita_regioni
+      working-directory: "covid_ita"
+      continue-on-error: true
+      env:
+
+        covid_ita_abruzzo_username: ${{ secrets.covid_ita_abruzzo_username }}
+        covid_ita_abruzzo_password: ${{ secrets.covid_ita_abruzzo_password }}
+
+        covid_ita_basilicata_username: ${{ secrets.covid_ita_basilicata_username }}
+        covid_ita_basilicata_password: ${{ secrets.covid_ita_basilicata_password }}
+
+        covid_ita_bolzano_username: ${{ secrets.covid_ita_bolzano_username }}
+        covid_ita_bolzano_password: ${{ secrets.covid_ita_bolzano_password }}
+
+        covid_ita_calabria_username: ${{ secrets.covid_ita_calabria_username }}
+        covid_ita_calabria_password: ${{ secrets.covid_ita_calabria_password }}
+
+        covid_ita_campania_username: ${{ secrets.covid_ita_campania_username }}
+        covid_ita_campania_password: ${{ secrets.covid_ita_campania_password }}
+
+        covid_ita_emiliaromagna_username: ${{ secrets.covid_ita_emiliaromagna_username }}
+        covid_ita_emiliaromagna_password: ${{ secrets.covid_ita_emiliaromagna_password }}
+
+        covid_ita_friuli_username: ${{ secrets.covid_ita_friuli_username }}
+        covid_ita_friuli_password: ${{ secrets.covid_ita_friuli_password }}
+
+        covid_ita_lazio_username: ${{ secrets.covid_ita_lazio_username }}
+        covid_ita_lazio_password: ${{ secrets.covid_ita_lazio_password }}
+
+        covid_ita_liguria_username: ${{ secrets.covid_ita_liguria_username }}
+        covid_ita_liguria_password: ${{ secrets.covid_ita_liguria_password }}
+
+        covid_ita_lombardia_username: ${{ secrets.covid_ita_lombardia_username }}
+        covid_ita_lombardia_password: ${{ secrets.covid_ita_lombardia_password }}
+
+        covid_ita_marche_username: ${{ secrets.covid_ita_marche_username }}
+        covid_ita_marche_password: ${{ secrets.covid_ita_marche_password }}
+
+        covid_ita_molise_username: ${{ secrets.covid_ita_molise_username }}
+        covid_ita_molise_password: ${{ secrets.covid_ita_molise_password }}
+
+        covid_ita_piemonte_username: ${{ secrets.covid_ita_piemonte_username }}
+        covid_ita_piemonte_password: ${{ secrets.covid_ita_piemonte_password }}
+
+        covid_ita_puglia_username: ${{ secrets.covid_ita_puglia_username }}
+        covid_ita_puglia_password: ${{ secrets.covid_ita_puglia_password }}
+
+        covid_ita_sardegna_username: ${{ secrets.covid_ita_sardegna_username }}
+        covid_ita_sardegna_password: ${{ secrets.covid_ita_sardegna_password }}
+
+        covid_ita_sicilia_username: ${{ secrets.covid_ita_sicilia_username }}
+        covid_ita_sicilia_password: ${{ secrets.covid_ita_sicilia_password }}
+
+        covid_ita_toscana_username: ${{ secrets.covid_ita_toscana_username }}
+        covid_ita_toscana_password: ${{ secrets.covid_ita_toscana_password }}
+
+        covid_ita_trentino_username: ${{ secrets.covid_ita_trentino_username }}
+        covid_ita_trentino_password: ${{ secrets.covid_ita_trentino_password }}
+
+        covid_ita_umbria_username: ${{ secrets.covid_ita_umbria_username }}
+        covid_ita_umbria_password: ${{ secrets.covid_ita_umbria_password }}
+
+        covid_ita_valledaosta_username: ${{ secrets.covid_ita_valledaosta_username }}
+        covid_ita_valledaosta_password: ${{ secrets.covid_ita_valledaosta_password }}
+
+        covid_ita_veneto_username: ${{ secrets.covid_ita_veneto_username }}
+        covid_ita_veneto_password: ${{ secrets.covid_ita_veneto_password }}
+
+      run: |
+        python3 secrets.covid_ita_regioni.py
+    - name: Commit files if any
+      id: commit_covid_ita_regioni
+      working-directory: "covid_ita"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from covid_ita_regioni" -a
+      continue-on-error: true
+      shell: bash
+
+    
+    ### PUSHING ALL CHANGES ###
+
+    - name: Push changes if any
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
