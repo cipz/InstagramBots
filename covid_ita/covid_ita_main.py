@@ -137,7 +137,7 @@ os.system('rm img.jpg')
 os.system('rm out.jpg')
 os.system('rm params.json')
 
-with open('params.json', 'w') as new_params_file:
+with open('params_main.json', 'w') as new_params_file:
     json.dump(json_params, new_params_file)
 
 params_file.close()

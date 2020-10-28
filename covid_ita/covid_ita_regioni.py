@@ -172,25 +172,25 @@ for nome_regione, codice_regione in regioni:
     # code, the previous ones can remain unchanged
     print("Posting to instagram")
     try:
-        
+
         # Initializing instagram bot
         bot = Bot()
         
         bot.login(username = username, password = password)
         bot.upload_photo('out.jpg', caption = full_caption)
         
-        # Removing stuff (not necessary if used in docker container of github actions)
-        print("Removing unused files")
-        os.system('rm *REMOVE_ME')
-        os.system('rm img.jpg')
-        os.system('rm out.jpg')
-        os.system('rm params.json')
-
     except:
 
         print('An error has occoured while posting to instagram for ', nome_regione)
 
-    with open('params.json', 'w') as new_params_file:
+    # Removing stuff (not necessary if used in docker container of github actions)
+    print("Removing unused files")
+    os.system('rm *REMOVE_ME')
+    os.system('rm img.jpg')
+    os.system('rm out.jpg')
+    os.system('rm params_regioni.json')
+
+    with open('params_regioni.json', 'w') as new_params_file:
         json.dump(json_params, new_params_file)
 
     params_file.close()
