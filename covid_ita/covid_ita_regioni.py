@@ -78,9 +78,6 @@ caption_date = caption_date.replace(caption_date_month, caption_date_month.capit
 
 hashtags = '#covid #italia #news #StayHomeSaveLives #covid19 #covidstatus #emergenzacovid #coronavirus #covid19italia #coronavirusitalia #virus #instavirus #instahealth #instahealthnews'
 
-# Initializing instagram bot
-bot = Bot()
-
 for nome_regione, codice_regione in regioni:
     
     print('\n\nCreating post for', nome_regione, codice_regione)
@@ -170,10 +167,14 @@ for nome_regione, codice_regione in regioni:
     print("Waiting 10 seconds")
     time.sleep(10)
 
+
     # In case instabot will stop working I can just change the following lines of 
     # code, the previous ones can remain unchanged
     print("Posting to instagram")
     try:
+        
+        # Initializing instagram bot
+        bot = Bot()
         
         bot.login(username = username, password = password)
         bot.upload_photo('out.jpg', caption = full_caption)
