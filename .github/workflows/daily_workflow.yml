@@ -34,7 +34,7 @@ jobs:
         santo_username: ${{ secrets.santo_username }}
         santo_password: ${{ secrets.santo_password }}
       run: |
-        python3 santo_del_giorno.py
+        python3 -u santo_del_giorno.py
     - name: Commit files if any
       id: commit_santo_del_giorno
       working-directory: "santo_del_giorno"
@@ -56,7 +56,7 @@ jobs:
         apod_password: ${{ secrets.apod_password }}
       working-directory: "astronomy_picture_of_the_day"
       run: |
-        python3 astronomy_picture_of_the_day.py
+        python3 -u astronomy_picture_of_the_day.py
     - name: Commit files if any
       id: commit_astronomy_picture_of_the_day
       working-directory: "astronomy_picture_of_the_day"
@@ -78,7 +78,7 @@ jobs:
         the_new_yorker_username: ${{ secrets.the_new_yorker_username }}
         the_new_yorker_password: ${{ secrets.the_new_yorker_password }}
       run: |
-        python3 the_new_yorker.py
+        python3 -u the_new_yorker.py
     - name: Commit files if any
       id: commit_the_new_yorker
       working-directory: "the_new_yorker"
@@ -100,7 +100,7 @@ jobs:
         wikipedia_username: ${{ secrets.wikipedia_username }}
         wikipedia_password: ${{ secrets.wikipedia_password }}
       run: |
-        python3 wikipedia_featured_article.py
+        python3 -u wikipedia_featured_article.py
     - name: Commit files if any
       id: commit_wikipedia_featured_article
       working-directory: "wikipedia_featured_article"
@@ -122,7 +122,7 @@ jobs:
         wikipedia_picture_username: ${{ secrets.wikipedia_picture_username }}
         wikipedia_picture_password: ${{ secrets.wikipedia_picture_password }}
       run: |
-        python3 wikipedia_featured_picture.py
+        python3 -u wikipedia_featured_picture.py
     - name: Commit files if any
       id: commit_wikipedia_featured_picture
       working-directory: "wikipedia_featured_picture"
@@ -144,7 +144,7 @@ jobs:
         zanichelli_username: ${{ secrets.zanichelli_username }}
         zanichelli_password: ${{ secrets.zanichelli_password }}
       run: |
-        python3 zanichelli_parola_del_giorno.py
+        python3 -u zanichelli_parola_del_giorno.py
     - name: Commit files if any
       id: commit_zanichelli_parola_del_giorno
       working-directory: "zanichelli_parola_del_giorno"
@@ -166,7 +166,7 @@ jobs:
         covid_ita_main_username: ${{ secrets.covid_ita_main_username }}
         covid_ita_main_password: ${{ secrets.covid_ita_main_password }}
       run: |
-        python3 covid_ita_main.py
+        python3 -u covid_ita_main.py
     - name: Commit files if any
       id: commit_covid_ita_main
       working-directory: "covid_ita"
@@ -250,7 +250,7 @@ jobs:
         covid_ita_veneto_password: ${{ secrets.covid_ita_veneto_password }}
 
       run: |
-        python3 secrets.covid_ita_regioni.py
+        python3 -u secrets.covid_ita_regioni.py
     - name: Commit files if any
       id: commit_covid_ita_regioni
       working-directory: "covid_ita"
