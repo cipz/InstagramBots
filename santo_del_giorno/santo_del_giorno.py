@@ -89,7 +89,7 @@ if len(caption) > caption_max_len:
 if len(new_caption) > 0:
     caption = new_caption
 
-hashtags = ''
+hashtags = '#santo #chiesa #cristo #cristianesimo'
 
 today = date.today()
 anno = today.strftime("%Y")
