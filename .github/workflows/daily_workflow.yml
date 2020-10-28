@@ -178,6 +178,90 @@ jobs:
       continue-on-error: true
       shell: bash
 
+
+    ### covid_ita_regioni ###
+
+    - name: Running python script covid_ita_regioni
+      working-directory: "covid_ita"
+      continue-on-error: true
+      env:
+
+        covid_ita_abruzzo_username: ${{ covid_ita_abruzzo_username }}
+        covid_ita_abruzzo_password: ${{ covid_ita_abruzzo_password }}
+
+        covid_ita_basilicata_username: ${{ covid_ita_basilicata_username }}
+        covid_ita_basilicata_password: ${{ covid_ita_basilicata_password }}
+
+        covid_ita_bolzano_username: ${{ covid_ita_bolzano_username }}
+        covid_ita_bolzano_password: ${{ covid_ita_bolzano_password }}
+
+        covid_ita_calabria_username: ${{ covid_ita_calabria_username }}
+        covid_ita_calabria_password: ${{ covid_ita_calabria_password }}
+
+        covid_ita_campania_username: ${{ covid_ita_campania_username }}
+        covid_ita_campania_password: ${{ covid_ita_campania_password }}
+
+        covid_ita_emiliaromagna_username: ${{ covid_ita_emiliaromagna_username }}
+        covid_ita_emiliaromagna_password: ${{ covid_ita_emiliaromagna_password }}
+
+        covid_ita_friuli_username: ${{ covid_ita_friuli_username }}
+        covid_ita_friuli_password: ${{ covid_ita_friuli_password }}
+
+        covid_ita_lazio_username: ${{ covid_ita_lazio_username }}
+        covid_ita_lazio_password: ${{ covid_ita_lazio_password }}
+
+        covid_ita_liguria_username: ${{ covid_ita_liguria_username }}
+        covid_ita_liguria_password: ${{ covid_ita_liguria_password }}
+
+        covid_ita_lombardia_username: ${{ covid_ita_lombardia_username }}
+        covid_ita_lombardia_password: ${{ covid_ita_lombardia_password }}
+
+        covid_ita_marche_username: ${{ covid_ita_marche_username }}
+        covid_ita_marche_password: ${{ covid_ita_marche_password }}
+
+        covid_ita_molise_username: ${{ covid_ita_molise_username }}
+        covid_ita_molise_password: ${{ covid_ita_molise_password }}
+
+        covid_ita_piemonte_username: ${{ covid_ita_piemonte_username }}
+        covid_ita_piemonte_password: ${{ covid_ita_piemonte_password }}
+
+        covid_ita_puglia_username: ${{ covid_ita_puglia_username }}
+        covid_ita_puglia_password: ${{ covid_ita_puglia_password }}
+
+        covid_ita_sardegna_username: ${{ covid_ita_sardegna_username }}
+        covid_ita_sardegna_password: ${{ covid_ita_sardegna_password }}
+
+        covid_ita_sicilia_username: ${{ covid_ita_sicilia_username }}
+        covid_ita_sicilia_password: ${{ covid_ita_sicilia_password }}
+
+        covid_ita_toscana_username: ${{ covid_ita_toscana_username }}
+        covid_ita_toscana_password: ${{ covid_ita_toscana_password }}
+
+        covid_ita_trentino_username: ${{ covid_ita_trentino_username }}
+        covid_ita_trentino_password: ${{ covid_ita_trentino_password }}
+
+        covid_ita_umbria_username: ${{ covid_ita_umbria_username }}
+        covid_ita_umbria_password: ${{ covid_ita_umbria_password }}
+
+        covid_ita_valledaosta_username: ${{ covid_ita_valledaosta_username }}
+        covid_ita_valledaosta_password: ${{ covid_ita_valledaosta_password }}
+
+        covid_ita_veneto_username: ${{ covid_ita_veneto_username }}
+        covid_ita_veneto_password: ${{ covid_ita_veneto_password }}
+
+      run: |
+        python3 covid_ita_regioni.py
+    - name: Commit files if any
+      id: commit_covid_ita_regioni
+      working-directory: "covid_ita"
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add params.json
+        git commit -m "New post from covid_ita_regioni" -a
+      continue-on-error: true
+      shell: bash
+
     
     ### PUSHING ALL CHANGES ###
 
