@@ -129,6 +129,7 @@ print("Posting to instagram")
 bot = Bot()
 bot.login(username = username, password = password)
 bot.upload_photo('out.jpg', caption = full_caption)
+bot.logout()
 
 # Removing stuff (not necessary if used in docker container of github actions)
 print("Removing unused files")

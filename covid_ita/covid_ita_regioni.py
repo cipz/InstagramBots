@@ -178,6 +178,7 @@ for nome_regione, codice_regione in regioni:
         
         bot.login(username = username, password = password)
         bot.upload_photo('out.jpg', caption = full_caption)
+        bot.logout()
         
     except:
 

@@ -127,6 +127,7 @@ print("\n\nPosting to instagram")
 bot = Bot()
 bot.login(username = username, password = password)
 bot.upload_photo('out.jpg', caption = caption)
+bot.logout()
 
 # Removing config folder from instabot
 # os.system('rm "' + str(img_download) + '"')
