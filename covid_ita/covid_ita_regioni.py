@@ -180,6 +180,12 @@ for nome_regione, codice_regione in regioni:
         bot.upload_photo('out.jpg', caption = full_caption)
         bot.logout()
         
+        print("Removing unused files")
+        os.system('rm *REMOVE_ME')
+        os.system('rm img.jpg')
+        os.system('rm out.jpg')
+        os.system('rm -rf config')
+        
     except:
 
         print('An error has occoured while posting to instagram for ', nome_regione)
