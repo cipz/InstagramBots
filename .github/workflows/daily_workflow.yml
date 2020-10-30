@@ -250,7 +250,7 @@ jobs:
         covid_ita_veneto_password: ${{ secrets.covid_ita_veneto_password }}
 
       run: |
-        python3 -u secrets.covid_ita_regioni.py
+        python3 -u covid_ita_regioni.py
     - name: Commit files if any
       id: commit_covid_ita_regioni
       working-directory: "covid_ita"
