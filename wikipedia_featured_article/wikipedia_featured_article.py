@@ -32,9 +32,9 @@ base_url = 'https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article/'
 today = date.today()
 
 date = today.strftime("%B %d, %Y")
-date_url = date.replace(' ', '_')
+date_url = str(date).replace(' 0', ' ').replace(' ', '_')
 
-url = base_url + date
+url = base_url + date_url
 
 # Getting article itself
 print("Downloading article")
