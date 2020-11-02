@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small agiografia / agiografo}\newcommand{\sillabazione}{a–gio–gra–fì–a}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[V. agiografo ☼ 1819]}\newcommand{\data}{1 novembre 2020}
+\newcommand{\parolatitle}{profundis}\newcommand{\sillabazione}{de pro–fùn–dis}\newcommand{\tipologiaparola}{loc. sost. m. inv.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat., propr. ‘dalle profondità (chiamai verso te, o Signore)’ ☼ 1353]\end{spacing}}}\newcommand{\data}{2 novembre 2020}
