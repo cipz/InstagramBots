@@ -16,6 +16,7 @@ jobs:
       run: |
         sudo apt-get install texlive-full -y
         sudo apt-get install poppler-utils -y
+        sudo tlmgr init-usertree
         sudo tlmgr install collection-fontsrecommended
         sudo apt-get install fonts-roboto -y 
         sudo apt-get install fonts-indic -y 
