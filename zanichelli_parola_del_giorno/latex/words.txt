@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{garrire}\newcommand{\sillabazione}{gar–rì–re}\newcommand{\tipologiaparola}{A v. intr. (io garrìsco, †gàrro, tu garrìsci, †gàrri; aus. avere)}\newcommand{\origineparola}{[lat. garrīre, di orig. onomat. ☼ av. 1294]}\newcommand{\data}{4 novembre 2020}
+\newcommand{\parolatitle}{francesina}\newcommand{\sillabazione}{fran–ce–sì–na}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[dim. f. di francese ☼ 1892]}\newcommand{\data}{5 novembre 2020}
