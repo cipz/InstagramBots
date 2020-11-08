@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE oftalmologia}\newcommand{\sillabazione}{of–tal–mo–lo–gì–a}\newcommand{\tipologiaparola}{s. f. (pl. -gìe)}\newcommand{\origineparola}{[comp. di oftalmo- e -logia ☼ 1821]}\newcommand{\data}{7 novembre 2020}
+\newcommand{\parolatitle}{vedismo}\newcommand{\sillabazione}{ve–dì–smo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[comp. di ved(a) e -ismo ☼ 1937]}\newcommand{\data}{8 novembre 2020}
