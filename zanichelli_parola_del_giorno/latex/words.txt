@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{vedismo}\newcommand{\sillabazione}{ve–dì–smo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[comp. di ved(a) e -ismo ☼ 1937]}\newcommand{\data}{8 novembre 2020}
+\newcommand{\parolatitle}{accelerare}\newcommand{\sillabazione}{ac–ce–le–rà–re}\newcommand{\tipologiaparola}{A v. tr. (io accèlero)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. accelerāre, comp. di ăd ‘a’ e cĕler ‘svelto’ ☼ sec. XIV]\end{spacing}}}\newcommand{\data}{9 novembre 2020}
