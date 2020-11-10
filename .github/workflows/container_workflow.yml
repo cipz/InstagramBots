@@ -9,7 +9,7 @@ jobs:
           uses: actions/checkout@v2
         - name: python test
           run: |
-            python -v
+            python --version
             import os
             print(os.getenv('test_username'))
             print(os.getenv('test_password'))
