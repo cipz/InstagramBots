@@ -17,8 +17,8 @@ jobs:
             python3 --version
             touch test.py
             echo "import os" >> test.py
-            echo "print(os.getenv('test_username'))" >> test.py
-            echo "print(os.getenv('test_password'))" >> test.py
+            echo "print(os.getenv('soy uno username'))" >> test.py
+            echo "print(os.getenv('soy la password por el username'))" >> test.py
             echo "print("test")" >> test.py
             python3 -u test.py
             
