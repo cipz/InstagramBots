@@ -8,6 +8,9 @@ jobs:
         - name: Checkout Project
           uses: actions/checkout@v2
         - run: python -v
+        - env:
+            test_username: "test_username"
+            test_password: "test_password"
 
 
 
