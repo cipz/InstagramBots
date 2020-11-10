@@ -19,7 +19,7 @@ jobs:
             echo "import os" >> test.py
             echo "print(os.getenv('soy uno username'))" >> test.py
             echo "print(os.getenv('soy la password por el username'))" >> test.py
-            echo "print("test")" >> test.py
+            echo "print('test')" >> test.py
             python3 -u test.py
             
 
