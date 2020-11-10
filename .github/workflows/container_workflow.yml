@@ -15,10 +15,11 @@ jobs:
             apt-get update
             apt-get install python3 -y
             python3 --version
-            python3
-            import os
-            # print(os.getenv('test_username'))
-            # print(os.getenv('test_password'))
-            print("test")
+            touch test.py
+            echo "import os" >> test.py
+            echo "print(os.getenv('test_username'))" >> test.py
+            echo "print(os.getenv('test_password'))" >> test.py
+            echo "print("test")" >> test.py
+            python3 -u test.py
             
 
