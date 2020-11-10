@@ -1,0 +1,13 @@
+name: container workflow test
+on: [workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: python:latest
+    steps:
+        - name: Checkout Project
+          uses: actions/checkout@v2
+          run: python -v
+
+
+
