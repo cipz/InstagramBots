@@ -8,12 +8,13 @@ jobs:
         - name: Checkout Project
           uses: actions/checkout@v2
         - name: python test
-          run: |
-            python --version
-            import os
-            print(os.getenv('test_username'))
-            print(os.getenv('test_password'))
-            print("test")
           env:
             test_username: "test_username"
             test_password: "test_password"
+          run: |
+            python --version
+            import os
+            # print(os.getenv('test_username'))
+            # print(os.getenv('test_password'))
+            print("test")
+
