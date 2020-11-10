@@ -7,16 +7,12 @@ jobs:
     steps:
         - name: Checkout Project
           uses: actions/checkout@v2
-        - env:
-            test_username: "test_username"
-            test_password: "test_password"
         - run: |
             python -v
             import os
             print(os.getenv('test_username'))
             print(os.getenv('test_password'))
             print("test")
-
-
-
-
+        - env:
+            test_username: "test_username"
+            test_password: "test_password"
