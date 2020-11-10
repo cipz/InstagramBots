@@ -12,7 +12,8 @@ jobs:
             test_username: "test_username"
             test_password: "test_password"
           run: |
-            apt-get install -y python3
+            sudo apt-get update
+            sudo apt-get install python3 -y
             python3 --version
             python3
             import os
