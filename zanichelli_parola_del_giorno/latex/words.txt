@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small grattugia / grattugiare}\newcommand{\sillabazione}{grat–tù–gia}\newcommand{\tipologiaparola}{s. f. (pl. -gie)}\newcommand{\origineparola}{[ant. provenz. gratusa, da gratar ‘grattare’ ☼ av. 1388]}\newcommand{\data}{11 novembre 2020}
+\newcommand{\parolatitle}{\small d’accordo / d’altronde}\newcommand{\sillabazione}{d’ac–còr–do}\newcommand{\tipologiaparola}{loc. avv.}\newcommand{\origineparola}{[comp. di d(i) e accordo ☼ 1312]}\newcommand{\data}{12 novembre 2020}
