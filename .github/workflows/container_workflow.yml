@@ -21,5 +21,6 @@ jobs:
             echo "print(os.getenv('test_password'))" >> test.py
             echo "print('test')" >> test.py
             python3 -u test.py
-            
-
+            ls
+            ls ../
+            ls ../../
