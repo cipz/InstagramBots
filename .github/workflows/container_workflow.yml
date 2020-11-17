@@ -2,7 +2,7 @@ name: container workflow test
 on: [workflow_dispatch]
 jobs:
   build:
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     container: cipz/instagram_bots:latest
     steps:
         - name: Checkout Project
