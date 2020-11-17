@@ -1,5 +1,10 @@
-name: container workflow test
-on: [workflow_dispatch]
+name: Containerized workflow
+on: 
+#  # To manually execute action
+  [workflow_dispatch]
+#   schedule:
+#     # * is a special character in YAML so you have to quote this string
+#      - cron:  '30 */10 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -7,20 +12,33 @@ jobs:
     steps:
         - name: Checkout Project
           uses: actions/checkout@v2
-        - name: python test
+
+        ### santo_del_giorno ###
+
+        - name: Running python script santo_del_giorno
+          working-directory: "santo_del_giorno"
+          continue-on-error: true
           env:
-            test_username: "soy uno username"
-            test_password: "soy la password por el username"
+            santo_username: ${{ secrets.santo_username }}
+            santo_password: ${{ secrets.santo_password }}
           run: |
-            apt-get update
-            apt-get install python3 -y
-            python3 --version
-            touch test.py
-            echo "import os" >> test.py
-            echo "print(os.getenv('test_username'))" >> test.py
-            echo "print(os.getenv('test_password'))" >> test.py
-            echo "print('test')" >> test.py
-            python3 -u test.py
-            ls
-            ls ../
-            ls ../../
+            python3 -u santo_del_giorno.py
+        - name: Commit files if any
+          id: commit_santo_del_giorno
+          working-directory: "santo_del_giorno"
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "github-actions"
+            git add params.json
+            git commit -m "New post from santo_del_giorno" -a
+          continue-on-error: true
+          shell: bash
+          
+
+        ### PUSHING ALL CHANGES ###
+
+        - name: Push changes if any
+          uses: ad-m/github-push-action@master
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+          continue-on-error: true
