@@ -9,16 +9,16 @@ jobs:
           uses: actions/checkout@v2
         - name: python test
           env:
-            test_username: "test_username"
-            test_password: "test_password"
+            test_username: "soy uno username"
+            test_password: "soy la password por el username"
           run: |
             apt-get update
             apt-get install python3 -y
             python3 --version
             touch test.py
             echo "import os" >> test.py
-            echo "print(os.getenv('soy uno username'))" >> test.py
-            echo "print(os.getenv('soy la password por el username'))" >> test.py
+            echo "print(os.getenv('test_username'))" >> test.py
+            echo "print(os.getenv('test_password'))" >> test.py
             echo "print('test')" >> test.py
             python3 -u test.py
             
