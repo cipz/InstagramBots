@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small mobilia / ammobiliare}\newcommand{\sillabazione}{mo–bì–lia}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. mobĭlia, nt. pl. di mōbilis ‘mobile (1)’ ☼ 1309]\end{spacing}}}\newcommand{\data}{19 novembre 2020}
+\newcommand{\parolatitle}{avallo / \newline avallare}\newcommand{\sillabazione}{a–vàl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[fr. aval, di etim. incerta ☼ 1795]}\newcommand{\data}{20 novembre 2020}
