@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{avallo / \newline avallare}\newcommand{\sillabazione}{a–vàl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[fr. aval, di etim. incerta ☼ 1795]}\newcommand{\data}{20 novembre 2020}
+\newcommand{\parolatitle}{\LARGE colluttazione}\newcommand{\sillabazione}{col–lut–ta–zió–ne}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. colluctatiōne(m), da colluctāri ‘colluttare’ ☼ 1848]\end{spacing}}}\newcommand{\data}{21 novembre 2020}
