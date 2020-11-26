@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE femminicidio}\newcommand{\sillabazione}{fem–mi–ni–cì–dio}\newcommand{\tipologiaparola}{s. m. (pl. -i o raro -ii)}\newcommand{\origineparola}{[comp. di femmina e -cidio (1) ☼ 1888]}\newcommand{\data}{25 novembre 2020}
+\newcommand{\parolatitle}{\LARGE annualizzare}\newcommand{\sillabazione}{an–nua–liz–zà–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{[1949]}\newcommand{\data}{26 novembre 2020}
