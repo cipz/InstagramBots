@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE annualizzare}\newcommand{\sillabazione}{an–nua–liz–zà–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{[1949]}\newcommand{\data}{26 novembre 2020}
+\newcommand{\parolatitle}{prelazione}\newcommand{\sillabazione}{pre–la–zió–ne}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. praelatiōne(m), da praelātus, part. pass. di praefĕrre ‘mettere innanzi’ (V. preferire) ☼ av. 1306]\end{spacing}}}\newcommand{\data}{27 novembre 2020}
