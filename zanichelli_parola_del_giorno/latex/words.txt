@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{nouvelle\newline cuisine}\newcommand{\sillabazione}{nou–vel–le cui–si–ne}\newcommand{\tipologiaparola}{loc. sost. f. inv.}\newcommand{\origineparola}{[loc. fr., propr. ‘nuova cucina’ ☼ 1984]}\newcommand{\data}{29 novembre 2020}
+\newcommand{\parolatitle}{fuscello}\newcommand{\sillabazione}{fu–scèl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. parl. *fusticĕllu(m), dim. di fūstis ‘bastone’. V. fusto ☼ 1353]\end{spacing}}}\newcommand{\data}{30 novembre 2020}
