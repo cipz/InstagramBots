@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fuscello}\newcommand{\sillabazione}{fu–scèl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. parl. *fusticĕllu(m), dim. di fūstis ‘bastone’. V. fusto ☼ 1353]\end{spacing}}}\newcommand{\data}{30 novembre 2020}
+\newcommand{\parolatitle}{decabrista}\newcommand{\sillabazione}{de–ca–brì–sta}\newcommand{\tipologiaparola}{A s. m. (pl. -i)}\newcommand{\origineparola}{[russo dekabríst, da dekábr’ ‘dicembre’ ☼ 1892]}\newcommand{\data}{1 dicembre 2020}
