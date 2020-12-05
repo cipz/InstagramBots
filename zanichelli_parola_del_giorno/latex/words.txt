@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{madonnaro}\newcommand{\sillabazione}{ma–don–nà–ro}\newcommand{\tipologiaparola}{s. m. (f. -a)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[da Madonna, perché vende immagini sacre della Madonna ☼ av. 1939]\end{spacing}}}\newcommand{\data}{4 dicembre 2020}
+\newcommand{\parolatitle}{sorvolo}\newcommand{\sillabazione}{sor–vó–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da sorvolare ☼ 1950]}\newcommand{\data}{5 dicembre 2020}
