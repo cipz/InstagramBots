@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{buccellato}\newcommand{\sillabazione}{buc–cel–là–to}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. tardo buccellātu(m) ‘pane militare’: da buccĕlla, nel senso di ‘panino a forma di corona o bocca (bŭcca)’ (?) ☼ av. 1342]\end{spacing}}}\newcommand{\data}{7 dicembre 2020}
+\newcommand{\parolatitle}{cartellata}\newcommand{\sillabazione}{car–tel–là–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[dal pugliese carteddata ☼ 1931]}\newcommand{\data}{8 dicembre 2020}
