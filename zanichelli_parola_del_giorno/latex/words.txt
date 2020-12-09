@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{cartellata}\newcommand{\sillabazione}{car–tel–là–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[dal pugliese carteddata ☼ 1931]}\newcommand{\data}{8 dicembre 2020}
+\newcommand{\parolatitle}{pinza}\newcommand{\sillabazione}{pìn–za}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[dal dial. piza ‘pizza’ con intrusione di n ☼ 1931]}\newcommand{\data}{9 dicembre 2020}
