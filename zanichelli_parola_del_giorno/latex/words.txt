@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{pandolce}\newcommand{\sillabazione}{pan–dól–ce}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[comp. di pane (1) e dolce ☼ av. 1872]}\newcommand{\data}{10 dicembre 2020}
+\newcommand{\parolatitle}{pangiallo}\newcommand{\sillabazione}{pan–giàl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[comp. di pan(e) (1) e giallo ☼ 1803]}\newcommand{\data}{11 dicembre 2020}
