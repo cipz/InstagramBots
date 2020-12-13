@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{certosino}\newcommand{\sillabazione}{cer–to–sì–no}\newcommand{\tipologiaparola}{A agg.}\newcommand{\origineparola}{[da certosa ☼ av. 1400]}\newcommand{\data}{12 dicembre 2020}
+\newcommand{\parolatitle}{struffolo}\newcommand{\sillabazione}{strùf–fo–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[dal longob. *strupf ‘batuffolo, brandello’ ☼ av. 1525]}\newcommand{\data}{13 dicembre 2020}
