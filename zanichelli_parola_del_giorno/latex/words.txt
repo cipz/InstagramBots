@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{struffolo}\newcommand{\sillabazione}{strùf–fo–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[dal longob. *strupf ‘batuffolo, brandello’ ☼ av. 1525]}\newcommand{\data}{13 dicembre 2020}
+\newcommand{\parolatitle}{spongata}\newcommand{\sillabazione}{spon–gà–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[da sponga, per l’aspetto ☼ 1617]}\newcommand{\data}{14 dicembre 2020}
