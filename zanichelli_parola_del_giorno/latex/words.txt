@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{spongata}\newcommand{\sillabazione}{spon–gà–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[da sponga, per l’aspetto ☼ 1617]}\newcommand{\data}{14 dicembre 2020}
+\newcommand{\parolatitle}{torcolo}\newcommand{\sillabazione}{tòr–co–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da torcere, per la forma a torciglione ☼ sec. XIV]}\newcommand{\data}{15 dicembre 2020}
