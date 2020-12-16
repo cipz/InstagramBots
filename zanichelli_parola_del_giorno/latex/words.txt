@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{torcolo}\newcommand{\sillabazione}{tòr–co–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da torcere, per la forma a torciglione ☼ sec. XIV]}\newcommand{\data}{15 dicembre 2020}
+\newcommand{\parolatitle}{zelten}\newcommand{\sillabazione}{zel–ten}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{[vc. austriaca, di orig. germ. ☼ 1931]}\newcommand{\data}{16 dicembre 2020}
