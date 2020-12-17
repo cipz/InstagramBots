@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{zelten}\newcommand{\sillabazione}{zel–ten}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{[vc. austriaca, di orig. germ. ☼ 1931]}\newcommand{\data}{16 dicembre 2020}
+\newcommand{\parolatitle}{panettone}\newcommand{\sillabazione}{pa–net–tó–ne}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[milan. panattón, da pane (1) ☼ 1803]}\newcommand{\data}{17 dicembre 2020}
