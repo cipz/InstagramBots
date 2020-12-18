@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{panettone}\newcommand{\sillabazione}{pa–net–tó–ne}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[milan. panattón, da pane (1) ☼ 1803]}\newcommand{\data}{17 dicembre 2020}
+\newcommand{\parolatitle}{pandoro}\newcommand{\sillabazione}{pan–dò–ro}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da pan(e) (1) d’oro ☼ 1927]}\newcommand{\data}{18 dicembre 2020}
