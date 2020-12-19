@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{pandoro}\newcommand{\sillabazione}{pan–dò–ro}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da pan(e) (1) d’oro ☼ 1927]}\newcommand{\data}{18 dicembre 2020}
+\newcommand{\parolatitle}{\LARGE ricciarello}\newcommand{\sillabazione}{ric–cia–rèl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da riccio (2), per la forma che aveva un tempo (?) ☼ 1891]}\newcommand{\data}{19 dicembre 2020}
