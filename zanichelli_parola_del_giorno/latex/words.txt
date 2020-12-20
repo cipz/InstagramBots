@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE ricciarello}\newcommand{\sillabazione}{ric–cia–rèl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da riccio (2), per la forma che aveva un tempo (?) ☼ 1891]}\newcommand{\data}{19 dicembre 2020}
+\newcommand{\parolatitle}{tronchetto}\newcommand{\sillabazione}{tron–chét–to}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[av. 1940]}\newcommand{\data}{20 dicembre 2020}
