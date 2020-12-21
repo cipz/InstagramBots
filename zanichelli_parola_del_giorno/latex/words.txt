@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{tronchetto}\newcommand{\sillabazione}{tron–chét–to}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[av. 1940]}\newcommand{\data}{20 dicembre 2020}
+\newcommand{\parolatitle}{strenna / \newline regalo}\newcommand{\sillabazione}{strèn–na}\newcommand{\tipologiaparola}{A s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. strēna(m) ‘dono di buon augurio’, f. sost. di strēnuus ‘forte, animoso’, di orig. sabina (?) ☼ sec. XIII]\end{spacing}}}\newcommand{\data}{21 dicembre 2020}
