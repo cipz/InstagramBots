@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{cottio}\newcommand{\sillabazione}{cot–tì–o}\newcommand{\tipologiaparola}{s. m. (pl. -ii)}\newcommand{\origineparola}{[etim. incerta ☼ 1963]}\newcommand{\data}{23 dicembre 2020}
+\newcommand{\parolatitle}{cenone}\newcommand{\sillabazione}{ce–nó–ne}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[1865]}\newcommand{\data}{24 dicembre 2020}
