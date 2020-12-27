@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small abbuffata / abbuffarsi}\newcommand{\sillabazione}{ab–buf–fà–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[1973]}\newcommand{\data}{26 dicembre 2020}
+\newcommand{\parolatitle}{paesello}\newcommand{\sillabazione}{pa–e–sèl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[av. 1535]}\newcommand{\data}{27 dicembre 2020}
