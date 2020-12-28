@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{paesello}\newcommand{\sillabazione}{pa–e–sèl–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[av. 1535]}\newcommand{\data}{27 dicembre 2020}
+\newcommand{\parolatitle}{ceppo}\newcommand{\sillabazione}{cép–po}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[lat. cĭppu(m) ‘cippo, colonnetta’, di etim. incerta ☼ 1266]}\newcommand{\data}{28 dicembre 2020}
