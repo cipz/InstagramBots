@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{ceppo}\newcommand{\sillabazione}{cép–po}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[lat. cĭppu(m) ‘cippo, colonnetta’, di etim. incerta ☼ 1266]}\newcommand{\data}{28 dicembre 2020}
+\newcommand{\parolatitle}{almanacco}\newcommand{\sillabazione}{al–ma–nàc–co}\newcommand{\tipologiaparola}{s. m. (pl. -chi)}\newcommand{\origineparola}{[ arabo al-manāḫ ‘clima’ ☼ av. 1348]}\newcommand{\data}{29 dicembre 2020}
