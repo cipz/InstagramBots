@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{almanacco}\newcommand{\sillabazione}{al–ma–nàc–co}\newcommand{\tipologiaparola}{s. m. (pl. -chi)}\newcommand{\origineparola}{[ arabo al-manāḫ ‘clima’ ☼ av. 1348]}\newcommand{\data}{29 dicembre 2020}
+\newcommand{\parolatitle}{calendario}\newcommand{\sillabazione}{ca–len–dà–rio}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. tardo calendāriu(m), da calĕndae ‘calende’ ☼ 1282]\end{spacing}}}\newcommand{\data}{30 dicembre 2020}
