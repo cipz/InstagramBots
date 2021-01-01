@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{addio}\newcommand{\sillabazione}{ad–dì–o}\newcommand{\tipologiaparola}{A inter.}\newcommand{\origineparola}{[comp. da ad e Dio ☼ sec. XIII]}\newcommand{\data}{31 dicembre 2020}
+\newcommand{\parolatitle}{fraternità}\newcommand{\sillabazione}{fra–ter–ni–tà}\newcommand{\tipologiaparola}{s. f. inv.}\newcommand{\origineparola}{[lat. fraternitāte(m), da fratĕrnus ‘fraterno’ ☼ 1268]}\newcommand{\data}{1 gennaio 2021}
