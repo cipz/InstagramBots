@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fraternità}\newcommand{\sillabazione}{fra–ter–ni–tà}\newcommand{\tipologiaparola}{s. f. inv.}\newcommand{\origineparola}{[lat. fraternitāte(m), da fratĕrnus ‘fraterno’ ☼ 1268]}\newcommand{\data}{1 gennaio 2021}
+\newcommand{\parolatitle}{fortuna}\newcommand{\sillabazione}{for–tù–na}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[lat. fortūna(m), da fŏrs ‘caso’ ☼ av. 1249]}\newcommand{\data}{2 gennaio 2021}
