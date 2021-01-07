@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fortuna}\newcommand{\sillabazione}{for–tù–na}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[lat. fortūna(m), da fŏrs ‘caso’ ☼ av. 1249]}\newcommand{\data}{2 gennaio 2021}
+\newcommand{\parolatitle}{infavato}\newcommand{\sillabazione}{in–fa–và–to}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[da fava per il colore assunto dagli acini, simile a quello dei semi di fava ☼ 1957]\end{spacing}}}\newcommand{\data}{7 gennaio 2021}
