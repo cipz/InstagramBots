@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{infavato}\newcommand{\sillabazione}{in–fa–và–to}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[da fava per il colore assunto dagli acini, simile a quello dei semi di fava ☼ 1957]\end{spacing}}}\newcommand{\data}{7 gennaio 2021}
+\newcommand{\parolatitle}{barricato}\newcommand{\sillabazione}{bar–ri–cà–to}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[dal fr. barrique (V.) ☼ 1989]}\newcommand{\data}{8 gennaio 2021}
