@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{barricato}\newcommand{\sillabazione}{bar–ri–cà–to}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[dal fr. barrique (V.) ☼ 1989]}\newcommand{\data}{8 gennaio 2021}
+\newcommand{\parolatitle}{\small marsalato / maderizzazione}\newcommand{\sillabazione}{mar–sa–là–to}\newcommand{\tipologiaparola}{part. pass. di marsalare; anche agg.}\newcommand{\origineparola}{1 che ha profumo e sapore di marsala}\newcommand{\data}{9 gennaio 2021}
