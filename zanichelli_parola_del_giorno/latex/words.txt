@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small marsalato / maderizzazione}\newcommand{\sillabazione}{mar–sa–là–to}\newcommand{\tipologiaparola}{part. pass. di marsalare; anche agg.}\newcommand{\origineparola}{1 che ha profumo e sapore di marsala}\newcommand{\data}{9 gennaio 2021}
+\newcommand{\parolatitle}{tannico}\newcommand{\sillabazione}{tàn–ni–co}\newcommand{\tipologiaparola}{agg. (pl. m. -ci)}\newcommand{\origineparola}{[fr. tannique ‘pertinente al tanno (tan)’ ☼ 1842]}\newcommand{\data}{10 gennaio 2021}
