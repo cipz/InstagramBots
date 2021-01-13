@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{passito}\newcommand{\sillabazione}{pas–sì–to}\newcommand{\tipologiaparola}{A agg.}\newcommand{\origineparola}{[da (uva) passa ☼ 1906]}\newcommand{\data}{12 gennaio 2021}
+\newcommand{\parolatitle}{abboccato / \newline pastoso}\newcommand{\sillabazione}{ab–boc–cà–to}\newcommand{\tipologiaparola}{part. pass. di abboccare; anche agg.}\newcommand{\origineparola}{1 nei sign. del v.}\newcommand{\data}{13 gennaio 2021}
