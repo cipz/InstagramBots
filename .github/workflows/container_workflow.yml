@@ -253,7 +253,7 @@ jobs:
         ### PUSHING ALL CHANGES ###
 
         - name: Push changes if any
-          uses: ad-m/github-push-action@main
+          uses: ad-m/github-push-action@master
           with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
           continue-on-error: true
