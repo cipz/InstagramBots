@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{amabile}\newcommand{\sillabazione}{a–mà–bi–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[vc. dotta, lat. amābile(m) da amāre ‘amare’ ☼ 1268]}\newcommand{\data}{14 gennaio 2021}
+\newcommand{\parolatitle}{rasposo / \newline ruvido}\newcommand{\sillabazione}{ra–spó–so}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[da raspa ☼ sec. XV]}\newcommand{\data}{15 gennaio 2021}
