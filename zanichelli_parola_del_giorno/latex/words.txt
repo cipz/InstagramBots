@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{rasposo / \newline ruvido}\newcommand{\sillabazione}{ra–spó–so}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[da raspa ☼ sec. XV]}\newcommand{\data}{15 gennaio 2021}
+\newcommand{\parolatitle}{liquoroso}\newcommand{\sillabazione}{li–quo–ró–so}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[da liquore ☼ 1789]}\newcommand{\data}{16 gennaio 2021}
