@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{liquoroso}\newcommand{\sillabazione}{li–quo–ró–so}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[da liquore ☼ 1789]}\newcommand{\data}{16 gennaio 2021}
+\newcommand{\parolatitle}{fruttato}\newcommand{\sillabazione}{frut–tà–to}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[da frutta ☼ 1970]}\newcommand{\data}{17 gennaio 2021}
