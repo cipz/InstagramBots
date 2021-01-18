@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fruttato}\newcommand{\sillabazione}{frut–tà–to}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[da frutta ☼ 1970]}\newcommand{\data}{17 gennaio 2021}
+\newcommand{\parolatitle}{lanugine}\newcommand{\sillabazione}{la–nù–gi–ne}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[vc. dotta, lat. lanūgine(m), da lāna ‘lana’ ☼ av. 1320]}\newcommand{\data}{18 gennaio 2021}
