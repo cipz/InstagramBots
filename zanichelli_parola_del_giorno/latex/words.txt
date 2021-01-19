@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{lanugine}\newcommand{\sillabazione}{la–nù–gi–ne}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[vc. dotta, lat. lanūgine(m), da lāna ‘lana’ ☼ av. 1320]}\newcommand{\data}{18 gennaio 2021}
+\newcommand{\parolatitle}{epilogo}\newcommand{\sillabazione}{e–pì–lo–go}\newcommand{\tipologiaparola}{s. m. (pl. -ghi)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. epĭlogu(m), dal gr. epílogos ‘discorso (lógos) aggiunto (epí), conclusivo’ ☼ 1354]\end{spacing}}}\newcommand{\data}{19 gennaio 2021}
