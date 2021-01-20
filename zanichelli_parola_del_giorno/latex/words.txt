@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{epilogo}\newcommand{\sillabazione}{e–pì–lo–go}\newcommand{\tipologiaparola}{s. m. (pl. -ghi)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. epĭlogu(m), dal gr. epílogos ‘discorso (lógos) aggiunto (epí), conclusivo’ ☼ 1354]\end{spacing}}}\newcommand{\data}{19 gennaio 2021}
+\newcommand{\parolatitle}{scialle}\newcommand{\sillabazione}{sciàl–le}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[dal fr. châle, risalente al persiano sāl ☼ 1621]}\newcommand{\data}{20 gennaio 2021}
