@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{scialle}\newcommand{\sillabazione}{sciàl–le}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[dal fr. châle, risalente al persiano sāl ☼ 1621]}\newcommand{\data}{20 gennaio 2021}
+\newcommand{\parolatitle}{\small comunista / comunismo}\newcommand{\sillabazione}{co–mu–nì–sta}\newcommand{\tipologiaparola}{A agg. (pl. m. -i)}\newcommand{\origineparola}{[fr. communiste, da commun ‘comune’ ☼ 1846]}\newcommand{\data}{21 gennaio 2021}
