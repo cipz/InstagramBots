@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{omogamia}\newcommand{\sillabazione}{o–mo–ga–mì–a}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[comp. di omo- (1) e -gamia ☼ 1958]}\newcommand{\data}{23 gennaio 2021}
+\newcommand{\parolatitle}{radichetta}\newcommand{\sillabazione}{ra–di–chét–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[1784]}\newcommand{\data}{24 gennaio 2021}
