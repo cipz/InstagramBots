@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{radichetta}\newcommand{\sillabazione}{ra–di–chét–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[1784]}\newcommand{\data}{24 gennaio 2021}
+\newcommand{\parolatitle}{mistura}\newcommand{\sillabazione}{mi–stù–ra}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[vc. dotta, lat. mixtūra(m), da mĭxtus ‘misto’ ☼ 1308]}\newcommand{\data}{25 gennaio 2021}
