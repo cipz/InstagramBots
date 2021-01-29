@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{ring}\newcommand{\sillabazione}{ring}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{[vc. ingl., ‘anello’, di orig. germ. ☼ 1897]}\newcommand{\data}{28 gennaio 2021}
+\newcommand{\parolatitle}{merla}\newcommand{\sillabazione}{mèr–la}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[f. di merlo (1) ☼ av. 1342]}\newcommand{\data}{29 gennaio 2021}
