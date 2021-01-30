@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{merla}\newcommand{\sillabazione}{mèr–la}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[f. di merlo (1) ☼ av. 1342]}\newcommand{\data}{29 gennaio 2021}
+\newcommand{\parolatitle}{\small aghifoglia / latifoglia}\newcommand{\sillabazione}{a–ghi–fò–glia}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[comp. di ago e foglia ☼ 1929]}\newcommand{\data}{30 gennaio 2021}
