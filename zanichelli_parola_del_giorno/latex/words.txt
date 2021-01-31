@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small aghifoglia / latifoglia}\newcommand{\sillabazione}{a–ghi–fò–glia}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[comp. di ago e foglia ☼ 1929]}\newcommand{\data}{30 gennaio 2021}
+\newcommand{\parolatitle}{piota / \newline piotare}\newcommand{\sillabazione}{piò–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[lat. plāutu(m) ‘piatto, largo’, di etim. incerta ☼ 1313]}\newcommand{\data}{31 gennaio 2021}
