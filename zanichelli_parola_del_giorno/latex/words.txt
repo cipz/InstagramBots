@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{piota / \newline piotare}\newcommand{\sillabazione}{piò–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[lat. plāutu(m) ‘piatto, largo’, di etim. incerta ☼ 1313]}\newcommand{\data}{31 gennaio 2021}
+\newcommand{\parolatitle}{freddo}\newcommand{\sillabazione}{fréd–do}\newcommand{\tipologiaparola}{A agg.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. frīgidu(m), da frigēre ‘essere freddo’, di orig. indeur. ☼ 1250 ca.]\end{spacing}}}\newcommand{\data}{1 febbraio 2021}
