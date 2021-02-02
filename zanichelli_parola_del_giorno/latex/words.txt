@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{freddo}\newcommand{\sillabazione}{fréd–do}\newcommand{\tipologiaparola}{A agg.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. frīgidu(m), da frigēre ‘essere freddo’, di orig. indeur. ☼ 1250 ca.]\end{spacing}}}\newcommand{\data}{1 febbraio 2021}
+\newcommand{\parolatitle}{\small galaverna / calabrosa}\newcommand{\sillabazione}{ga–la–vèr–na}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[1432]}\newcommand{\data}{2 febbraio 2021}
