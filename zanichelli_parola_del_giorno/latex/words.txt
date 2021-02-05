@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small gelo / gelido / raggelare}\newcommand{\sillabazione}{gè–lo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[lat. gĕlu, di orig. indeur. ☼ av. 1292]}\newcommand{\data}{4 febbraio 2021}
+\newcommand{\parolatitle}{\footnotesize intirizzire / aggranchiare / aggranchire}\newcommand{\sillabazione}{in–ti–riz–zì–re}\newcommand{\tipologiaparola}{A v. tr. (io intirizzìsco, tu intirizzìsci)}\newcommand{\origineparola}{[vc. onomat. con richiamo a interito ‘irrigidito’ ☼ 1615]}\newcommand{\data}{5 febbraio 2021}
