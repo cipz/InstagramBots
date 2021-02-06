@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\footnotesize intirizzire / aggranchiare / aggranchire}\newcommand{\sillabazione}{in–ti–riz–zì–re}\newcommand{\tipologiaparola}{A v. tr. (io intirizzìsco, tu intirizzìsci)}\newcommand{\origineparola}{[vc. onomat. con richiamo a interito ‘irrigidito’ ☼ 1615]}\newcommand{\data}{5 febbraio 2021}
+\newcommand{\parolatitle}{tramontana}\newcommand{\sillabazione}{tra–mon–tà–na}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[propr. (vento ol)tramontano ☼ av. 1276]}\newcommand{\data}{6 febbraio 2021}
