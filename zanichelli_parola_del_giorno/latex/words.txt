@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{tramontana}\newcommand{\sillabazione}{tra–mon–tà–na}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[propr. (vento ol)tramontano ☼ av. 1276]}\newcommand{\data}{6 febbraio 2021}
+\newcommand{\parolatitle}{gelone}\newcommand{\sillabazione}{ge–ló–ne}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da gelo, che lo cagiona ☼ 1822]}\newcommand{\data}{7 febbraio 2021}
