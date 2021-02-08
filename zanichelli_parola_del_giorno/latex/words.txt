@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{gelone}\newcommand{\sillabazione}{ge–ló–ne}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da gelo, che lo cagiona ☼ 1822]}\newcommand{\data}{7 febbraio 2021}
+\newcommand{\parolatitle}{assiderare}\newcommand{\sillabazione}{as–si–de–rà–re}\newcommand{\tipologiaparola}{A v. tr. (io assìdero)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. parl. *assiderāre, comp. di ăd e sīdus, genit. sīderis ‘costellazione, clima, stagione’ ☼ 1353]\end{spacing}}}\newcommand{\data}{8 febbraio 2021}
