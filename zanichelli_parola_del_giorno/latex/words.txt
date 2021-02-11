@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small brivido / rabbrividire}\newcommand{\sillabazione}{brì–vi–do}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[etim. incerta, forse di origine onomat. ☼ 1612]}\newcommand{\data}{10 febbraio 2021}
+\newcommand{\parolatitle}{\small infreddolire / agghiacciare}\newcommand{\sillabazione}{in–fred–do–lì–re}\newcommand{\tipologiaparola}{v. intr. (io infreddolìsco, tu infreddolìsci; aus. essere) e infreddolìrsi v. intr. pron.}\newcommand{\origineparola}{[comp. di in- (1) e freddo ☼ 1855]}\newcommand{\data}{11 febbraio 2021}
