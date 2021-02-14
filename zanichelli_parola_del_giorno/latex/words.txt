@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small paraorecchie / scaldacollo}\newcommand{\sillabazione}{pa–ra–o–réc–chie}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{[comp. di para- (2) e il pl. di orecchio ☼ 1875]}\newcommand{\data}{13 febbraio 2021}
+\newcommand{\parolatitle}{\small muffola / passamontagna}\newcommand{\sillabazione}{mùf–fo–la}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[dal fr. moufle ‘guanto, manicotto’, di orig. germ. ☼ 1550]}\newcommand{\data}{14 febbraio 2021}
