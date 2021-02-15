@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small muffola / passamontagna}\newcommand{\sillabazione}{mùf–fo–la}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[dal fr. moufle ‘guanto, manicotto’, di orig. germ. ☼ 1550]}\newcommand{\data}{14 febbraio 2021}
+\newcommand{\parolatitle}{\LARGE cronoprogramma}\newcommand{\sillabazione}{cro–no–pro–gràm–ma}\newcommand{\tipologiaparola}{s. m. (pl. -i)}\newcommand{\origineparola}{[comp. di crono- e programma ☼ 1981]}\newcommand{\data}{15 febbraio 2021}
