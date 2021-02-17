@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fannullone}\newcommand{\sillabazione}{fan–nul–ló–ne}\newcommand{\tipologiaparola}{s. m. (f. -a)}\newcommand{\origineparola}{[comp. di fare (1) e nulla ☼ 1847]}\newcommand{\data}{16 febbraio 2021}
+\newcommand{\parolatitle}{fronda}\newcommand{\sillabazione}{frón–da}\newcommand{\tipologiaparola}{s. f. (pl. -e, lett. -i)}\newcommand{\origineparola}{[lat. frŏnde(m), di etim. incerta ☼ av. 1257]}\newcommand{\data}{17 febbraio 2021}
