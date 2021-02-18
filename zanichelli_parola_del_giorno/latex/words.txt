@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fronda}\newcommand{\sillabazione}{frón–da}\newcommand{\tipologiaparola}{s. f. (pl. -e, lett. -i)}\newcommand{\origineparola}{[lat. frŏnde(m), di etim. incerta ☼ av. 1257]}\newcommand{\data}{17 febbraio 2021}
+\newcommand{\parolatitle}{\LARGE irreversibile}\newcommand{\sillabazione}{ir–re–ver–sì–bi–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[comp. di in- (3) e reversibile ☼ 1794]}\newcommand{\data}{18 febbraio 2021}
