@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{esecutivo}\newcommand{\sillabazione}{e–se–cu–tì–vo}\newcommand{\tipologiaparola}{A agg.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, tratta dal lat. exsecūtus, part. pass. di ĕxsequi ‘eseguire’ ☼ av. 1328]\end{spacing}}}\newcommand{\data}{19 febbraio 2021}
+\newcommand{\parolatitle}{cuscinata}\newcommand{\sillabazione}{cu–sci–nà–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[1923]}\newcommand{\data}{20 febbraio 2021}
