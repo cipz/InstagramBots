@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{cuscinata}\newcommand{\sillabazione}{cu–sci–nà–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[1923]}\newcommand{\data}{20 febbraio 2021}
+\newcommand{\parolatitle}{\LARGE interministeriale}\newcommand{\sillabazione}{in–ter–mi–ni–ste–rià–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[comp. di inter- e ministero, con suff. agg. ☼ 1950]}\newcommand{\data}{21 febbraio 2021}
