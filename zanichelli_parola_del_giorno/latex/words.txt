@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE interministeriale}\newcommand{\sillabazione}{in–ter–mi–ni–ste–rià–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[comp. di inter- e ministero, con suff. agg. ☼ 1950]}\newcommand{\data}{21 febbraio 2021}
+\newcommand{\parolatitle}{ambizione}\newcommand{\sillabazione}{am–bi–zió–ne}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[vc. dotta, lat. ambitiōne(m), da ambīre ‘ambire’ ☼ 1275]}\newcommand{\data}{22 febbraio 2021}
