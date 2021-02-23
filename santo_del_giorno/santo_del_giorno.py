@@ -55,7 +55,7 @@ santo_main_div = santo_main_page_soup.find('div', {'id':'CenterDiv'})
 
 nome_santo = santo_main_div.find('h1').text
 foto_santo_url = santo_main_div.find('img')['src']
-descrizione_santo = santo_main_div.find('div',{'style':'float:left; text-align:justify; width: 512px;margin-left: 30px;'})
+descrizione_santo = santo_main_div.find('div',{'style':'float:left; text-align:justify; width: 512px;margin-left: 30px;font-size: 16px;'})
 
 for div in descrizione_santo.findAll('div'):
     div.decompose()
