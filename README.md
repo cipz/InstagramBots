@@ -62,3 +62,7 @@ There are many improvements that can be done, here are just a few:
 - create a single `utils.py` file that contains the common functions
 - avoid the use of latex and use the PIL library to automatically generate the square images
 - make more granular `yml` workflow files, possibly one for each python script
+
+## Interesting tutorials
+
+- [Finding the Most Common Colors in Python](https://towardsdatascience.com/finding-most-common-colors-in-python-47ea0767a06a)

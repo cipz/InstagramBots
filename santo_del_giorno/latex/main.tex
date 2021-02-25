@@ -7,8 +7,17 @@
 \usepackage{tikz}
 
 \begin{document}
-	
+
 	\pagestyle{empty}
+		
+	\tikz[remember picture,overlay] 
+	\node[
+	inner sep=0pt
+	] (logo) at (current page.center)
+	{
+		\includegraphics[height=7cm, width=7cm]{../bg}
+	};
+
 	\tikz[remember picture,overlay] 
 	\node[
 	inner sep=0pt
@@ -16,5 +25,5 @@
 	{
 		\includegraphics[height=\paperheight, width=\paperwidth, keepaspectratio]{../img}
 	};
-		
+
 \end{document}
