@@ -13,7 +13,7 @@ RUN apt-get update && \
 
     # Installing pip and python dependencies
 RUN apt install python3-pip -y
-RUN pip3 install instabot bs4 wget pdf2image poppler-utils Babel
+RUN pip3 install instabot bs4 wget pdf2image poppler-utils Babel opencv-python matplotlib
 
 RUN apt-get install git -y
 
