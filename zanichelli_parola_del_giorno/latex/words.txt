@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{sbozzare}\newcommand{\sillabazione}{sboz–zà–re}\newcommand{\tipologiaparola}{v. tr. (io ṣbòzzo)}\newcommand{\origineparola}{[comp. di s- e †bozzare (V.) ☼ av. 1535]}\newcommand{\data}{25 febbraio 2021}
+\newcommand{\parolatitle}{scissione}\newcommand{\sillabazione}{scis–sió–ne}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, dal lat. scissiōne(m), da scĭssus ‘scisso’ ☼ 1584]\end{spacing}}}\newcommand{\data}{26 febbraio 2021}
