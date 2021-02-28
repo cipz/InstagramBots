@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{podcast}\newcommand{\sillabazione}{pod–cast}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. ingl., propr. ‘trasmissione ((broad)cast) da un contenitore (pod)’; V. anche iPod ☼ 2005]\end{spacing}}}\newcommand{\data}{27 febbraio 2021}
+\newcommand{\parolatitle}{raffittire}\newcommand{\sillabazione}{raf–fit–tì–re}\newcommand{\tipologiaparola}{A v. tr. (io raffittìsco, tu raffittìsci)}\newcommand{\origineparola}{[comp. di r(i)- e affittire ☼ 1759]}\newcommand{\data}{28 febbraio 2021}
