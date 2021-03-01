@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{raffittire}\newcommand{\sillabazione}{raf–fit–tì–re}\newcommand{\tipologiaparola}{A v. tr. (io raffittìsco, tu raffittìsci)}\newcommand{\origineparola}{[comp. di r(i)- e affittire ☼ 1759]}\newcommand{\data}{28 febbraio 2021}
+\newcommand{\parolatitle}{mollica}\newcommand{\sillabazione}{mol–lì–ca}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[lat. parl. *mollīca(m), da mŏllis ‘molle’ ☼ 1377]}\newcommand{\data}{1 marzo 2021}
