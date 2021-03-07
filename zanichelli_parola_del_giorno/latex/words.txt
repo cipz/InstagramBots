@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{leccornia}\newcommand{\sillabazione}{lec–cor–nì–a}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[da leccone ‘ghiottone’, attraverso una forma lecconerìa, divenuta leccornìa per metatesi ☼ sec. XIV]\end{spacing}}}\newcommand{\data}{6 marzo 2021}
+\newcommand{\parolatitle}{stage}\newcommand{\sillabazione}{stage}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{[vc. fr., propr. ‘tirocinio’ ☼ 1865]}\newcommand{\data}{7 marzo 2021}
