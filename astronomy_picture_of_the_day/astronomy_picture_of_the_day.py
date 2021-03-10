@@ -1,106 +1,132 @@
-from pdf2image import convert_from_path
-from bs4 import BeautifulSoup
-from instabot import Bot
+#!/usr/bin/python
+
+# Importing custom files
+import sys
+sys.path.insert(1, '../')
+
+import utils
+import instagram
+
 from datetime import date
+from bs4 import BeautifulSoup
 import requests
 import wget
 import json
 import os
 
-# TODO https://stackoverflow.com/questions/3241929/python-find-dominant-most-common-color-in-an-image
+def main(debug):
 
-# Grabbing the username and password for the account
-with open('params.json', 'r') as params_file:
-    json_params = json.load(params_file)
+    ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- 
 
-params_file.close()
+    # Getting parameters
+    params_file = 'params.json'
+    params = utils.get_params(params_file)
 
-# When testing locally with username and password in params file
-# username = json_params['username']
-# password = json_params['password']
+    username = params['username']
+    password = params['password']
+    previous_post_key = params['previous_post_key']
 
-# When the username and password are stored as environment variables
-username = os.getenv('apod_username')
-password = os.getenv('apod_password')
+    ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- 
 
-previous_post_key = json_params['previous_post_key']
+    # Defining edited parameters dictionary
+    edit_params = {}
 
-base_url = 'https://apod.nasa.gov/apod/'
-today = date.today()
-today_url = 'ap' + today.strftime("%y%m%d") + '.html'
-url = base_url + today_url
+    ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- 
 
-page = requests.get(url)
+    # Custom part of the bot
 
-if str(page) == '<Response [404]>':
-    print("\n\n\nThere is nothing new to post\n\nDONE")
-    exit(0)
+    base_url = 'https://apod.nasa.gov/apod/'
+    today = date.today()
+    today_url = 'ap' + today.strftime("%y%m%d") + '.html'
+    url = base_url + today_url
 
-#print(page)
+    page = requests.get(url)
 
-soup = BeautifulSoup(page.content, 'html.parser')
+    soup = BeautifulSoup(page.content, 'html.parser')
 
-img_name = soup.findAll(name='b')[0].text.strip()
-img_credit = soup.findAll(name='a')[3].text.strip()
+    # If the page for the current date does not exist, there is nothing to post
+    if str(page) == '<Response [404]>':
+        print("\n\n\nThere is nothing new to post\n\nDONE")
+        exit(0)
 
-if previous_post_key != "" and previous_post_key == img_name:
-    print("\n\n\nThere is nothing new to post\n\nDONE")
-    exit(0)
+    img_name = soup.findAll(name='b')[0].text.strip()
+    
+    # We do the check on the image name
+    if previous_post_key != "" and previous_post_key == img_name:
+        print("\n\n\nThere is nothing new to post\n\nDONE")
+        exit(0)
 
-json_params['previous_post_key'] = img_name
+    img_credit = soup.findAll(name='a')[3].text.strip()
 
-img_tag = soup.findAll(name='img')[0]
-img_src = img_tag['src']
-img_url = base_url + img_src
-img_download = wget.download(img_url)
+    # Setting the previous post key
+    edit_params['previous_post_key'] = img_name
 
-# Renaming image file to be used in the latex file
-os.system('mv ' + img_download + ' img.' + str(img_download)[-3:])
+    par_tag = soup.findAll(name='p')
+    caption = par_tag[2]
 
-print("\n\nCompliling tex file")
-# Twice because the first time it may not get the images' position correctly
-os.system("cd latex ; pdflatex main.tex >> /dev/null ; pdflatex main.tex >> /dev/null")
-# pdflatex is very verbose and useful to test if / where an error occors
-# os.system("cd latex ; pdflatex main.tex ; pdflatex main.tex")
+    # The caption paragraph contains another p
+    # that needs to be removed
+    for p in caption.findAll(name='p'):
+        p.extract() 
 
-print("\n\nTransforming pdf in jpg")
-pages = convert_from_path('latex/main.pdf', 500)
-pages[0].save('out.jpg', 'JPEG')
+    if(len(caption.findAll(name='b')) > 0):
+        caption.findAll(name='b')[0].extract() 
 
-par_tag = soup.findAll(name='p')
-caption = par_tag[2]
+    hashtags = '#stars #nasa #astronomy #apod #dailyposting'
+    caption = img_name + ' (by ' + img_credit + ')' + '\n\n' + caption.text.replace('\n', ' ').replace('  ', ' ').strip() + '\n\n' + today.strftime("%B %d, %Y") +  '\n\n' + hashtags
 
-# The caption paragraph contains another p
-# that needs to be removed
-for p in caption.findAll(name='p'):
-    p.extract() 
+    print('Caption:\n\n')
+    print(caption)
+    print()
 
-if(len(caption.findAll(name='b')) > 0):
-    caption.findAll(name='b')[0].extract() 
+    img_tag = soup.findAll(name='img')[0]
+    img_src = img_tag['src']
+    img_link = base_url + img_src
+    image_ext = image_link[-4:]
 
-hashtags = '#stars #nasa #astronomy #apod #dailyposting'
-caption = img_name + ' (by ' + img_credit + ')' + '\n\n' + caption.text.replace('\n', ' ').replace('  ', ' ').strip() + '\n\n' + today.strftime("%B %d, %Y") +  '\n\n' + hashtags
+    ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- 
 
-print('Caption:\n\n')
-print(caption)
-print()
+    print("Downloading image")
+    utils.download_image(image_file, image_link)
 
-print("\n\nPosting to instagram")
-bot = Bot()
-bot.login(username = username, password = password)
-bot.upload_photo('out.jpg', caption = caption)
-bot.logout()
+    # Getting average color in image and saving as background
+    print("Setting bakground color")
+    utils.img_bg_color('img.jpg', 'bg.jpg')
 
-# Removing config folder from instabot
-# os.system('rm "' + str(img_name) + '"')
-os.system('rm img.jpg')
-os.system('rm out.jpg')
-os.system('rm *REMOVE_ME')
-os.system('rm params.json')
+    print("\n\nCompliling tex file")
+    if debug:
+        utils.compile_latex_verbose()
+    else:
+        utils.compile_latex_silent()
 
-with open('params.json', 'w') as new_params_file:
-    json.dump(json_params, new_params_file)
+    print("\n\nTransforming pdf in jpg")
+    utils.pdf_2_jpg('latex/main.pdf', 'out.jpg')
 
-params_file.close()
+    if not debug:
 
-print("\n\nDONE")
+        print("Posting to instagram")
+        instagram.post_image('out.jpg', full_caption, username, password)
+    
+        print('Setting new parameters')
+        utils.set_params(params_file, edit_params)
+
+        # Removing stuff (not necessary if used in docker container of github actions)
+        # In case of local it could be userful
+        print("Removing unused files")
+        os.system('rm "' + image_file + '"')
+        os.system('rm *REMOVE_ME')
+        os.system('rm img.jpg')
+        os.system('rm out.jpg')   
+
+if __name__ == "__main__":
+
+    if "--debug" in sys.argv[1:]:
+        debug=True
+    elif "-d" in sys.argv[1:]:
+        debug=True
+    else:
+        debug=False
+
+    main(debug)
+
+    print("\nDONE")
