@@ -3,6 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex,visualstudiocode
 
 config/
+*__pycache__/
 
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
