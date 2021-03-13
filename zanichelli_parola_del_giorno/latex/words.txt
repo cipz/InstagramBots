@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{codardia}\newcommand{\sillabazione}{co–dar–dì–a}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[da codardo ☼ av. 1292]}\newcommand{\data}{12 marzo 2021}
+\newcommand{\parolatitle}{caduco}\newcommand{\sillabazione}{ca–dù–co}\newcommand{\tipologiaparola}{agg. (pl. m. -chi, †-ci; superl. caducissimo)}\newcommand{\origineparola}{[vc. dotta, lat. cadūcu(m), da cădere ‘cadere’ ☼ sec. XIII]}\newcommand{\data}{13 marzo 2021}
