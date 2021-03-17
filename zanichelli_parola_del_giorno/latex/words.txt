@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fissare}\newcommand{\sillabazione}{fis–sà–re}\newcommand{\tipologiaparola}{A v. tr.}\newcommand{\origineparola}{[da fisso ☼ av. 1375]}\newcommand{\data}{16 marzo 2021}
+\newcommand{\parolatitle}{unità}\newcommand{\sillabazione}{u–ni–tà}\newcommand{\tipologiaparola}{s. f. inv.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[vc. dotta, lat. unitāte(m), da ūnus ‘uno (soltanto)’ ☼ 1282]\end{spacing}}}\newcommand{\data}{17 marzo 2021}
