@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE piattaforma}\newcommand{\sillabazione}{piat–ta–fór–ma}\newcommand{\tipologiaparola}{s. f. (pl. piattafórme, piattefórme)}\newcommand{\origineparola}{[calco sul fr. plate-forme ‘forma piatta’ ☼ 1546]}\newcommand{\data}{23 marzo 2021}
+\newcommand{\parolatitle}{\LARGE carezzevole}\newcommand{\sillabazione}{ca–rez–zé–vo–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[1585]}\newcommand{\data}{24 marzo 2021}
