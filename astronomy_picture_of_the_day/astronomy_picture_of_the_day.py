@@ -81,8 +81,9 @@ def main(debug):
 
     img_tag = soup.findAll(name='img')[0]
     img_src = img_tag['src']
-    img_link = base_url + img_src
+    image_link = base_url + img_src
     image_ext = image_link[-4:]
+    image_file = 'img' + image_ext
 
     ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- 
 
@@ -91,7 +92,7 @@ def main(debug):
 
     # Getting average color in image and saving as background
     print("Setting bakground color")
-    utils.img_bg_color('img.jpg', 'bg.jpg')
+    utils.img_bg_color(image_file, 'bg.jpg')
 
     print("\n\nCompliling tex file")
     if debug:
