@@ -1,0 +1,38 @@
+% !TeX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[9pt]{article}
+\usepackage[paperheight=6cm,paperwidth=6cm]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pagecolor}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage[rm]{roboto}
+\usepackage{roboto}
+\usepackage{fontspec}
+
+\geometry{
+	left=.5cm,
+	right=.5cm,
+	top=.5cm,
+	bottom=.7cm
+}
+
+\input{colors.txt}
+
+\newcommand{\maincolorwrapper}[1]{{{\selectfont\Huge\color{complementary_color}\textbf{#1}}\fontfamily{roboto}}}
+\newcommand{\hexvaluewrapper}[1]{{{\selectfont\small\color{complementary_color}\textbf{#1}}\fontfamily{lmodern}}}
+
+\begin{document}
+	
+	\pagestyle{empty}
+	\pagecolor{bck_color}
+
+	\vfill
+	\noindent\maincolorwrapper{\maincolor}\\[.2cm]
+	\noindent\hexvaluewrapper{\hexvalue}
+	\vfill
+		
+\end{document}

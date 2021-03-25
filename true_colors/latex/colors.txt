@@ -1,0 +1,4 @@
+\definecolor{bck_color}{HTML}{fffff0}
+\definecolor{complementary_color}{HTML}{00000F}
+\newcommand{\maincolor}{Ivory}
+\newcommand{\hexvalue}{\#fffff0}
