@@ -8,7 +8,6 @@ import utils
 import instagram
 
 from datetime import date
-
 from PIL import Image, ImageDraw
 from bs4 import BeautifulSoup
 import urllib.request
