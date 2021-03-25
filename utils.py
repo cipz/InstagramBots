@@ -13,7 +13,7 @@ import PIL
 
 # Accepts a string with the location of the params_file
 # Returns a dictionary with the parameters
-def get_params(params_file):
+def get_params(params_file, username, password):
     
     params_dict = {}
 
@@ -28,8 +28,8 @@ def get_params(params_file):
     # params_dict['password'] = json_params['password']
 
     # When the username and password are stored as environment variables
-    params_dict['username'] = os.getenv('santo_username')
-    params_dict['password'] = os.getenv('santo_password')
+    params_dict['username'] = os.getenv(username)
+    params_dict['password'] = os.getenv(password)
 
     params_dict['previous_post_key'] = json_params['previous_post_key']
 
@@ -79,6 +79,24 @@ def img_bg_color(input_img, output_img):
     img_temp = img.copy()
     img_temp[:,:,0], img_temp[:,:,1], img_temp[:,:,2] = np.average(img, axis=(0,1))
     cv.imwrite(output_img, img_temp)
+
+    return
+
+def compile_xelatex_silent():
+
+    os.system("\
+        cd latex ; \
+        xelatex main.tex >> /dev/null ; \
+        xelatex main.tex >> /dev/null")
+
+    return
+
+def compile_xelatex_verbose():
+
+    os.system("\
+        cd latex ; \
+        xelatex main.tex ; \
+        xelatex main.tex")
 
     return
 
