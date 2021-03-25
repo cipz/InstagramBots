@@ -161,7 +161,27 @@ jobs:
           continue-on-error: true
           shell: bash
 
+        ### true_colors ###
 
+        - name: Running python script true_colors
+          working-directory: "true_colors"
+          continue-on-error: true
+          env:
+            colors_username: ${{ secrets.colors_username }}
+            colors_password: ${{ secrets.colors_password }}
+          run: |
+            python3 -u true_colors.py
+        - name: Commit files if any
+          id: commit_true_colors
+          working-directory: "true_colors"
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "github-actions"
+            git add params_main.json
+            git commit -m "New post from true_colors" -a
+          continue-on-error: true
+          shell: bash
+          
     #    ### covid_ita_regioni ###
     #
     #    - name: Running python script covid_ita_regioni
