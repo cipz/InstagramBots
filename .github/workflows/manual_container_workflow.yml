@@ -167,8 +167,8 @@ jobs:
           working-directory: "true_colors"
           continue-on-error: true
           env:
-            colors_username: ${{ secrets.colors_username }}
-            colors_password: ${{ secrets.colors_password }}
+            colors_username: ${{ secrets.true_colors_palette_username }}
+            colors_password: ${{ secrets.true_colors_palette_password }}
           run: |
             python3 -u true_colors.py
         - name: Commit files if any
