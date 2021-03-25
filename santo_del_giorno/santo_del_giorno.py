@@ -23,7 +23,7 @@ def main(debug):
 
     # Getting parameters
     params_file = 'params.json'
-    params = utils.get_params(params_file)
+    params = utils.get_params(params_file, 'santo_username', 'santo_password')
 
     username = params['username']
     password = params['password']

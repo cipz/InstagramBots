@@ -20,7 +20,7 @@ def main(debug):
 
     # Getting parameters
     params_file = 'params.json'
-    params = utils.get_params(params_file)
+    params = utils.get_params(params_file, 'apod_username', 'apod_password')
 
     username = params['username']
     password = params['password']
