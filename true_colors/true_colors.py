@@ -62,7 +62,7 @@ def main(debug):
         new_color_hex = '0'*(6-len(new_color_hex)) + new_color_hex
 
     # Setting caption
-    locale.setlocale(locale.LC_ALL, 'en_GB.utf8') # Setting english time
+    # locale.setlocale(locale.LC_ALL, 'en_GB.utf8') # Setting english time
     today = date.today()
     current_date = today.strftime("%B %d, %Y")
     
