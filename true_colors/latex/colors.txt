@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{000080}
-\definecolor{complementary_color}{HTML}{FFFF7F}
-\newcommand{\maincolor}{Navy Blue}
-\newcommand{\hexvalue}{\#000080}
+\definecolor{bck_color}{HTML}{00008b}
+\definecolor{complementary_color}{HTML}{FFFF74}
+\newcommand{\maincolor}{Dark Blue}
+\newcommand{\hexvalue}{\#00008b}
