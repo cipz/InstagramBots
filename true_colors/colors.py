@@ -9,6 +9,7 @@ import instagram
 
 from datetime import date
 from PIL import Image, ImageDraw
+import locale
 import time
 import json
 import os
@@ -60,6 +61,16 @@ def main(debug):
     if len(new_color_hex) < 6:
         new_color_hex = '0'*(6-len(new_color_hex)) + new_color_hex
 
+    # Setting caption
+    locale.setlocale(locale.LC_ALL, 'en_GB.utf8') # Setting english time
+    today = date.today()
+    current_date = today.strftime("%B %d, %Y")
+    
+    hashtags = "#color #colors #bot #instagram #instagood #coloroftheday #love #instadaily #instamood"
+    hashtags += " #" + new_color["name"].replace(' ', '') + " #" + new_color_hex
+    
+    caption = "Color of the day: " + new_color["name"] + "\n\n" + current_date + "\n\n" + hashtags
+
     # Setting latex colors
     print("\n\nSetting correct values in tex file")
     colors_file = open('latex/colors.txt', 'r+')
@@ -101,8 +112,6 @@ def main(debug):
     colors_file.write(line + "\n")
 
     colors_file.close()
-
-    caption = ""
 
     ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- 
     
