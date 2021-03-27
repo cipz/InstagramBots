@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{vietare}\newcommand{\sillabazione}{vie–tà–re}\newcommand{\tipologiaparola}{v. tr. (io vièto)}\newcommand{\origineparola}{[lat. vetāre, di etim. incerta ☼ 1260 ca.]}\newcommand{\data}{26 marzo 2021}
+\newcommand{\parolatitle}{\LARGE palcoscenico}\newcommand{\sillabazione}{pal–co–scè–ni–co}\newcommand{\tipologiaparola}{s. m. (pl. -ci)}\newcommand{\origineparola}{[comp. di palco e scenico ☼ 1813]}\newcommand{\data}{27 marzo 2021}
