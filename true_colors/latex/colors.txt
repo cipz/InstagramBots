@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0014a8}
-\definecolor{complementary_color}{HTML}{FFEB57}
-\newcommand{\maincolor}{Zaffre}
-\newcommand{\hexvalue}{\#0014a8}
+\definecolor{bck_color}{HTML}{002147}
+\definecolor{complementary_color}{HTML}{FFDEB8}
+\newcommand{\maincolor}{{\Large Oxford Blue}}
+\newcommand{\hexvalue}{\#002147}
