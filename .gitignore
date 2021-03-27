@@ -5,6 +5,7 @@
 __pycache__ 
 
 config/
+*__pycache__/
 
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
