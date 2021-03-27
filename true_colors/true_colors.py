@@ -66,7 +66,7 @@ def main(debug):
     today = date.today()
     current_date = today.strftime("%B %d, %Y")
     
-    hashtags = "#color #colors #bot #instagram #instagood #coloroftheday #love #instadaily #instamood"
+    hashtags = "#color #colors #bot #instagram #instagood #coloroftheday #love #instadaily #instamood #truecolorspalette"
     hashtags += " #" + new_color["name"].replace(' ', '') + " #" + new_color_hex
     
     caption = "Color of the day: " + new_color["name"] + "\n\n" + current_date + "\n\n" + hashtags
