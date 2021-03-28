@@ -94,12 +94,12 @@ def main(debug):
         tmp_len = 0
         for split in splits:
             tmp_len += len(split)
-            color_name = color_name + " " + split
         
             if tmp_len > 9:
                 tmp_len = 0
-                color_name = color_name + "\\\\"
-
+                color_name = color_name + "\\\\" + split
+            else:
+                color_name = color_name + " " + split
 
         color_name = color_name + "}"
     elif len(color_name) > 10:
