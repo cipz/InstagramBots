@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{002147}
-\definecolor{complementary_color}{HTML}{FFDEB8}
-\newcommand{\maincolor}{{\Large Oxford Blue}}
-\newcommand{\hexvalue}{\#002147}
+\definecolor{bck_color}{HTML}{002366}
+\definecolor{complementary_color}{HTML}{FFDC99}
+\newcommand{\maincolor}{{\Large  Royal Blue (Traditional)\\}}
+\newcommand{\hexvalue}{\#002366}
