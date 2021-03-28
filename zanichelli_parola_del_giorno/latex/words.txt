@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE palcoscenico}\newcommand{\sillabazione}{pal–co–scè–ni–co}\newcommand{\tipologiaparola}{s. m. (pl. -ci)}\newcommand{\origineparola}{[comp. di palco e scenico ☼ 1813]}\newcommand{\data}{27 marzo 2021}
+\newcommand{\parolatitle}{prendibile}\newcommand{\sillabazione}{pren–dì–bi–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[1728]}\newcommand{\data}{28 marzo 2021}
