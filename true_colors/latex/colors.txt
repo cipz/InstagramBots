@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{002395}
-\definecolor{complementary_color}{HTML}{FFDC6A}
-\newcommand{\maincolor}{{\Large Imperial Blue}}
-\newcommand{\hexvalue}{\#002395}
+\definecolor{bck_color}{HTML}{002e63}
+\definecolor{complementary_color}{HTML}{FFD19C}
+\newcommand{\maincolor}{Cool Black}
+\newcommand{\hexvalue}{\#002e63}
