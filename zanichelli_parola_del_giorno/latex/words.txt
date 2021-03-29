@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{prendibile}\newcommand{\sillabazione}{pren–dì–bi–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[1728]}\newcommand{\data}{28 marzo 2021}
+\newcommand{\parolatitle}{\LARGE contrappeso}\newcommand{\sillabazione}{con–trap–pé–so}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[comp. di contra- e peso ☼ sec. XIII]}\newcommand{\data}{29 marzo 2021}
