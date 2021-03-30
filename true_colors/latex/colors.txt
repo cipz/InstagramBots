@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00308f}
-\definecolor{complementary_color}{HTML}{FFCF70}
-\newcommand{\maincolor}{{\Large  Air Force\\Blue (Usaf)}}
-\newcommand{\hexvalue}{\#00308f}
+\definecolor{bck_color}{HTML}{003153}
+\definecolor{complementary_color}{HTML}{FFCEAC}
+\newcommand{\maincolor}{{\Large Prussian Blue}}
+\newcommand{\hexvalue}{\#003153}
