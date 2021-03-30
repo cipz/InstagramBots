@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE contrappeso}\newcommand{\sillabazione}{con–trap–pé–so}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[comp. di contra- e peso ☼ sec. XIII]}\newcommand{\data}{29 marzo 2021}
+\newcommand{\parolatitle}{facondia}\newcommand{\sillabazione}{fa–cón–dia}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[vc. dotta, lat. facŭndia(m), da facŭndus ‘facondo’ ☼ 1308]}\newcommand{\data}{30 marzo 2021}
