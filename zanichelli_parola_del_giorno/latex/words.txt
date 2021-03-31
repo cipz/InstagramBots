@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{facondia}\newcommand{\sillabazione}{fa–cón–dia}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[vc. dotta, lat. facŭndia(m), da facŭndus ‘facondo’ ☼ 1308]}\newcommand{\data}{30 marzo 2021}
+\newcommand{\parolatitle}{ricciolo}\newcommand{\sillabazione}{rìc–cio–lo}\newcommand{\tipologiaparola}{A s. m.}\newcommand{\origineparola}{[dim. di riccio (1) ☼ av. 1850]}\newcommand{\data}{31 marzo 2021}
