@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0038a8}
-\definecolor{complementary_color}{HTML}{FFC757}
-\newcommand{\maincolor}{{\Large Royal Azure}}
-\newcommand{\hexvalue}{\#0038a8}
+\definecolor{bck_color}{HTML}{004040}
+\definecolor{complementary_color}{HTML}{FFBFBF}
+\newcommand{\maincolor}{Rich Black}
+\newcommand{\hexvalue}{\#004040}
