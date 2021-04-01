@@ -1,4 +1,4 @@
 \definecolor{bck_color}{HTML}{00416a}
 \definecolor{complementary_color}{HTML}{FFBE95}
-\newcommand{\maincolor}{{\Large  Dark\\Imperial Blue}}
+\newcommand{\maincolor}{{\Large Indigo (Dye)}}
 \newcommand{\hexvalue}{\#00416a}
