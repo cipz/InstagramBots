@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{ricciolo}\newcommand{\sillabazione}{rìc–cio–lo}\newcommand{\tipologiaparola}{A s. m.}\newcommand{\origineparola}{[dim. di riccio (1) ☼ av. 1850]}\newcommand{\data}{31 marzo 2021}
+\newcommand{\parolatitle}{scherzo}\newcommand{\sillabazione}{schér–zo}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[da scherzare ☼ av. 1374]}\newcommand{\data}{1 aprile 2021}
