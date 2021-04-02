@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{004242}
-\definecolor{complementary_color}{HTML}{FFBDBD}
-\newcommand{\maincolor}{Warm Black}
-\newcommand{\hexvalue}{\#004242}
+\definecolor{bck_color}{HTML}{0047ab}
+\definecolor{complementary_color}{HTML}{FFB854}
+\newcommand{\maincolor}{Cobalt}
+\newcommand{\hexvalue}{\#0047ab}
