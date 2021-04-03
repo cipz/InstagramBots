@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{via crucis}\newcommand{\sillabazione}{vì–a crù–cis}\newcommand{\tipologiaparola}{loc. sost. f. (pl. lat. viae crucis)}\newcommand{\origineparola}{[loc. lat., propr. ‘via della croce’ ☼ av. 1795]}\newcommand{\data}{2 aprile 2021}
+\newcommand{\parolatitle}{sabato}\newcommand{\sillabazione}{sà–ba–to}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[lat. săbbatu(m), gr. sábbaton, dall’ebr. shabbath ‘(giorno di) riposo’ ☼ 1272]\end{spacing}}}\newcommand{\data}{3 aprile 2021}
