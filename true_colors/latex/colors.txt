@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{004953}
-\definecolor{complementary_color}{HTML}{FFB6AC}
-\newcommand{\maincolor}{{\Large  Midnight\\Green (Eagle\\Green)}}
-\newcommand{\hexvalue}{\#004953}
+\definecolor{bck_color}{HTML}{004b49}
+\definecolor{complementary_color}{HTML}{FFB4B6}
+\newcommand{\maincolor}{{\Large  Deep\\Jungle Green}}
+\newcommand{\hexvalue}{\#004b49}
