@@ -1,4 +1,4 @@
 \definecolor{bck_color}{HTML}{0067a5}
 \definecolor{complementary_color}{HTML}{FF985A}
-\newcommand{\maincolor}{{\Large  Medium\\Persian Blue}}
+\newcommand{\maincolor}{{\Large Sapphire Blue}}
 \newcommand{\hexvalue}{\#0067a5}
