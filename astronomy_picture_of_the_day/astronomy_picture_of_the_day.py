@@ -106,7 +106,7 @@ def main(debug):
     if not debug:
 
         print("Posting to instagram")
-        instagram.post_image('out.jpg', full_caption, username, password)
+        instagram.post_image('out.jpg', caption, username, password)
     
         print('Setting new parameters')
         utils.set_params(params_file, edit_params)
