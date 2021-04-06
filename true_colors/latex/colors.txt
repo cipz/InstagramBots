@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{006994}
-\definecolor{complementary_color}{HTML}{FF966B}
-\newcommand{\maincolor}{Sea Blue}
-\newcommand{\hexvalue}{\#006994}
+\definecolor{bck_color}{HTML}{006a4e}
+\definecolor{complementary_color}{HTML}{FF95B1}
+\newcommand{\maincolor}{{\Large Bottle Green}}
+\newcommand{\hexvalue}{\#006a4e}
