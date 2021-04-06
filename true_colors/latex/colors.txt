@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{006a4e}
-\definecolor{complementary_color}{HTML}{FF95B1}
-\newcommand{\maincolor}{{\Large Bottle Green}}
-\newcommand{\hexvalue}{\#006a4e}
+\definecolor{bck_color}{HTML}{006b3c}
+\definecolor{complementary_color}{HTML}{FF94C3}
+\newcommand{\maincolor}{{\Large Cadmium Green}}
+\newcommand{\hexvalue}{\#006b3c}
