@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{007474}
-\definecolor{complementary_color}{HTML}{FF8B8B}
-\newcommand{\maincolor}{Skobeloff}
-\newcommand{\hexvalue}{\#007474}
+\definecolor{bck_color}{HTML}{00755e}
+\definecolor{complementary_color}{HTML}{FF8AA1}
+\newcommand{\maincolor}{{\Large  Tropical\\Rain Forest}}
+\newcommand{\hexvalue}{\#00755e}
