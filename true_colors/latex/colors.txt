@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0073cf}
-\definecolor{complementary_color}{HTML}{FF8C30}
-\newcommand{\maincolor}{True Blue}
-\newcommand{\hexvalue}{\#0073cf}
+\definecolor{bck_color}{HTML}{007474}
+\definecolor{complementary_color}{HTML}{FF8B8B}
+\newcommand{\maincolor}{Skobeloff}
+\newcommand{\hexvalue}{\#007474}
