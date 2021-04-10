@@ -17,7 +17,9 @@ jobs:
           working-directory: "reddit"
           continue-on-error: true
           env:
-            REDDIT_PARAMS: ${{ secrets.REDDIT_PARAMS }}
+            reddit_params: ${{ secrets.REDDIT_PARAMS }}
+            reddit_username: ${{ secrets.reddit_username }}
+            reddit_password: ${{ secrets.reddit_password }}
           run: |
             python3 -u reddit.py
         - name: Commit files if any
