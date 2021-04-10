@@ -99,8 +99,8 @@ def main(debug):
         if "." not in file_name:
             continue
 
-        print("NEW", posts[tmp_index].id)
-        print("OLD", old_post_id)
+        # print("NEW", posts[tmp_index].id)
+        # print("OLD", old_post_id)
 
         print()
 
@@ -115,7 +115,7 @@ def main(debug):
 
     if not found:
 
-        edit_params["subreddits"][new_subreddit] = post.id
+        edit_params["subreddits"][new_subreddit] = "nope"
 
         with open('params.json', 'w') as f:
             json.dump(edit_params, f)
