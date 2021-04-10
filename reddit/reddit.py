@@ -114,6 +114,10 @@ def main(debug):
 
         found = True
 
+    if not found:
+        print("\n\n\nThere is nothing new to post\n\nDONE")
+        exit(0)
+
     new_post_index = tmp_index
 
     ### Getting the parameters from the post ###
