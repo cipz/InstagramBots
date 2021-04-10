@@ -74,14 +74,16 @@ def main(debug):
                     
     subreddit = r.subreddit(new_subreddit)
 
+    last_posts = 10
+
     # Getting the top 10 posts of the day
-    posts = list(subreddit.top("day"))[:10]
+    posts = list(subreddit.top("day"))[:last_posts]
 
     ### Understanding which
 
     tmp_index = -1
     found = False
-    while not found:
+    while not found and tmp_index < last_posts:
         
         tmp_index += 1
         
