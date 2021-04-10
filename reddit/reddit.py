@@ -83,7 +83,7 @@ def main(debug):
 
     tmp_index = -1
     found = False
-    while not found and tmp_index < last_posts:
+    while not found and tmp_index < last_posts-1:
         
         tmp_index += 1
         
