@@ -59,9 +59,6 @@ def main(debug):
 
     new_subreddit = next(circular_subreddits)
 
-    # Setting the previous post key
-    edit_params['previous_post_key'] = new_subreddit
-
     old_post_id = json_params["subreddits"][new_subreddit]
     
     ### CONNECTING TO REDDIT ###
@@ -115,8 +112,17 @@ def main(debug):
         found = True
 
     if not found:
+
+        edit_params["subreddits"][new_subreddit] = post.id
+
+        with open('params.json', 'w') as f:
+            json.dump(edit_params, f)
+
         print("\n\n\nThere is nothing new to post\n\nDONE")
         exit(0)
+
+    # Setting the previous post key
+    edit_params['previous_post_key'] = new_subreddit
 
     new_post_index = tmp_index
 
