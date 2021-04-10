@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0077be}
-\definecolor{complementary_color}{HTML}{FF8841}
-\newcommand{\maincolor}{{\Large Ocean Boat Blue}}
-\newcommand{\hexvalue}{\#0077be}
+\definecolor{bck_color}{HTML}{007aa5}
+\definecolor{complementary_color}{HTML}{FF855A}
+\newcommand{\maincolor}{Cg Blue}
+\newcommand{\hexvalue}{\#007aa5}
