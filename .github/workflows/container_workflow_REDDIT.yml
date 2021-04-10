@@ -1,0 +1,40 @@
+name: MANUAL Containerized workflow
+on: 
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+     - cron:  '30 */3 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: cipz/instagram_bots:latest
+    steps:
+        - name: Checkout Project
+          uses: actions/checkout@v2
+
+        ### reddit ###
+
+        - name: Running python reddit
+          working-directory: "reddit"
+          continue-on-error: true
+          env:
+            santo_username: ${{ secrets.REDDIT_PARAMS }}
+          run: |
+            python3 -u reddit.py
+        - name: Commit files if any
+          id: commit_reddit
+          working-directory: "reddit"
+          run: |
+            git config --local user.email "action@github.com"
+            git config --local user.name "github-actions"
+            git add params.json
+            git commit -m "New post from reddit" -a
+          continue-on-error: true
+          shell: bash
+          
+        ### PUSHING ALL CHANGES ###
+
+        - name: Push changes if any
+          uses: ad-m/github-push-action@master
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+          continue-on-error: true
