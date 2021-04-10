@@ -111,6 +111,9 @@ def main(debug):
         if (file_name.split(".")[1]) == "gif":
             continue 
 
+        if (file_name.split(".")[1]) == "gifv":
+            continue 
+
         found = True
 
     if not found:
