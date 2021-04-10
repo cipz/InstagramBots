@@ -66,7 +66,7 @@ def main(debug):
     
     ### CONNECTING TO REDDIT ###
 
-    reddit_params = os.getenv("REDDIT_PARAMS")
+    reddit_params = os.getenv("reddit_params")
     reddit_params = json.loads(reddit_params)
 
     r = praw.Reddit(client_id=reddit_params["client_id"],           
