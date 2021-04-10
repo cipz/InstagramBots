@@ -1,4 +1,4 @@
-name: MANUAL Containerized workflow
+name: MANUAL Containerized workflow REDDIT
 on: 
   [workflow_dispatch]
 jobs:
