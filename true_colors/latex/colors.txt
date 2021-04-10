@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{007aa5}
-\definecolor{complementary_color}{HTML}{FF855A}
-\newcommand{\maincolor}{Cg Blue}
-\newcommand{\hexvalue}{\#007aa5}
+\definecolor{bck_color}{HTML}{007ba7}
+\definecolor{complementary_color}{HTML}{FF8458}
+\newcommand{\maincolor}{{\Large Celadon Blue}}
+\newcommand{\hexvalue}{\#007ba7}
