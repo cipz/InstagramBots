@@ -1,1 +1,13 @@
-{"subreddits": {"memes": "mnxmxp", "dankmemes": "mno28f", "PoliticalHumor": "mnno5l", "nextfuckinglevel": "nope"}, "previous_post_key": "PoliticalHumor"}
+{
+    "subreddits": {
+        "HistoryMemes": "tmp", 
+        "PrequelMemes": "tmp",
+        "PoliticalCompassMemes": "tmp",
+        "TheRightCantMeme": "tmp",
+        "memes": "mnxmxp", 
+        "dankmemes": "mno28f", 
+        "PoliticalHumor": "mnno5l", 
+        "nextfuckinglevel": "nope"
+    }, 
+    "previous_post_key": "PoliticalHumor"
+}
