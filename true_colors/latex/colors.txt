@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{007ba7}
-\definecolor{complementary_color}{HTML}{FF8458}
-\newcommand{\maincolor}{Cerulean}
-\newcommand{\hexvalue}{\#007ba7}
+\definecolor{bck_color}{HTML}{007fbf}
+\definecolor{complementary_color}{HTML}{FF8040}
+\newcommand{\maincolor}{{\Large Honolulu Blue}}
+\newcommand{\hexvalue}{\#007fbf}
