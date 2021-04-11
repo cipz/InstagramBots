@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{giunonico / \newline giunone}\newcommand{\sillabazione}{giu–nò–ni–co}\newcommand{\tipologiaparola}{agg. (pl. m. -ci)}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[da Giunone per le opulente raffigurazioni classiche della dea ☼ 1340]\end{spacing}}}\newcommand{\data}{10 aprile 2021}
+\newcommand{\parolatitle}{eolico}\newcommand{\sillabazione}{e–ò–li–co}\newcommand{\tipologiaparola}{A agg. (pl. m. -ci)}\newcommand{\origineparola}{[dal n. di Eolo, dio dei venti nella mitologia greca ☼ 1828]}\newcommand{\data}{11 aprile 2021}
