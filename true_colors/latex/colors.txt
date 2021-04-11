@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{007fbf}
-\definecolor{complementary_color}{HTML}{FF8040}
-\newcommand{\maincolor}{{\Large Honolulu Blue}}
-\newcommand{\hexvalue}{\#007fbf}
+\definecolor{bck_color}{HTML}{007fff}
+\definecolor{complementary_color}{HTML}{FF8000}
+\newcommand{\maincolor}{Azure}
+\newcommand{\hexvalue}{\#007fff}
