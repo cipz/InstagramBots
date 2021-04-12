@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{007fff}
-\definecolor{complementary_color}{HTML}{FF8000}
-\newcommand{\maincolor}{Azure}
-\newcommand{\hexvalue}{\#007fff}
+\definecolor{bck_color}{HTML}{008000}
+\definecolor{complementary_color}{HTML}{FF7FFF}
+\newcommand{\maincolor}{{\Large Ao (English)}}
+\newcommand{\hexvalue}{\#008000}
