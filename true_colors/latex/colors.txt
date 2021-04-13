@@ -1,4 +1,4 @@
 \definecolor{bck_color}{HTML}{008000}
 \definecolor{complementary_color}{HTML}{FF7FFF}
-\newcommand{\maincolor}{{\Large  Green\\(Html/Css Green)}}
+\newcommand{\maincolor}{{\Large Office Green}}
 \newcommand{\hexvalue}{\#008000}
