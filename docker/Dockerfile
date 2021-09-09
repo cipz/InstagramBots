@@ -11,13 +11,12 @@ RUN apt-get update && \
     apt-get install fonts-indic -y && \
     fc-cache -f
 
-    # Installing pip and python dependencies
+# Installing pip and python dependencies
 RUN apt install python3-pip -y
-RUN pip3 install instabot bs4 wget pdf2image poppler-utils Babel opencv-python matplotlib praw more-itertools
+RUN pip3 install instagrapi bs4 wget pdf2image poppler-utils Babel opencv-python matplotlib praw more-itertools
 
 RUN apt-get install git -y
 
-# TODO verificare con la documentazione di github actions
 WORKDIR /app
 
 CMD ["/bin/bash"]

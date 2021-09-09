@@ -1,10 +1,10 @@
-from instabot import Bot
+from instagrapi import Client
 
 def post_image(img_path, caption, username, password):
 
-    bot = Bot()
-    bot.login(username = username, password = password)
-    bot.upload_photo(img_path, caption = caption)
-    bot.logout()
+    cl = Client()
+    cl.login(username, password)
+
+    media = cl.photo_upload(img_path, caption = caption)
 
     return
