@@ -1,4 +1,4 @@
-from instabot import Bot
+from instagrapi import Client
 from bs4 import BeautifulSoup
 from pdf2image import convert_from_path
 import requests
@@ -124,10 +124,10 @@ print('Wait for the img to be converted')
 time.sleep(10)
 
 print("\n\nPosting to instagram")
-bot = Bot()
-bot.login(username = username, password = password)
-bot.upload_photo('out.jpg', caption = caption)
-bot.logout()
+
+cl = Client()
+cl.login(username, password)
+cl.photo_upload('out.jpg', caption = caption)
 
 # Removing config folder from instabot
 # os.system('rm "' + str(img_download) + '"')
