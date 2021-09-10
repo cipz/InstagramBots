@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{008000}
-\definecolor{complementary_color}{HTML}{FF7FFF}
-\newcommand{\maincolor}{{\Large Office Green}}
-\newcommand{\hexvalue}{\#008000}
+\definecolor{bck_color}{HTML}{008080}
+\definecolor{complementary_color}{HTML}{FF7F7F}
+\newcommand{\maincolor}{Teal}
+\newcommand{\hexvalue}{\#008080}
