@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{008b8b}
-\definecolor{complementary_color}{HTML}{FF7474}
-\newcommand{\maincolor}{Dark Cyan}
-\newcommand{\hexvalue}{\#008b8b}
+\definecolor{bck_color}{HTML}{009000}
+\definecolor{complementary_color}{HTML}{FF6FFF}
+\newcommand{\maincolor}{{\Large Islamic Green}}
+\newcommand{\hexvalue}{\#009000}
