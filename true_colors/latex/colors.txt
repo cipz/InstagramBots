@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0093af}
-\definecolor{complementary_color}{HTML}{FF6C50}
-\newcommand{\maincolor}{{\Large Blue (Munsell)}}
-\newcommand{\hexvalue}{\#0093af}
+\definecolor{bck_color}{HTML}{0095b6}
+\definecolor{complementary_color}{HTML}{FF6A49}
+\newcommand{\maincolor}{Bondi Blue}
+\newcommand{\hexvalue}{\#0095b6}
