@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{009000}
-\definecolor{complementary_color}{HTML}{FF6FFF}
-\newcommand{\maincolor}{{\Large Islamic Green}}
-\newcommand{\hexvalue}{\#009000}
+\definecolor{bck_color}{HTML}{0093af}
+\definecolor{complementary_color}{HTML}{FF6C50}
+\newcommand{\maincolor}{{\Large Blue (Munsell)}}
+\newcommand{\hexvalue}{\#0093af}
