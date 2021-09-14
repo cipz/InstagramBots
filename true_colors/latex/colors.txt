@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00a550}
-\definecolor{complementary_color}{HTML}{FF5AAF}
-\newcommand{\maincolor}{{\Large Green (Pigment)}}
-\newcommand{\hexvalue}{\#00a550}
+\definecolor{bck_color}{HTML}{00a693}
+\definecolor{complementary_color}{HTML}{FF596C}
+\newcommand{\maincolor}{{\Large Persian Green}}
+\newcommand{\hexvalue}{\#00a693}
