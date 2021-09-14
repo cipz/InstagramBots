@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{009f6b}
-\definecolor{complementary_color}{HTML}{FF6094}
-\newcommand{\maincolor}{{\Large Green (Ncs)}}
-\newcommand{\hexvalue}{\#009f6b}
+\definecolor{bck_color}{HTML}{00a550}
+\definecolor{complementary_color}{HTML}{FF5AAF}
+\newcommand{\maincolor}{{\Large Green (Pigment)}}
+\newcommand{\hexvalue}{\#00a550}
