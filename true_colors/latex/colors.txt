@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00a86b}
-\definecolor{complementary_color}{HTML}{FF5794}
-\newcommand{\maincolor}{Jade}
-\newcommand{\hexvalue}{\#00a86b}
+\definecolor{bck_color}{HTML}{00a877}
+\definecolor{complementary_color}{HTML}{FF5788}
+\newcommand{\maincolor}{{\Large Green (Munsell)}}
+\newcommand{\hexvalue}{\#00a877}
