@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00a877}
-\definecolor{complementary_color}{HTML}{FF5788}
-\newcommand{\maincolor}{{\Large Green (Munsell)}}
-\newcommand{\hexvalue}{\#00a877}
+\definecolor{bck_color}{HTML}{00b7eb}
+\definecolor{complementary_color}{HTML}{FF4814}
+\newcommand{\maincolor}{{\Large Cyan (Process)}}
+\newcommand{\hexvalue}{\#00b7eb}
