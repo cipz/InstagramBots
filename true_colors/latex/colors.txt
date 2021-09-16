@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00b7eb}
-\definecolor{complementary_color}{HTML}{FF4814}
-\newcommand{\maincolor}{{\Large Cyan (Process)}}
-\newcommand{\hexvalue}{\#00b7eb}
+\definecolor{bck_color}{HTML}{00bfff}
+\definecolor{complementary_color}{HTML}{FF4000}
+\newcommand{\maincolor}{Capri}
+\newcommand{\hexvalue}{\#00bfff}
