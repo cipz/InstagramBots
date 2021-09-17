@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00bfff}
-\definecolor{complementary_color}{HTML}{FF4000}
-\newcommand{\maincolor}{{\Large Deep Sky Blue}}
-\newcommand{\hexvalue}{\#00bfff}
+\definecolor{bck_color}{HTML}{00ced1}
+\definecolor{complementary_color}{HTML}{FF312E}
+\newcommand{\maincolor}{{\Large Dark Turquoise}}
+\newcommand{\hexvalue}{\#00ced1}
