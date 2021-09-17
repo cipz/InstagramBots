@@ -1,4 +1,4 @@
 \definecolor{bck_color}{HTML}{00bfff}
 \definecolor{complementary_color}{HTML}{FF4000}
-\newcommand{\maincolor}{Capri}
+\newcommand{\maincolor}{{\Large Deep Sky Blue}}
 \newcommand{\hexvalue}{\#00bfff}
