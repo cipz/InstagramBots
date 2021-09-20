@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00ffef}
-\definecolor{complementary_color}{HTML}{FF0010}
-\newcommand{\maincolor}{{\Large Turquoise Blue}}
-\newcommand{\hexvalue}{\#00ffef}
+\definecolor{bck_color}{HTML}{013220}
+\definecolor{complementary_color}{HTML}{FECDDF}
+\newcommand{\maincolor}{Dark Green}
+\newcommand{\hexvalue}{\#013220}
