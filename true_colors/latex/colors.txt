@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{013220}
-\definecolor{complementary_color}{HTML}{FECDDF}
-\newcommand{\maincolor}{Dark Green}
-\newcommand{\hexvalue}{\#013220}
+\definecolor{bck_color}{HTML}{014421}
+\definecolor{complementary_color}{HTML}{FEBBDE}
+\newcommand{\maincolor}{{\Large  Forest\\Green\\(Traditional)}}
+\newcommand{\hexvalue}{\#014421}
