@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{000036}
-\definecolor{complementary_color}{HTML}{FFFFC9}
-\newcommand{\maincolor}{{\Large  Dark\\Midnight Blue}}
-\newcommand{\hexvalue}{\#000036}
+\definecolor{bck_color}{HTML}{000039}
+\definecolor{complementary_color}{HTML}{FFFFC6}
+\newcommand{\maincolor}{{\Large  Dark\\Powder Blue}}
+\newcommand{\hexvalue}{\#000039}
