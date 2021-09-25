@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{000039}
-\definecolor{complementary_color}{HTML}{FFFFC6}
-\newcommand{\maincolor}{{\Large  Smalt\\(Dark Powder\\Blue)}}
-\newcommand{\hexvalue}{\#000039}
+\definecolor{bck_color}{HTML}{00003a}
+\definecolor{complementary_color}{HTML}{FFFFC5}
+\newcommand{\maincolor}{Ua Blue}
+\newcommand{\hexvalue}{\#00003a}
