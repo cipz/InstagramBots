@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{00003a}
-\definecolor{complementary_color}{HTML}{FFFFC5}
-\newcommand{\maincolor}{Ua Blue}
-\newcommand{\hexvalue}{\#00003a}
+\definecolor{bck_color}{HTML}{03c03c}
+\definecolor{complementary_color}{HTML}{FC3FC3}
+\newcommand{\maincolor}{{\Large  Dark\\Pastel Green}}
+\newcommand{\hexvalue}{\#03c03c}
