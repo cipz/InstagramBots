@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{000060}
-\definecolor{complementary_color}{HTML}{FFFF9F}
-\newcommand{\maincolor}{{\Large Pakistan Green}}
-\newcommand{\hexvalue}{\#000060}
+\definecolor{bck_color}{HTML}{062a78}
+\definecolor{complementary_color}{HTML}{F9D587}
+\newcommand{\maincolor}{{\Large Catalina Blue}}
+\newcommand{\hexvalue}{\#062a78}
