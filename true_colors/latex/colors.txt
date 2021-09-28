@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{062a78}
-\definecolor{complementary_color}{HTML}{F9D587}
-\newcommand{\maincolor}{{\Large Catalina Blue}}
-\newcommand{\hexvalue}{\#062a78}
+\definecolor{bck_color}{HTML}{08457e}
+\definecolor{complementary_color}{HTML}{F7BA81}
+\newcommand{\maincolor}{{\Large Dark Cerulean}}
+\newcommand{\hexvalue}{\#08457e}
