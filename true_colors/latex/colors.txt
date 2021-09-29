@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{087830}
-\definecolor{complementary_color}{HTML}{F787CF}
-\newcommand{\maincolor}{{\Large La Salle Green}}
-\newcommand{\hexvalue}{\#087830}
+\definecolor{bck_color}{HTML}{0892d0}
+\definecolor{complementary_color}{HTML}{F76D2F}
+\newcommand{\maincolor}{{\Large  Rich\\Electric Blue}}
+\newcommand{\hexvalue}{\#0892d0}
