@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0abab5}
-\definecolor{complementary_color}{HTML}{F5454A}
-\newcommand{\maincolor}{{\Large Tiffany Blue}}
-\newcommand{\hexvalue}{\#0abab5}
+\definecolor{bck_color}{HTML}{0bda51}
+\definecolor{complementary_color}{HTML}{F425AE}
+\newcommand{\maincolor}{Malachite}
+\newcommand{\hexvalue}{\#0bda51}
