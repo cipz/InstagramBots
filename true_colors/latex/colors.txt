@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0bda51}
-\definecolor{complementary_color}{HTML}{F425AE}
-\newcommand{\maincolor}{Malachite}
-\newcommand{\hexvalue}{\#0bda51}
+\definecolor{bck_color}{HTML}{0000c9}
+\definecolor{complementary_color}{HTML}{FFFF36}
+\newcommand{\maincolor}{{\Large Caribbean Green}}
+\newcommand{\hexvalue}{\#0000c9}
