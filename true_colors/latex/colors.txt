@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0000c9}
-\definecolor{complementary_color}{HTML}{FFFF36}
-\newcommand{\maincolor}{{\Large Caribbean Green}}
-\newcommand{\hexvalue}{\#0000c9}
+\definecolor{bck_color}{HTML}{0000cc}
+\definecolor{complementary_color}{HTML}{FFFF33}
+\newcommand{\maincolor}{{\Large Robin Egg Blue}}
+\newcommand{\hexvalue}{\#0000cc}
