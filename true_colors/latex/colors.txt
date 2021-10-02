@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0d98ba}
-\definecolor{complementary_color}{HTML}{F26745}
-\newcommand{\maincolor}{Blue-Green}
-\newcommand{\hexvalue}{\#0d98ba}
+\definecolor{bck_color}{HTML}{0000f0}
+\definecolor{complementary_color}{HTML}{FFFF0F}
+\newcommand{\maincolor}{{\Large Electric Green}}
+\newcommand{\hexvalue}{\#0000f0}
