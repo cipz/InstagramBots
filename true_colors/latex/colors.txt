@@ -1,4 +1,4 @@
 \definecolor{bck_color}{HTML}{0000f0}
 \definecolor{complementary_color}{HTML}{FFFF0F}
-\newcommand{\maincolor}{{\Large Electric Green}}
+\newcommand{\maincolor}{{\Large  Green\\(Color Wheel)\\(X11 Green)}}
 \newcommand{\hexvalue}{\#0000f0}
