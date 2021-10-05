@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0f52ba}
-\definecolor{complementary_color}{HTML}{F0AD45}
-\newcommand{\maincolor}{Sapphire}
-\newcommand{\hexvalue}{\#0f52ba}
+\definecolor{bck_color}{HTML}{0fc0fc}
+\definecolor{complementary_color}{HTML}{F03F03}
+\newcommand{\maincolor}{{\Large  Spiro\\Disco Ball}}
+\newcommand{\hexvalue}{\#0fc0fc}
