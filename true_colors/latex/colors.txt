@@ -1,4 +1,4 @@
 \definecolor{bck_color}{HTML}{0000ff}
 \definecolor{complementary_color}{HTML}{FFFF00}
-\newcommand{\maincolor}{Aqua}
+\newcommand{\maincolor}{Cyan}
 \newcommand{\hexvalue}{\#0000ff}
