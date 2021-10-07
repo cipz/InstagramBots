@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{0000ff}
-\definecolor{complementary_color}{HTML}{FFFF00}
-\newcommand{\maincolor}{{\Large Electric Cyan}}
-\newcommand{\hexvalue}{\#0000ff}
+\definecolor{bck_color}{HTML}{100c08}
+\definecolor{complementary_color}{HTML}{EFF3F7}
+\newcommand{\maincolor}{{\Large Smoky Black}}
+\newcommand{\hexvalue}{\#100c08}
