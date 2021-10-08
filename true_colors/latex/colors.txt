@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{100c08}
-\definecolor{complementary_color}{HTML}{EFF3F7}
-\newcommand{\maincolor}{{\Large Smoky Black}}
-\newcommand{\hexvalue}{\#100c08}
+\definecolor{bck_color}{HTML}{1034a6}
+\definecolor{complementary_color}{HTML}{EFCB59}
+\newcommand{\maincolor}{{\Large Egyptian Blue}}
+\newcommand{\hexvalue}{\#1034a6}
