@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{123524}
-\definecolor{complementary_color}{HTML}{EDCADB}
-\newcommand{\maincolor}{{\Large Phthalo Green}}
-\newcommand{\hexvalue}{\#123524}
+\definecolor{bck_color}{HTML}{126180}
+\definecolor{complementary_color}{HTML}{ED9E7F}
+\newcommand{\maincolor}{{\Large Blue Sapphire}}
+\newcommand{\hexvalue}{\#126180}
