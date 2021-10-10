@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{126180}
-\definecolor{complementary_color}{HTML}{ED9E7F}
-\newcommand{\maincolor}{{\Large Blue Sapphire}}
-\newcommand{\hexvalue}{\#126180}
+\definecolor{bck_color}{HTML}{138808}
+\definecolor{complementary_color}{HTML}{EC77F7}
+\newcommand{\maincolor}{{\Large India Green}}
+\newcommand{\hexvalue}{\#138808}
