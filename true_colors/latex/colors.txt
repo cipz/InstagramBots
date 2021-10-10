@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{138808}
-\definecolor{complementary_color}{HTML}{EC77F7}
-\newcommand{\maincolor}{{\Large India Green}}
-\newcommand{\hexvalue}{\#138808}
+\definecolor{bck_color}{HTML}{1560bd}
+\definecolor{complementary_color}{HTML}{EA9F42}
+\newcommand{\maincolor}{Denim}
+\newcommand{\hexvalue}{\#1560bd}
