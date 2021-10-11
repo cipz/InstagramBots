@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{1560bd}
-\definecolor{complementary_color}{HTML}{EA9F42}
-\newcommand{\maincolor}{Denim}
-\newcommand{\hexvalue}{\#1560bd}
+\definecolor{bck_color}{HTML}{177245}
+\definecolor{complementary_color}{HTML}{E88DBA}
+\newcommand{\maincolor}{{\Large  Dark\\Spring Green}}
+\newcommand{\hexvalue}{\#177245}
