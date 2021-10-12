@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{191970}
-\definecolor{complementary_color}{HTML}{E6E68F}
-\newcommand{\maincolor}{{\Large Midnight Blue}}
-\newcommand{\hexvalue}{\#191970}
+\definecolor{bck_color}{HTML}{195905}
+\definecolor{complementary_color}{HTML}{E6A6FA}
+\newcommand{\maincolor}{{\Large Lincoln Green}}
+\newcommand{\hexvalue}{\#195905}
