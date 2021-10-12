@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{18453b}
-\definecolor{complementary_color}{HTML}{E7BAC4}
-\newcommand{\maincolor}{Msu Green}
-\newcommand{\hexvalue}{\#18453b}
+\definecolor{bck_color}{HTML}{191970}
+\definecolor{complementary_color}{HTML}{E6E68F}
+\newcommand{\maincolor}{{\Large Midnight Blue}}
+\newcommand{\hexvalue}{\#191970}
