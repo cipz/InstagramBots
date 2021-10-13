@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{1a1110}
-\definecolor{complementary_color}{HTML}{E5EEEF}
-\newcommand{\maincolor}{Licorice}
-\newcommand{\hexvalue}{\#1a1110}
+\definecolor{bck_color}{HTML}{1a2421}
+\definecolor{complementary_color}{HTML}{E5DBDE}
+\newcommand{\maincolor}{{\Large  Dark\\Jungle Green}}
+\newcommand{\hexvalue}{\#1a2421}
