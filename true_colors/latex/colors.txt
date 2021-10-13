@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{195905}
-\definecolor{complementary_color}{HTML}{E6A6FA}
-\newcommand{\maincolor}{{\Large Lincoln Green}}
-\newcommand{\hexvalue}{\#195905}
+\definecolor{bck_color}{HTML}{1a1110}
+\definecolor{complementary_color}{HTML}{E5EEEF}
+\newcommand{\maincolor}{Licorice}
+\newcommand{\hexvalue}{\#1a1110}
