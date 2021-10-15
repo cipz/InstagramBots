@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{1c39bb}
-\definecolor{complementary_color}{HTML}{E3C644}
-\newcommand{\maincolor}{{\Large Persian Blue}}
-\newcommand{\hexvalue}{\#1c39bb}
+\definecolor{bck_color}{HTML}{1cac78}
+\definecolor{complementary_color}{HTML}{E35387}
+\newcommand{\maincolor}{{\Large Green (Crayola)}}
+\newcommand{\hexvalue}{\#1cac78}
