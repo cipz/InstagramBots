@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{1dacd6}
-\definecolor{complementary_color}{HTML}{E25329}
-\newcommand{\maincolor}{{\Large Bright Cerulean}}
-\newcommand{\hexvalue}{\#1dacd6}
+\definecolor{bck_color}{HTML}{1e4d2b}
+\definecolor{complementary_color}{HTML}{E1B2D4}
+\newcommand{\maincolor}{{\Large Cal Poly Green}}
+\newcommand{\hexvalue}{\#1e4d2b}
