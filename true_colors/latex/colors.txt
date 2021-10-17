@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{1f75fe}
-\definecolor{complementary_color}{HTML}{E08A01}
-\newcommand{\maincolor}{{\Large Blue (Crayola)}}
-\newcommand{\hexvalue}{\#1f75fe}
+\definecolor{bck_color}{HTML}{20b2aa}
+\definecolor{complementary_color}{HTML}{DF4D55}
+\newcommand{\maincolor}{{\Large Light Sea Green}}
+\newcommand{\hexvalue}{\#20b2aa}
