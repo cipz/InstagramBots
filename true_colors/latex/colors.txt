@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{21421e}
-\definecolor{complementary_color}{HTML}{DEBDE1}
-\newcommand{\maincolor}{Myrtle}
-\newcommand{\hexvalue}{\#21421e}
+\definecolor{bck_color}{HTML}{21abcd}
+\definecolor{complementary_color}{HTML}{DE5432}
+\newcommand{\maincolor}{Ball Blue}
+\newcommand{\hexvalue}{\#21abcd}
