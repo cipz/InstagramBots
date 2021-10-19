@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{228b22}
-\definecolor{complementary_color}{HTML}{DD74DD}
-\newcommand{\maincolor}{{\Large  Forest\\Green (Web)}}
-\newcommand{\hexvalue}{\#228b22}
+\definecolor{bck_color}{HTML}{23297a}
+\definecolor{complementary_color}{HTML}{DCD685}
+\newcommand{\maincolor}{{\Large  St.\\Patrick's Blue}}
+\newcommand{\hexvalue}{\#23297a}
