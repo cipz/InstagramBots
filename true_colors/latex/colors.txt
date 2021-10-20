@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{253529}
-\definecolor{complementary_color}{HTML}{DACAD6}
-\newcommand{\maincolor}{{\Large  Black\\Leather Jacket}}
-\newcommand{\hexvalue}{\#253529}
+\definecolor{bck_color}{HTML}{26619c}
+\definecolor{complementary_color}{HTML}{D99E63}
+\newcommand{\maincolor}{{\Large Lapis Lazuli}}
+\newcommand{\hexvalue}{\#26619c}
