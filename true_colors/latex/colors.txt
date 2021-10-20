@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{23297a}
-\definecolor{complementary_color}{HTML}{DCD685}
-\newcommand{\maincolor}{{\Large  St.\\Patrick's Blue}}
-\newcommand{\hexvalue}{\#23297a}
+\definecolor{bck_color}{HTML}{253529}
+\definecolor{complementary_color}{HTML}{DACAD6}
+\newcommand{\maincolor}{{\Large  Black\\Leather Jacket}}
+\newcommand{\hexvalue}{\#253529}
