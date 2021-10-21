@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{273be2}
-\definecolor{complementary_color}{HTML}{D8C41D}
-\newcommand{\maincolor}{{\Large Palatinate Blue}}
-\newcommand{\hexvalue}{\#273be2}
+\definecolor{bck_color}{HTML}{29ab87}
+\definecolor{complementary_color}{HTML}{D65478}
+\newcommand{\maincolor}{{\Large Jungle Green}}
+\newcommand{\hexvalue}{\#29ab87}
