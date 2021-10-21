@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{26619c}
-\definecolor{complementary_color}{HTML}{D99E63}
-\newcommand{\maincolor}{{\Large Lapis Lazuli}}
-\newcommand{\hexvalue}{\#26619c}
+\definecolor{bck_color}{HTML}{273be2}
+\definecolor{complementary_color}{HTML}{D8C41D}
+\newcommand{\maincolor}{{\Large Palatinate Blue}}
+\newcommand{\hexvalue}{\#273be2}
