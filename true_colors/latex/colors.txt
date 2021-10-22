@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{2a52be}
-\definecolor{complementary_color}{HTML}{D5AD41}
-\newcommand{\maincolor}{{\Large Cerulean Blue}}
-\newcommand{\hexvalue}{\#2a52be}
+\definecolor{bck_color}{HTML}{2a8000}
+\definecolor{complementary_color}{HTML}{D57FFF}
+\newcommand{\maincolor}{{\Large Napier Green}}
+\newcommand{\hexvalue}{\#2a8000}
