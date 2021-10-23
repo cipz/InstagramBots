@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{2c1608}
-\definecolor{complementary_color}{HTML}{D3E9F7}
-\newcommand{\maincolor}{{\Large \\Zinnwaldite Brown}}
-\newcommand{\hexvalue}{\#2c1608}
+\definecolor{bck_color}{HTML}{2e8b57}
+\definecolor{complementary_color}{HTML}{D174A8}
+\newcommand{\maincolor}{Sea Green}
+\newcommand{\hexvalue}{\#2e8b57}
