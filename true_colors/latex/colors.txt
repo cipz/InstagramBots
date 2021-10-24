@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{2e8b57}
-\definecolor{complementary_color}{HTML}{D174A8}
-\newcommand{\maincolor}{Sea Green}
-\newcommand{\hexvalue}{\#2e8b57}
+\definecolor{bck_color}{HTML}{2f4f4f}
+\definecolor{complementary_color}{HTML}{D0B0B0}
+\newcommand{\maincolor}{{\Large Dark Slate Gray}}
+\newcommand{\hexvalue}{\#2f4f4f}
