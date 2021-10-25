@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{30ba8f}
-\definecolor{complementary_color}{HTML}{CF4570}
-\newcommand{\maincolor}{{\Large Mountain Meadow}}
-\newcommand{\hexvalue}{\#30ba8f}
+\definecolor{bck_color}{HTML}{30d5c8}
+\definecolor{complementary_color}{HTML}{CF2A37}
+\newcommand{\maincolor}{Turquoise}
+\newcommand{\hexvalue}{\#30d5c8}
