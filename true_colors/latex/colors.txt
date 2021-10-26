@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{318ce7}
-\definecolor{complementary_color}{HTML}{CE7318}
-\newcommand{\maincolor}{{\Large Bleu De France}}
-\newcommand{\hexvalue}{\#318ce7}
+\definecolor{bck_color}{HTML}{32127a}
+\definecolor{complementary_color}{HTML}{CDED85}
+\newcommand{\maincolor}{{\Large Persian Indigo}}
+\newcommand{\hexvalue}{\#32127a}
