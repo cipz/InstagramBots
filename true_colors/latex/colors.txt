@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{30d5c8}
-\definecolor{complementary_color}{HTML}{CF2A37}
-\newcommand{\maincolor}{Turquoise}
-\newcommand{\hexvalue}{\#30d5c8}
+\definecolor{bck_color}{HTML}{318ce7}
+\definecolor{complementary_color}{HTML}{CE7318}
+\newcommand{\maincolor}{{\Large Bleu De France}}
+\newcommand{\hexvalue}{\#318ce7}
