@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{321414}
-\definecolor{complementary_color}{HTML}{CDEBEB}
-\newcommand{\maincolor}{Seal Brown}
-\newcommand{\hexvalue}{\#321414}
+\definecolor{bck_color}{HTML}{324ab2}
+\definecolor{complementary_color}{HTML}{CDB54D}
+\newcommand{\maincolor}{{\Large Violet-Blue}}
+\newcommand{\hexvalue}{\#324ab2}
