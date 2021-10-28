@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{324ab2}
-\definecolor{complementary_color}{HTML}{CDB54D}
-\newcommand{\maincolor}{{\Large Violet-Blue}}
-\newcommand{\hexvalue}{\#324ab2}
+\definecolor{bck_color}{HTML}{32cd32}
+\definecolor{complementary_color}{HTML}{CD32CD}
+\newcommand{\maincolor}{Lime Green}
+\newcommand{\hexvalue}{\#32cd32}
