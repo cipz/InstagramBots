@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{32cd32}
-\definecolor{complementary_color}{HTML}{CD32CD}
-\newcommand{\maincolor}{Lime Green}
-\newcommand{\hexvalue}{\#32cd32}
+\definecolor{bck_color}{HTML}{000339}
+\definecolor{complementary_color}{HTML}{FFFCC6}
+\newcommand{\maincolor}{{\Large Blue (Pigment)}}
+\newcommand{\hexvalue}{\#000339}
