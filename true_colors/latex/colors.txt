@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{343434}
-\definecolor{complementary_color}{HTML}{CBCBCB}
-\newcommand{\maincolor}{Jet}
-\newcommand{\hexvalue}{\#343434}
+\definecolor{bck_color}{HTML}{353839}
+\definecolor{complementary_color}{HTML}{CAC7C6}
+\newcommand{\maincolor}{Onyx}
+\newcommand{\hexvalue}{\#353839}
