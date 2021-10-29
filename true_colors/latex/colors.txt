@@ -1,4 +1,4 @@
-\definecolor{bck_color}{HTML}{000339}
-\definecolor{complementary_color}{HTML}{FFFCC6}
-\newcommand{\maincolor}{{\Large Blue (Pigment)}}
-\newcommand{\hexvalue}{\#000339}
+\definecolor{bck_color}{HTML}{343434}
+\definecolor{complementary_color}{HTML}{CBCBCB}
+\newcommand{\maincolor}{Jet}
+\newcommand{\hexvalue}{\#343434}
