@@ -95,10 +95,8 @@ def main(debug):
     utils.img_bg_color(image_file, 'bg.jpg')
 
     print("\n\nCompliling tex file")
-    if debug:
-        utils.compile_latex_verbose()
-    else:
-        utils.compile_latex_silent()
+    # utils.compile_latex_verbose()
+    utils.compile_latex_silent()
 
     print("\n\nTransforming pdf in jpg")
     utils.pdf_2_jpg('latex/main.pdf', 'out.jpg')
