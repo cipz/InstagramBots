@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{adone}\newcommand{\sillabazione}{a–dó–ne}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ vc. dotta, lat. Adōne(m), n. del giovinetto amato da Venere per la sua straordinaria bellezza ☼ 1532]\end{spacing}}}\newcommand{\data}{18 aprile 2021}
+\newcommand{\parolatitle}{viaggio}\newcommand{\sillabazione}{vi–ag–gio}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{[ provenz. viatge, dal lat. viāticu(m). V.  ☼ sec. XII ]}\newcommand{\data}{3 gennaio 2022}
