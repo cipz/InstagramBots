@@ -37,7 +37,7 @@ def main(debug):
     ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- ## -- 
 
     print("Setting url and downloading content")
-    url = 'https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/profundis'
+    url = 'https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/'
 
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -56,6 +56,7 @@ def main(debug):
     main_div = soup.find('div', {'class': 'main-content light-txt'})
     
     sillabazione = main_div.find('span', {'style': 'display: inline; font-style: normal; font-weight: 300; font-size: 1em; color: #C53329; font-family: "Noto Sans", Verdana, Georgia, Tahoma, sans-serif !important;'}).text.strip()
+
     tipologia_parola = main_div.find('span', {'style':'display: inline; font-style: normal; font-weight: 600; font-size: 1em; color: #444; font-family: "Noto Sans", Verdana, Georgia, Tahoma, sans-serif !important;'}).text.strip()
 
     info_parola = main_div.findAll('span', {'style':'display: inline; font-style: normal; font-weight: 300; font-size: 1em; color: #444; font-family: "Noto Sans", Verdana, Georgia, Tahoma, sans-serif !important;'})
