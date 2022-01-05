@@ -1,0 +1,6 @@
+pdf2image==1.16.0 
+opencv-python==4.5.5.62 
+matplotlib==3.5.1
+instagrapi==1.16.11
+beautifulsoup4==4.10.0
+wget==3.2

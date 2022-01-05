@@ -66,7 +66,7 @@ def main(debug):
     santo_main_div = santo_main_page_soup.find('div', {'id':'CenterDiv'})
 
     nome_santo = santo_main_div.find('h1').text
-    foto_santo_url = santo_main_div.find('img')['src']
+    foto_santo_url = santo_main_div.find('img')['data-src']
     descrizione_santo = santo_main_div.find('div',{'style':'float:left; text-align:justify; width: 512px;margin-left: 30px;font-size: 16px;'})
 
     for div in descrizione_santo.findAll('div'):
@@ -126,10 +126,8 @@ def main(debug):
     utils.img_bg_color('img.jpg', 'bg.jpg')
     
     print("\n\nCompliling tex file")
-    if debug:
-        utils.compile_latex_verbose()
-    else:
-        utils.compile_latex_silent()
+    # utils.compile_latex_verbose()
+    utils.compile_latex_silent()
     
     print("\n\nTransforming pdf in jpg")
     utils.pdf_2_jpg('latex/main.pdf', 'out.jpg')
@@ -143,8 +141,8 @@ def main(debug):
         utils.set_params(params_file, edit_params)
 
         # Removing stuff (not necessary if used in docker container of github actions)
-        # In case of local it could be userful
-        print("Removing unused files")
+        # Useful if executed locally
+        print("Removing useless files")
         os.system('rm "' + image_file + '"')
         os.system('rm *REMOVE_ME')
         os.system('rm img.jpg')
