@@ -1,4 +1,0 @@
-\definecolor{bck_color}{HTML}{39ff14}
-\definecolor{complementary_color}{HTML}{C600EB}
-\newcommand{\maincolor}{Neon Green}
-\newcommand{\hexvalue}{\#39ff14}
