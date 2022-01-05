@@ -1,4 +1,4 @@
-name: Containerized workflow
+name: Automated workflow
 on: 
 #  # To manually execute action
 #  [workflow_dispatch]
