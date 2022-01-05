@@ -39,6 +39,16 @@ Here is a list of the main libraries used in this project:
 - [pdf2image](https://github.com/Belval/pdf2image) and [poppler-utils](https://pypi.org/project/python-poppler/): for converting the pdf files into jpg files
 - [wget](https://pypi.org/project/wget/): for downloading content from the Internet
 
+### Instagram API library
+
+Currently, the Instagram API library used is [instagrapi](https://adw0rd.github.io/instagrapi/).
+Such library contains API wrappers that have been reverse-engineered, thus not guaranteeing they will work forever.
+
+### Latex figure creation and Docker container
+
+A custom Docker container is initialized to execute the scripts.
+This detaches the whole project from GitHub Action's containers and environments, allowing for better portability of the project (e.g. it can be executed the container even on a Raspberry Pi).
+
 ## Limitations
 Unfortunately [the Facebook team](https://github.com/facebook) (who currently owns Instagram, among a thousand other things), does not like bots and other automated scripts that mess around with their data, so they frequently change APIs and block requests from third party libraries.
 ***[igbot](https://github.com/ohld/igbot/)*** and other libraries such as ***[instagram_private_api](https://github.com/ping/instagram_private_api/)*** are currently being blocked or not up to date with the APIs from FB.
@@ -48,7 +58,10 @@ Unfortunately [the Facebook team](https://github.com/facebook) (who currently ow
 As said before, this repository is not intended as a too serious work, just a time-filling fun activity that allowed me to get acquainted with Instagram's APIs and other APIs from sites as Spotify, Google Trends and YouTube (even thouth there are no bots for them... yet!).
 
 There are many improvements that can be done, here are just a few:
-- avoid the use of latex and use the PIL library to automatically generate the square images
+- avoid the use of Latex and use the PIL library to automatically generate the square images
+- notification system when the bots fail
+- badges with the latest post from each bot
+- add Instagram stories and post videos
 - make more granular `yml` workflow files, possibly one for each python script
 
 ## License
