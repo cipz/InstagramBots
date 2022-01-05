@@ -60,6 +60,8 @@ def main(debug):
 
     url = base_url + santo_url
 
+    print("CURRENT URL:" , url)
+
     santo_main_page = requests.get(url)
     santo_main_page_soup =  BeautifulSoup(santo_main_page.content, 'html.parser')
 
@@ -67,7 +69,7 @@ def main(debug):
 
     nome_santo = santo_main_div.find('h1').text
     foto_santo_url = santo_main_div.find('img')['data-src']
-    descrizione_santo = santo_main_div.find('div',{'style':'float:left; text-align:justify; width: 512px;margin-left: 30px;font-size: 16px;'})
+    descrizione_santo = santo_main_div.find('div',{'style':'float: left;text-align: justify;width: 492px;margin-left: 30px;font-size: 16px;padding: 10px;background-color: #f7f0e830;'})
 
     for div in descrizione_santo.findAll('div'):
         div.decompose()
@@ -93,7 +95,7 @@ def main(debug):
             new_caption = new_caption + frasi[frasi_count].strip() + '. '
             frasi_count += 1
 
-        new_caption = new_caption + '.'
+        # new_caption = new_caption + '.'
 
         coda = '\n\nPer la descrizione completa continuare su \'santodelgiorno.it\''
         new_caption = new_caption.strip() + coda
@@ -102,6 +104,9 @@ def main(debug):
         caption = new_caption
 
     hashtags = '#santo #chiesa #cristo #cristianesimo'
+    hashtags += '\n'
+    for word in nome_santo.split():
+        hashtags += '#' + word  + " "
 
     today = date.today()
     anno = today.strftime("%Y")
@@ -109,7 +114,7 @@ def main(debug):
     giorno_caption = giorno.replace('Oggi','').replace('si venera:','').strip() + ' ' + anno
     full_caption = nome_santo + '\n\n' + caption + '\n\n' + giorno_caption + '\n\n' + hashtags
 
-    print(full_caption)
+    print("CAPTION:" , full_caption)
 
     # Setting image information    
     image_link = base_url + foto_santo_url
@@ -136,10 +141,10 @@ def main(debug):
 
         print("Posting to instagram")
         instagram.post_image('out.jpg', full_caption, username, password)
-    
+
         print('Setting new parameters')
         utils.set_params(params_file, edit_params)
-
+    
         # Removing stuff (not necessary if used in docker container of github actions)
         # Useful if executed locally
         print("Removing useless files")
