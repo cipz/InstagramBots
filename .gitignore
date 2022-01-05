@@ -4,8 +4,12 @@
 
 __pycache__ 
 
-config/
+**/config/
 *__pycache__/
+
+**.jpg
+**.png
+**.pdf
 
 ### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
