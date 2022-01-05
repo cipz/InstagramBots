@@ -13,6 +13,7 @@ jobs:
         - name: Checkout Project
           uses: actions/checkout@v2
 
+
         ### santo_del_giorno ###
 
         - name: Running python script santo_del_giorno
@@ -34,6 +35,7 @@ jobs:
           continue-on-error: true
           shell: bash
           
+
         ### astronomy_picture_of_the_day ###
 
         - name: Running python script astronomy_picture_of_the_day
@@ -142,132 +144,6 @@ jobs:
             git commit -m "New post from zanichelli_parola_del_giorno" -a
           continue-on-error: true
           shell: bash
-
-
-        ### covid_ita_main ###
-
-        - name: Running python script covid_ita_main
-          working-directory: "covid_ita"
-          continue-on-error: true
-          env:
-            covid_ita_main_username: ${{ secrets.covid_ita_main_username }}
-            covid_ita_main_password: ${{ secrets.covid_ita_main_password }}
-          run: |
-            python3 -u covid_ita_main.py
-        - name: Commit files if any
-          id: commit_covid_ita_main
-          working-directory: "covid_ita"
-          run: |
-            git config --local user.email "action@github.com"
-            git config --local user.name "github-actions"
-            git add params_main.json
-            git commit -m "New post from covid_ita_main" -a
-          continue-on-error: true
-          shell: bash
-
-        ### true_colors ###
-
-        - name: Running python script true_colors
-          working-directory: "true_colors"
-          continue-on-error: true
-          env:
-            colors_username: ${{ secrets.true_colors_palette_username }}
-            colors_password: ${{ secrets.true_colors_palette_password }}
-          run: |
-            python3 -u true_colors.py
-        - name: Commit files if any
-          id: commit_true_colors
-          working-directory: "true_colors"
-          run: |
-            git config --local user.email "action@github.com"
-            git config --local user.name "github-actions"
-            git add params.json
-            git commit -m "New post from true_colors" -a
-          continue-on-error: true
-          shell: bash
-
-    #    ### covid_ita_regioni ###
-    #
-    #    - name: Running python script covid_ita_regioni
-    #      working-directory: "covid_ita"
-    #      continue-on-error: true
-    #      env:
-    #
-    #        covid_ita_abruzzo_username: ${{ secrets.covid_ita_abruzzo_username }}
-    #        covid_ita_abruzzo_password: ${{ secrets.covid_ita_abruzzo_password }}
-    #
-    #        covid_ita_basilicata_username: ${{ secrets.covid_ita_basilicata_username }}
-    #        covid_ita_basilicata_password: ${{ secrets.covid_ita_basilicata_password }}
-    #
-    #        covid_ita_bolzano_username: ${{ secrets.covid_ita_bolzano_username }}
-    #        covid_ita_bolzano_password: ${{ secrets.covid_ita_bolzano_password }}
-    #
-    #        covid_ita_calabria_username: ${{ secrets.covid_ita_calabria_username }}
-    #        covid_ita_calabria_password: ${{ secrets.covid_ita_calabria_password }}
-    #
-    #        covid_ita_campania_username: ${{ secrets.covid_ita_campania_username }}
-    #        covid_ita_campania_password: ${{ secrets.covid_ita_campania_password }}
-    #
-    #        covid_ita_emiliaromagna_username: ${{ secrets.covid_ita_emiliaromagna_username }}
-    #        covid_ita_emiliaromagna_password: ${{ secrets.covid_ita_emiliaromagna_password }}
-    #
-    #        covid_ita_friuli_username: ${{ secrets.covid_ita_friuli_username }}
-    #        covid_ita_friuli_password: ${{ secrets.covid_ita_friuli_password }}
-    #
-    #        covid_ita_lazio_username: ${{ secrets.covid_ita_lazio_username }}
-    #        covid_ita_lazio_password: ${{ secrets.covid_ita_lazio_password }}
-    #
-    #        covid_ita_liguria_username: ${{ secrets.covid_ita_liguria_username }}
-    #        covid_ita_liguria_password: ${{ secrets.covid_ita_liguria_password }}
-    #
-    #        covid_ita_lombardia_username: ${{ secrets.covid_ita_lombardia_username }}
-    #        covid_ita_lombardia_password: ${{ secrets.covid_ita_lombardia_password }}
-    #
-    #        covid_ita_marche_username: ${{ secrets.covid_ita_marche_username }}
-    #        covid_ita_marche_password: ${{ secrets.covid_ita_marche_password }}
-    #
-    #        covid_ita_molise_username: ${{ secrets.covid_ita_molise_username }}
-    #        covid_ita_molise_password: ${{ secrets.covid_ita_molise_password }}
-    #
-    #        covid_ita_piemonte_username: ${{ secrets.covid_ita_piemonte_username }}
-    #        covid_ita_piemonte_password: ${{ secrets.covid_ita_piemonte_password }}
-    #
-    #        covid_ita_puglia_username: ${{ secrets.covid_ita_puglia_username }}
-    #        covid_ita_puglia_password: ${{ secrets.covid_ita_puglia_password }}
-    #
-    #        covid_ita_sardegna_username: ${{ secrets.covid_ita_sardegna_username }}
-    #        covid_ita_sardegna_password: ${{ secrets.covid_ita_sardegna_password }}
-    #
-    #        covid_ita_sicilia_username: ${{ secrets.covid_ita_sicilia_username }}
-    #        covid_ita_sicilia_password: ${{ secrets.covid_ita_sicilia_password }}
-    #
-    #        covid_ita_toscana_username: ${{ secrets.covid_ita_toscana_username }}
-    #        covid_ita_toscana_password: ${{ secrets.covid_ita_toscana_password }}
-    #
-    #        covid_ita_trentino_username: ${{ secrets.covid_ita_trentino_username }}
-    #        covid_ita_trentino_password: ${{ secrets.covid_ita_trentino_password }}
-    #
-    #        covid_ita_umbria_username: ${{ secrets.covid_ita_umbria_username }}
-    #        covid_ita_umbria_password: ${{ secrets.covid_ita_umbria_password }}
-    #
-    #        covid_ita_valledaosta_username: ${{ secrets.covid_ita_valledaosta_username }}
-    #        covid_ita_valledaosta_password: ${{ secrets.covid_ita_valledaosta_password }}
-    #
-    #        covid_ita_veneto_username: ${{ secrets.covid_ita_veneto_username }}
-    #        covid_ita_veneto_password: ${{ secrets.covid_ita_veneto_password }}
-    #
-    #      run: |
-    #        python3 -u covid_ita_regioni.py
-    #    - name: Commit files if any
-    #      id: commit_covid_ita_regioni
-    #      working-directory: "covid_ita"
-    #      run: |
-    #        git config --local user.email "action@github.com"
-    #        git config --local user.name "github-actions"
-    #        git add params_regioni.json
-    #        git commit -m "New post from covid_ita_regioni" -a
-    #      continue-on-error: true
-    #      shell: bash
 
 
         ### PUSHING ALL CHANGES ###
