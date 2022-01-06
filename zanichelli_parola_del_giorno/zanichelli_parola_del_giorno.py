@@ -155,6 +155,8 @@ def main(debug):
 
             print("Posting to instagram")
             instagram.post_image('out.jpg', caption, username, password)
+            print('Setting new parameters')
+            utils.set_params(params_file, edit_params)
 
         except Exception as e:
 
@@ -162,9 +164,6 @@ def main(debug):
 
         utils.edit_badge("paroladelgiornozanichelli.json", execution_result)
 
-        print('Setting new parameters')
-        utils.set_params(params_file, edit_params)
-    
         # Removing stuff (not necessary if used in docker container of github actions)
         # Useful if executed locally
         print("Removing useless files")

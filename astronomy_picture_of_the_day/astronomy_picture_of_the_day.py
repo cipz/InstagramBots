@@ -103,11 +103,21 @@ def main(debug):
 
     if not debug:
 
-        print("Posting to instagram")
-        instagram.post_image('out.jpg', caption, username, password)
-    
-        print('Setting new parameters')
-        utils.set_params(params_file, edit_params)
+        execution_result = {}
+        execution_result["color"] =  "green"
+
+        try:
+
+            print("Posting to instagram")
+            instagram.post_image('out.jpg', caption, username, password)
+            print('Setting new parameters')
+            utils.set_params(params_file, edit_params)
+
+        except Exception as e:
+
+            execution_result["color"] =  "red"
+
+        utils.edit_badge("ilsantodioggi.json", execution_result))
 
         # Removing stuff (not necessary if used in docker container of github actions)
         # In case of local it could be userful
