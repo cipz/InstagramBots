@@ -3,8 +3,14 @@
 This repository contains a few python scripts that act as Instagram bots that scrape the Internet for interesting daily / weekly content.
 It is not intended as a serious repository, it was created of of boredom and just for fun / entrataining reasons.
 
-![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/cipz/bb440a11e063b400ea08adfc411e32be/raw/starsfromnasa.json)
-![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/cips/bb440a11e063b400ea08adfc411e32be/raw/the_new_yorker.json)
+## Last posts
+
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/starsfromnasa.json)
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/newyorkermagcovers.json)
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/wikipediaarticledaily.json)
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/wikipediapictureoftheday.json)
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/paroladelgiornozanichelli.json)
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/ilsantodioggi.json)
 
 ## The bots
 Here is a list of the bots currently present in this repo:
