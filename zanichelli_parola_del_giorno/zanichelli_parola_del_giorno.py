@@ -148,8 +148,19 @@ def main(debug):
 
     if not debug:
 
-        print("Posting to instagram")
-        instagram.post_image('out.jpg', caption, username, password)
+        execution_result = {}
+        execution_result["color"] =  "green"
+
+        try:
+
+            print("Posting to instagram")
+            instagram.post_image('out.jpg', caption, username, password)
+
+        except Exception as e:
+
+            execution_result["color"] =  "red"
+
+        utils.edit_badge("paroladelgiornozanichelli.json", execution_result)
 
         print('Setting new parameters')
         utils.set_params(params_file, edit_params)

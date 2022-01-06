@@ -1,6 +1,7 @@
 
 from pdf2image import convert_from_path
 
+from datetime import date
 import urllib.request
 import json
 import os
@@ -125,3 +126,37 @@ def pdf_2_jpg(input_pdf, output_img):
 
     return
 
+def edit_badge(badge_file_name, execution_result):
+
+    badge_file_path = "../badges/" + badge_file_name
+
+    # Reading current parameters from file
+    with open(badge_file_path) as badge_file:
+        curr_badge_params = json.load(badge_file)
+    badge_file.close()
+
+    # Debug print
+    # print(curr_badge_params)
+
+    new_badge_params = curr_badge_params
+
+    for key, value in execution_result.items():
+        new_badge_params[key] = value
+
+    # Same values for all badges
+    new_badge_params['schemaVersion'] = 1
+    execution_result["label"] =  "Latest post"
+
+    today = date.today()
+    formatted_date = str(today.day) + " / " + str(today.month) + " / " + str(today.year)
+    execution_result["message"] =  formatted_date
+
+    # Debug print
+    # print(new_badge_params)
+
+    # Writing new params to file
+    with open(badge_file_path, 'w') as new_badge_file:
+        json.dump(new_badge_params, new_badge_file)
+    new_badge_file.close()
+
+    return
