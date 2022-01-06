@@ -3,6 +3,9 @@
 This repository contains a few python scripts that act as Instagram bots that scrape the Internet for interesting daily / weekly content.
 It is not intended as a serious repository, it was created of of boredom and just for fun / entrataining reasons.
 
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/cipz/bb440a11e063b400ea08adfc411e32be/raw/starsfromnasa.json)
+![badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/cips/bb440a11e063b400ea08adfc411e32be/raw/the_new_yorker.json)
+
 ## The bots
 Here is a list of the bots currently present in this repo:
 - [astronomy_picture_of_the_day](https://www.instagram.com/starsfromnasa/): posts pictures from NASA's [APOD](https://apod.nasa.gov/apod/) website, which stands for ***A**stronomy **P**icture **O**f the **D**ay*;
