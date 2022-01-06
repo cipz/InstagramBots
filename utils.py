@@ -145,11 +145,11 @@ def edit_badge(badge_file_name, execution_result):
 
     # Same values for all badges
     new_badge_params['schemaVersion'] = 1
-    execution_result["label"] =  "Latest post"
+    new_badge_params["label"] =  "Latest post"
 
     today = date.today()
     formatted_date = str(today.day) + " / " + str(today.month) + " / " + str(today.year)
-    execution_result["message"] =  formatted_date
+    new_badge_params["message"] =  formatted_date
 
     # Debug print
     # print(new_badge_params)
