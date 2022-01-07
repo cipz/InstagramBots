@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small miliare 1 / miliare 2}\newcommand{\sillabazione}{mi–lia–re}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ lat. miliāriu(m), da mīlia. V.  ☼ 1750 ]}\newcommand{\data}{6 gennaio 2022}
+\newcommand{\parolatitle}{viandante}\newcommand{\sillabazione}{vian–dan–te}\newcommand{\tipologiaparola}{s. m. e f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ comp. di vi(a) e andante, part. pres. di andare 1 ☼ sec. XII ]\end{spacing}}}\newcommand{\data}{7 gennaio 2022}
