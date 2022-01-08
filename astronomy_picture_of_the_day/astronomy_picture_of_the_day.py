@@ -117,7 +117,7 @@ def main(debug):
 
             execution_result["color"] =  "red"
 
-        utils.edit_badge("ilsantodioggi.json", execution_result))
+        utils.edit_badge("ilsantodioggi.json", execution_result)
 
         # Removing stuff (not necessary if used in docker container of github actions)
         # In case of local it could be userful
