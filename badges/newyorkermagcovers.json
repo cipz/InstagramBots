@@ -1,6 +1,1 @@
-{
-    "schemaVersion": 1,
-    "label": "Hello",
-    "message": "World",
-    "color": "orange"
-  }
+{"schemaVersion": 1, "label": "Latest post", "message": "10 / 1 / 2022", "color": "green"}
