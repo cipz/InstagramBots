@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{traversata}\newcommand{\sillabazione}{tra–ver–sa–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ da traversare ☼ 1813 ]}\newcommand{\data}{10 gennaio 2022}
+\newcommand{\parolatitle}{spedizione}\newcommand{\sillabazione}{spe–di–zio–ne}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ vc. dotta, dal lat. expeditiōne(m) ‘spedizione, uscita’, da expedītus ‘sciolto, liberato’ ☼ av. 1400 ]\end{spacing}}}\newcommand{\data}{11 gennaio 2022}
