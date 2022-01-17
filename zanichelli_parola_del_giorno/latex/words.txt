@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small girovago / giramondo}\newcommand{\sillabazione}{gi–ro–va–go}\newcommand{\tipologiaparola}{agg. e s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ lat. tardo gyrŏvagu(m) ‘uso a vagare (vagāre) in giro (gȳrus)’, secondo un modello di composizione imitato dal gr. ☼ sec. XIV ]\end{spacing}}}\newcommand{\data}{16 gennaio 2022}
+\newcommand{\parolatitle}{preambolo}\newcommand{\sillabazione}{pre–am–bo–lo}\newcommand{\tipologiaparola}{† preàmbulo}\newcommand{\origineparola}{o}\newcommand{\data}{17 gennaio 2022}
