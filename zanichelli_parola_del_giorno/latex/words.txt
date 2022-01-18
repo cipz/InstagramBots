@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{preambolo}\newcommand{\sillabazione}{pre–am–bo–lo}\newcommand{\tipologiaparola}{† preàmbulo}\newcommand{\origineparola}{o}\newcommand{\data}{17 gennaio 2022}
+\newcommand{\parolatitle}{cozzare}\newcommand{\sillabazione}{coz–za–re}\newcommand{\tipologiaparola}{v. intr.}\newcommand{\origineparola}{[ da coccia ‘testa’ ☼ av. 1250 ]}\newcommand{\data}{18 gennaio 2022}
