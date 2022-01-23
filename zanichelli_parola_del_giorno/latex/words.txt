@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{postulare}\newcommand{\sillabazione}{po–stu–la–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ vc. dotta, lat. postulāre, di orig. indeur., avvicinato poi a pŏscere ‘chiedere’ ☼ sec. XIV ]\end{spacing}}}\newcommand{\data}{21 gennaio 2022}
+\newcommand{\parolatitle}{maretta}\newcommand{\sillabazione}{ma–ret–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ da mare ☼ 1577 ]}\newcommand{\data}{23 gennaio 2022}
