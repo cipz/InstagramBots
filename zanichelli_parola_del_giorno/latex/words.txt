@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{maretta}\newcommand{\sillabazione}{ma–ret–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ da mare ☼ 1577 ]}\newcommand{\data}{23 gennaio 2022}
+\newcommand{\parolatitle}{elettore}\newcommand{\sillabazione}{e–let–to–re}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ vc. dotta, lat. electōre(m) ‘sceglitore’, da elēctus ‘eletto’ ☼ sec. XIII ]\end{spacing}}}\newcommand{\data}{24 gennaio 2022}
