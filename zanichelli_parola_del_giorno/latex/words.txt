@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{elettore}\newcommand{\sillabazione}{e–let–to–re}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ vc. dotta, lat. electōre(m) ‘sceglitore’, da elēctus ‘eletto’ ☼ sec. XIII ]\end{spacing}}}\newcommand{\data}{24 gennaio 2022}
+\newcommand{\parolatitle}{chiama}\newcommand{\sillabazione}{chia–ma}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ da chiamare ☼ 1306 ]}\newcommand{\data}{25 gennaio 2022}
