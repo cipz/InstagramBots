@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{chiama}\newcommand{\sillabazione}{chia–ma}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ da chiamare ☼ 1306 ]}\newcommand{\data}{25 gennaio 2022}
+\newcommand{\parolatitle}{fumata}\newcommand{\sillabazione}{fu–ma–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ 1588 ]}\newcommand{\data}{26 gennaio 2022}
