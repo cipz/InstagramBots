@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fumata}\newcommand{\sillabazione}{fu–ma–ta}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ 1588 ]}\newcommand{\data}{26 gennaio 2022}
+\newcommand{\parolatitle}{Shoah}\newcommand{\sillabazione}{Sho–ah}\newcommand{\tipologiaparola}{Shoa}\newcommand{\origineparola}{/ ʃoˈa /}\newcommand{\data}{27 gennaio 2022}
