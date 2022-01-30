@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{cipiglio}\newcommand{\sillabazione}{ci–pi–glio}\newcommand{\tipologiaparola}{s. m.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ etim. incerta: dall’incrocio di ciglio e piglio (?) ☼ av. 1600 ]\end{spacing}}}\newcommand{\data}{29 gennaio 2022}
+\newcommand{\parolatitle}{\small sommario 1 / sommario 2}\newcommand{\sillabazione}{som–ma–rio}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ da somma ☼ av. 1292 ]}\newcommand{\data}{30 gennaio 2022}
