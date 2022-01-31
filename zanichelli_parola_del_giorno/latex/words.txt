@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\small sommario 1 / sommario 2}\newcommand{\sillabazione}{som–ma–rio}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ da somma ☼ av. 1292 ]}\newcommand{\data}{30 gennaio 2022}
+\newcommand{\parolatitle}{edulcorare}\newcommand{\sillabazione}{e–dul–co–ra–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[  fr. édulcorer, dal lat. tardo dŭlcor, genit. dulcōris ‘sapore dolce, dolcezza’ ☼ 1917 ]\end{spacing}}}\newcommand{\data}{31 gennaio 2022}
