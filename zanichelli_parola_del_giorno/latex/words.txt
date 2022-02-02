@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{edulcorare}\newcommand{\sillabazione}{e–dul–co–ra–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[  fr. édulcorer, dal lat. tardo dŭlcor, genit. dulcōris ‘sapore dolce, dolcezza’ ☼ 1917 ]\end{spacing}}}\newcommand{\data}{31 gennaio 2022}
+\newcommand{\parolatitle}{tabula\newline rasa}\newcommand{\sillabazione}{ta–bu–la ra–sa}\newcommand{\tipologiaparola}{-ṣ-}\newcommand{\origineparola}{o}\newcommand{\data}{2 febbraio 2022}
