@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{tabula\newline rasa}\newcommand{\sillabazione}{ta–bu–la ra–sa}\newcommand{\tipologiaparola}{-ṣ-}\newcommand{\origineparola}{o}\newcommand{\data}{2 febbraio 2022}
+\newcommand{\parolatitle}{giuramento}\newcommand{\sillabazione}{giu–ra–men–to}\newcommand{\tipologiaparola}{† iuraménto}\newcommand{\origineparola}{o}\newcommand{\data}{3 febbraio 2022}
