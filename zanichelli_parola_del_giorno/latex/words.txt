@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{rimuginare}\newcommand{\sillabazione}{ri–mu–gi–na–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ comp. di ri- e del lat. mugināri ‘ruminare, riflettere’, di orig. onomat. ☼ sec. XV ]\end{spacing}}}\newcommand{\data}{4 febbraio 2022}
+\newcommand{\parolatitle}{campale}\newcommand{\sillabazione}{cam–pa–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ lat. mediev. campale(m), da cămpus ‘campo’ ☼ 1336 ca. ]}\newcommand{\data}{5 febbraio 2022}
