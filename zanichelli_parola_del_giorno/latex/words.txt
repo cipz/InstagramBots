@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{campale}\newcommand{\sillabazione}{cam–pa–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ lat. mediev. campale(m), da cămpus ‘campo’ ☼ 1336 ca. ]}\newcommand{\data}{5 febbraio 2022}
+\newcommand{\parolatitle}{fanfaluca}\newcommand{\sillabazione}{fan–fa–lu–ca}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{{\begin{spacing}{0.85}\noindent\footnotesize[ lat. tardo fanfalūca(m), dal gr. pomphólyga, acc. di pomphólyx ‘bolla d’aria’, di orig. espressiva ☼ 1356 ]\end{spacing}}}\newcommand{\data}{6 febbraio 2022}
