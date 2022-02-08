@@ -6,23 +6,14 @@ It is not intended as a serious repository, it was created of of boredom and jus
 Sometimes they stop and the accounts need a password change since Facebook / Meta / Instagram does not like bots posting on their platform.
 So there might be "service interruptions" from time to time.
 
-## Last posts
-
-- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/starsfromnasa.json)
-- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/newyorkermagcovers.json)
-- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/wikipediaarticledaily.json)
-- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/wikipediapictureoftheday.json)
-- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/paroladelgiornozanichelli.json)
-- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/ilsantodioggi.json)
-
 ## The bots
 Here is a list of the bots currently present in this repo:
-- [astronomy_picture_of_the_day](https://www.instagram.com/starsfromnasa/): posts pictures from NASA's [APOD](https://apod.nasa.gov/apod/) website, which stands for ***A**stronomy **P**icture **O**f the **D**ay*;
-- [the_new_yorker](https://www.instagram.com/newyorkermagcovers/): [The New Yorker](https://www.newyorker.com/magazine) mag covers;
-- [wikipedia_featured_article](https://www.instagram.com/wikipediaarticledaily/): the picture of Wikipedia's [Today's featured article](https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article) section;
-- [wikipedia_featured_picture](https://www.instagram.com/wikipediapictureoftheday/): like the prvious one, but the focus is on the [Picture of the day](https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day) page
-- [zanichelli_parola_del_giorno](https://www.instagram.com/paroladelgiornozanichelli/): the [Zanichelli](http://dizionari.zanichelli.it/) is a famous italian dictionary which has a [word of the day section](https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/);
-- [santo_del_giorno](https://www.instagram.com/ilsantodioggi/): every day a new saint from [Santo del giorno](https://www.santodelgiorno.it/).
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/starsfromnasa.json) [astronomy_picture_of_the_day](https://www.instagram.com/starsfromnasa/): posts pictures from NASA's [APOD](https://apod.nasa.gov/apod/) website, which stands for ***A**stronomy **P**icture **O**f the **D**ay*;
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/newyorkermagcovers.json) [the_new_yorker](https://www.instagram.com/newyorkermagcovers/): [The New Yorker](https://www.newyorker.com/magazine) mag covers;
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/wikipediaarticledaily.json) [wikipedia_featured_article](https://www.instagram.com/wikipediaarticledaily/): the picture of Wikipedia's [Today's featured article](https://en.wikipedia.org/wiki/Wikipedia:Today%27s_featured_article) section;
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/wikipediapictureoftheday.json) [wikipedia_featured_picture](https://www.instagram.com/wikipediapictureoftheday/): like the prvious one, but the focus is on the [Picture of the day](https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day) page
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/paroladelgiornozanichelli.json) [zanichelli_parola_del_giorno](https://www.instagram.com/paroladelgiornozanichelli/): the [Zanichelli](http://dizionari.zanichelli.it/) is a famous italian dictionary which has a [word of the day section](https://dizionaripiu.zanichelli.it/cultura-e-attualita/le-parole-del-giorno/parola-del-giorno/);
+- ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/ilsantodioggi.json) [santo_del_giorno](https://www.instagram.com/ilsantodioggi/): every day a new saint from [Santo del giorno](https://www.santodelgiorno.it/).
 
 ## How it works
 
