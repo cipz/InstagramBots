@@ -3,6 +3,9 @@
 This repository contains a few python scripts that act as Instagram bots that scrape the Internet for interesting daily / weekly content.
 It is not intended as a serious repository, it was created of of boredom and just for fun / entrataining reasons.
 
+Sometimes they stop and the accounts need a password change since Facebook / Meta / Instagram does not like bots posting on their platform.
+So there might be "service interruptions" from time to time.
+
 ## Last posts
 
 - ![badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/cipz/InstagramBots/master/badges/starsfromnasa.json)
