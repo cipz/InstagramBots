@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{rete}\newcommand{\sillabazione}{re–te}\newcommand{\tipologiaparola}{s. f.}\newcommand{\origineparola}{[ lat. rēte, di etim. incerta ☼ 1250 ca. ]}\newcommand{\data}{9 febbraio 2022}
+\newcommand{\parolatitle}{internauta}\newcommand{\sillabazione}{in–ter–nau–ta}\newcommand{\tipologiaparola}{s. m. e f.}\newcommand{\origineparola}{[ comp. di inter(net) e nauta ☼ 1995 ]}\newcommand{\data}{10 febbraio 2022}
