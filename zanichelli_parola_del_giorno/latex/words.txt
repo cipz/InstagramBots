@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{network}\newcommand{\sillabazione}{net–work}\newcommand{\tipologiaparola}{s. m. inv.}\newcommand{\origineparola}{/ ˈnɛtˌwɜːk /}\newcommand{\data}{11 febbraio 2022}
+\newcommand{\parolatitle}{\LARGE visualizzare}\newcommand{\sillabazione}{vi–sua–liz–za–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{[ da visuale, sul modello dell’ingl. (to) visualize ☼ 1942 ]}\newcommand{\data}{13 febbraio 2022}
