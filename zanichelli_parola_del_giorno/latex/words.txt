@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{\LARGE visualizzare}\newcommand{\sillabazione}{vi–sua–liz–za–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{[ da visuale, sul modello dell’ingl. (to) visualize ☼ 1942 ]}\newcommand{\data}{13 febbraio 2022}
+\newcommand{\parolatitle}{trollare}\newcommand{\sillabazione}{trol–la–re}\newcommand{\tipologiaparola}{v. tr. e intr.}\newcommand{\origineparola}{[ da troll 2 ☼ 2012 ]}\newcommand{\data}{16 febbraio 2022}
