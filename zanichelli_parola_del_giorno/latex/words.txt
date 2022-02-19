@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{trollare}\newcommand{\sillabazione}{trol–la–re}\newcommand{\tipologiaparola}{v. tr. e intr.}\newcommand{\origineparola}{[ da troll 2 ☼ 2012 ]}\newcommand{\data}{16 febbraio 2022}
+\newcommand{\parolatitle}{\LARGE cyberbullismo}\newcommand{\sillabazione}{cy–ber–bul–li–smo}\newcommand{\tipologiaparola}{ciberbullı̀ṣmo}\newcommand{\origineparola}{/ saiberbulˈlizmo /}\newcommand{\data}{19 febbraio 2022}
