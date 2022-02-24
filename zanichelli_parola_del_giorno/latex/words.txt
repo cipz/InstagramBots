@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{imparziale}\newcommand{\sillabazione}{im–par–zia–le}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ comp. di in- 3 e parziale ☼ 1672 ]}\newcommand{\data}{21 febbraio 2022}
+\newcommand{\parolatitle}{coriandolo}\newcommand{\sillabazione}{co–rian–do–lo}\newcommand{\tipologiaparola}{† coriàndro}\newcommand{\origineparola}{o}\newcommand{\data}{24 febbraio 2022}
