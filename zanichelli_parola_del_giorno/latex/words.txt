@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{coriandolo}\newcommand{\sillabazione}{co–rian–do–lo}\newcommand{\tipologiaparola}{† coriàndro}\newcommand{\origineparola}{o}\newcommand{\data}{24 febbraio 2022}
+\newcommand{\parolatitle}{buio}\newcommand{\sillabazione}{bu–io}\newcommand{\tipologiaparola}{† bùro}\newcommand{\origineparola}{o}\newcommand{\data}{25 febbraio 2022}
