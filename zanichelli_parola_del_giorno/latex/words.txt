@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{buio}\newcommand{\sillabazione}{bu–io}\newcommand{\tipologiaparola}{† bùro}\newcommand{\origineparola}{o}\newcommand{\data}{25 febbraio 2022}
+\newcommand{\parolatitle}{bautta}\newcommand{\sillabazione}{ba–ut–ta}\newcommand{\tipologiaparola}{baùta}\newcommand{\origineparola}{o}\newcommand{\data}{26 febbraio 2022}
