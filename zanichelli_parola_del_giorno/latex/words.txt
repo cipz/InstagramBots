@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{imbonire}\newcommand{\sillabazione}{im–bo–ni–re}\newcommand{\tipologiaparola}{v. tr.}\newcommand{\origineparola}{[ comp. di in- 1 e b(u)ono ☼ 1640 ]}\newcommand{\data}{27 febbraio 2022}
+\newcommand{\parolatitle}{fortunoso}\newcommand{\sillabazione}{for–tu–no–so}\newcommand{\tipologiaparola}{-ṣ-}\newcommand{\origineparola}{o}\newcommand{\data}{28 febbraio 2022}
