@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{fortunoso}\newcommand{\sillabazione}{for–tu–no–so}\newcommand{\tipologiaparola}{-ṣ-}\newcommand{\origineparola}{o}\newcommand{\data}{28 febbraio 2022}
+\newcommand{\parolatitle}{partigiano}\newcommand{\sillabazione}{par–ti–gia–no}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ da parte, sul modello di artigiano, cortigiano ☼ 1312 ]}\newcommand{\data}{1 marzo 2022}
