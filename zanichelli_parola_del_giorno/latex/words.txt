@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{partigiano}\newcommand{\sillabazione}{par–ti–gia–no}\newcommand{\tipologiaparola}{agg.}\newcommand{\origineparola}{[ da parte, sul modello di artigiano, cortigiano ☼ 1312 ]}\newcommand{\data}{1 marzo 2022}
+\newcommand{\parolatitle}{sirena 1 / \newline sirena 2}\newcommand{\sillabazione}{si–re–na}\newcommand{\tipologiaparola}{-é-}\newcommand{\origineparola}{o}\newcommand{\data}{3 marzo 2022}
