@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{sirena 1 / \newline sirena 2}\newcommand{\sillabazione}{si–re–na}\newcommand{\tipologiaparola}{-é-}\newcommand{\origineparola}{o}\newcommand{\data}{3 marzo 2022}
+\newcommand{\parolatitle}{corsaro}\newcommand{\sillabazione}{cor–sa–ro}\newcommand{\tipologiaparola}{† corsàre}\newcommand{\origineparola}{o}\newcommand{\data}{5 marzo 2022}
