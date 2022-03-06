@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{corsaro}\newcommand{\sillabazione}{cor–sa–ro}\newcommand{\tipologiaparola}{† corsàre}\newcommand{\origineparola}{o}\newcommand{\data}{5 marzo 2022}
+\newcommand{\parolatitle}{qui\newline pro\newline quo}\newcommand{\sillabazione}{qui pro quo}\newcommand{\tipologiaparola}{quiproquò}\newcommand{\origineparola}{o}\newcommand{\data}{6 marzo 2022}
