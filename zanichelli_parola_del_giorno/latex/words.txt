@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{qui\newline pro\newline quo}\newcommand{\sillabazione}{qui pro quo}\newcommand{\tipologiaparola}{quiproquò}\newcommand{\origineparola}{o}\newcommand{\data}{6 marzo 2022}
+\newcommand{\parolatitle}{sonno}\newcommand{\sillabazione}{son–no}\newcommand{\tipologiaparola}{-ò-}\newcommand{\origineparola}{o}\newcommand{\data}{7 marzo 2022}
