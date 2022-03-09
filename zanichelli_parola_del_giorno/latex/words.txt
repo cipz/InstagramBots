@@ -1,1 +1,1 @@
-\newcommand{\parolatitle}{sonno}\newcommand{\sillabazione}{son–no}\newcommand{\tipologiaparola}{-ò-}\newcommand{\origineparola}{o}\newcommand{\data}{7 marzo 2022}
+\newcommand{\parolatitle}{sonnolenza}\newcommand{\sillabazione}{son–no–len–za}\newcommand{\tipologiaparola}{† sonnolènzia}\newcommand{\origineparola}{o}\newcommand{\data}{9 marzo 2022}
